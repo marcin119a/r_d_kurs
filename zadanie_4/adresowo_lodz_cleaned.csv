@@ -1,0 +1,680 @@
+id,url,date_posted,photos,locality,street,property_type,rooms,area_m2,owner_direct,price_total_zl,price_per_m2_zl,price_total_zl_cleaned,price_per_m2_zl_cleaned
+3740608,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-antoniego-mackiewicza-2-pokojowe-a9q2u7,6 dni temu,16.0,Łódź Bałuty,ul. Antoniego Mackiewicza,Mieszkanie,2,47,True,315 000,6 702zł / m²,315000.0,6702.0
+3747664,https://adresowo.pl/o/mieszkanie-lodz-gorna-ul-ignacego-paderewskiego-2-pokojowe-r7h8f4,dzisiajnowe,11.0,Łódź Górna,ul. Ignacego Paderewskiego,Mieszkanie,2,37,True,295 000,7 973zł / m²,295000.0,7973.0
+3747648,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-rojna-2-pokojowe-o1j7v9,dzisiajnowe,11.0,Łódź Bałuty,ul. Rojna,Mieszkanie,2,45,True,309 000,6 847zł / m²,309000.0,6847.0
+3747458,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-gdanska-5-pokojowe-e7u3g5,dzisiajnowe,13.0,Łódź Śródmieście,ul. Gdańska,Mieszkanie,5,125,True,699 000,5 614zł / m²,699000.0,5614.0
+3746066,https://adresowo.pl/o/mieszkanie-lodz-ul-ignacego-paderewskiego-2-pokojowe-m0h5h3,dzisiajnowe,10.0,Łódź,ul. Ignacego Paderewskiego,Mieszkanie,2,38,True,365 000,9 605zł / m²,365000.0,9605.0
+3747578,https://adresowo.pl/o/mieszkanie-lodz-ksiezy-mlyn-2-pokojowe-38-m2-h4r7c5,dzisiajnowe,12.0,Łódź Księży Młyn,,Mieszkanie,2,39,True,295 000,7 642zł / m²,295000.0,7642.0
+3747496,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-przemyslowa-3-pokojowe-u8j6c1,dzisiajnowe,8.0,Łódź Bałuty,ul. Przemysłowa,Mieszkanie,3,47,True,405 000,8 617zł / m²,405000.0,8617.0
+3745738,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-antoniego-mackiewicza-2-pokojowe-u4c2g0,wczoraj,7.0,Łódź Bałuty,ul. Antoniego Mackiewicza,Mieszkanie,2,45,True,369 000,8 200zł / m²,369000.0,8200.0
+3745316,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-wawelska-2-pokojowe-d6d8m9,wczoraj,18.0,Łódź Bałuty,ul. Wawelska,Mieszkanie,2,33,True,269 000,8 083zł / m²,269000.0,8083.0
+3747448,https://adresowo.pl/o/mieszkanie-lodz-baluty-al-harcerzy-zatorowcow-2-pokojowe-e2l8n5,dzisiajnowe,6.0,Łódź Bałuty,al. Harcerzy-Zatorowców,Mieszkanie,2,38,True,341 900,8 997zł / m²,341900.0,8997.0
+3747402,https://adresowo.pl/o/mieszkanie-lodz-polesie-ul-rabienska-3-pokojowe-a6a6e1,dzisiajnowe,20.0,Łódź Polesie,ul. Rąbieńska,Mieszkanie,3,60,True,690 000,11 500zł / m²,690000.0,11500.0
+3744276,https://adresowo.pl/o/mieszkanie-lodz-ul-pienista-3-pokojowe-l0k4c8,wczoraj,12.0,Łódź,ul. Pienista,Mieszkanie,3,69,True,700 000,10 161zł / m²,700000.0,10161.0
+3743562,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-zachodnia-1-pokoj-m1c6z8,4 dni temu,6.0,Łódź Śródmieście,ul. Zachodnia,Mieszkanie,1,33,True,299 000,9 061zł / m²,299000.0,9061.0
+3747026,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-zbiorcza-1-pokoj-y6h3b8,dzisiajnowe,1.0,Łódź Śródmieście,ul. Zbiorcza,Mieszkanie,1,37,True,340 000,9 189zł / m²,340000.0,9189.0
+3746598,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-lagiewnicka-1-pokoj-b3j0o1,dzisiajnowe,8.0,Łódź Bałuty,ul. Łagiewnicka,Mieszkanie,1,22,True,199 000,9 045zł / m²,199000.0,9045.0
+3743536,https://adresowo.pl/o/mieszkanie-lodz-gorna-ul-gen-jaroslawa-dabrowskiego-2-pokojowe-c4m0a5,4 dni temu,11.0,Łódź Górna,ul. gen. Jarosława Dąbrowskiego,Mieszkanie,2,36,True,295 000,8 194zł / m²,295000.0,8194.0
+3743530,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-rojna-2-pokojowe-f9v7j4,4 dni temu,12.0,Łódź Bałuty,ul. Rojna,Mieszkanie,2,45,True,289 000,6 422zł / m²,289000.0,6422.0
+3746266,https://adresowo.pl/o/mieszkanie-lodz-gorna-ul-piekna-3-pokojowe-i6t2n1,dzisiajnowe,17.0,Łódź Górna,ul. Piękna,Mieszkanie,3,48,True,509 000,10 604zł / m²,509000.0,10604.0
+3746112,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-biedronkowa-3-pokojowe-s8o9m3,dzisiajnowe,9.0,Łódź Bałuty,ul. Biedronkowa,Mieszkanie,3,53,True,410 000,7 736zł / m²,410000.0,7736.0
+3743510,https://adresowo.pl/o/mieszkanie-lodz-ul-gdanska-3-pokojowe-s5f8b8,4 dni temu,24.0,Łódź,ul. Gdańska,Mieszkanie,3,82,True,647 000,7 863zł / m²,647000.0,7863.0
+3743504,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-piotrkowska-2-pokojowe-a8l9z9,4 dni temu,13.0,Łódź Śródmieście,ul. Piotrkowska,Mieszkanie,2,45,True,420 000,9 333zł / m²,420000.0,9333.0
+3746110,https://adresowo.pl/o/mieszkanie-lodz-karolew-ul-wygodna-2-pokojowe-x8x0j2,dzisiajnowe,10.0,Łódź Karolew,ul. Wygodna,Mieszkanie,2,43,True,370 000,8 605zł / m²,370000.0,8605.0
+3745540,https://adresowo.pl/o/mieszkanie-lodz-zabieniec-ul-lanowa-1-pokoj-d6t7z7,wczoraj,21.0,Łódź Żabieniec,ul. Łanowa,Mieszkanie,1,30,True,300 000,10 000zł / m²,300000.0,10000.0
+3743502,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-park-im-jana-kilinskiego-1-pokoj-a3t0g6,4 dni temu,12.0,Łódź Śródmieście,park im. Jana Kilińskiego,Mieszkanie,1,13,True,179 000,13 388zł / m²,179000.0,13388.0
+3743498,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-milionowa-3-pokojowe-e6z9p6,4 dni temu,15.0,Łódź Śródmieście,ul. Milionowa,Mieszkanie,3,76,True,909 000,11 961zł / m²,909000.0,11961.0
+3745516,https://adresowo.pl/o/mieszkanie-lodz-gorna-ul-konspiracyjnego-wojska-polskiego-2-pokojowe-p3o6m3,wczoraj,9.0,Łódź Górna,ul. Konspiracyjnego Wojska Polskiego,Mieszkanie,2,46,True,443 000,9 616zł / m²,443000.0,9616.0
+3745504,https://adresowo.pl/o/mieszkanie-lodz-widzew-ul-bolka-swidnickiego-2-pokojowe-p4e2w3,wczoraj,15.0,Łódź Widzew,ul. Bolka Świdnickiego,Mieszkanie,2,52,True,520 000,10 000zł / m²,520000.0,10000.0
+3743496,https://adresowo.pl/o/mieszkanie-lodz-widzew-ul-gen-stefana-grota-roweckiego-3-pokojowe-u1u7l8,4 dni temu,15.0,Łódź Widzew,ul. gen. Stefana Grota-Roweckiego,Mieszkanie,3,54,True,379 000,7 038zł / m²,379000.0,7038.0
+3742636,https://adresowo.pl/o/mieszkanie-lodz-marysin-ul-inflancka-3-pokojowe-r4v0q0,5 dni temu,18.0,Łódź Marysin,ul. Inflancka,Mieszkanie,3,57,True,519 000,9 105zł / m²,519000.0,9105.0
+3745452,https://adresowo.pl/o/mieszkanie-lodz-teofilow-ul-rojna-1-pokoj-r5d1n4,wczoraj,9.0,Łódź Teofilów,ul. Rojna,Mieszkanie,1,26,True,210 000,7 955zł / m²,210000.0,7955.0
+3745182,https://adresowo.pl/o/mieszkanie-lodz-retkinia-ul-przelajowa-3-pokojowe-q3b8z7,wczoraj,14.0,Łódź Retkinia,ul. Przełajowa,Mieszkanie,3,53,True,420 000,7 925zł / m²,420000.0,7925.0
+3740560,https://adresowo.pl/o/mieszkanie-lodz-ul-emilii-plater-1-pokoj-g6h2y0,6 dni temu,6.0,Łódź,ul. Emilii Plater,Mieszkanie,1,24,True,205 000,8 542zł / m²,205000.0,8542.0
+3739554,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-andrzeja-struga-7-pokojowe-q1p0h5,ponad tydzień temu,7.0,Łódź Śródmieście,ul. Andrzeja Struga,Mieszkanie,7,195,True,1 075 000,5 513zł / m²,1075000.0,5513.0
+3745270,https://adresowo.pl/o/mieszkanie-lodz-polesie-2-pokojowe-47-m2-h8u4m7,wczoraj,8.0,Łódź Polesie,,Mieszkanie,2,47,True,462 000,9 799zł / m²,462000.0,9799.0
+3745258,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-julianowska-3-pokojowe-z9a2n8,wczoraj,13.0,Łódź Bałuty,ul. Julianowska,Mieszkanie,3,59,True,495 000,8 390zł / m²,495000.0,8390.0
+3745108,https://adresowo.pl/o/mieszkanie-lodz-widzew-ul-niciarniana-1-pokoj-k8m7b1,wczoraj,5.0,Łódź Widzew,ul. Niciarniana,Mieszkanie,1,27,True,256 000,9 460zł / m²,256000.0,9460.0
+3744888,https://adresowo.pl/o/mieszkanie-lodz-radogoszcz-ul-nastrojowa-2-pokojowe-j7u5d4,wczoraj,7.0,Łódź Radogoszcz,ul. Nastrojowa,Mieszkanie,2,51,True,489 600,9 600zł / m²,489600.0,9600.0
+3744620,https://adresowo.pl/o/mieszkanie-lodz-widzew-1-pokoj-37-m2-z1k8a0,wczoraj,8.0,Łódź Widzew,,Mieszkanie,1,37,True,355 000,9 595zł / m²,355000.0,9595.0
+3744578,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-tylna-2-pokojowe-x8y3s1,wczoraj,7.0,Łódź Śródmieście,ul. Tylna,Mieszkanie,2,56,True,670 000,11 865zł / m²,670000.0,11865.0
+3744532,https://adresowo.pl/o/mieszkanie-lodz-teofilow-ul-lniana-2-pokojowe-b8y7r9,wczoraj,12.0,Łódź Teofilów,ul. Lniana,Mieszkanie,2,38,True,280 000,7 368zł / m²,280000.0,7368.0
+3744466,https://adresowo.pl/o/mieszkanie-lodz-ul-hyrna-2-pokojowe-n5n1g7,wczoraj,14.0,Łódź,ul. Hyrna,Mieszkanie,2,39,True,515 000,13 205zł / m²,515000.0,13205.0
+3690546,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-kolektywna-2-pokojowe-u9j0i9,ponad miesiąc temu,16.0,Łódź Bałuty,ul. Kolektywna,Mieszkanie,2,51,True,321 360,6 274zł / m²,321360.0,6274.0
+3687824,https://adresowo.pl/o/mieszkanie-lodz-ul-batalionow-chlopskich-2-pokojowe-h1q9p3,ponad miesiąc temu,9.0,Łódź,ul. Batalionów Chłopskich,Mieszkanie,2,49,True,413 000,8 403zł / m²,413000.0,8403.0
+3687698,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-ks-stanislawa-brzoski-3-pokojowe-p0l7h1,ponad miesiąc temu,11.0,Łódź Bałuty,ul. ks. Stanisława Brzóski,Mieszkanie,3,56,True,419 000,7 482zł / m²,419000.0,7482.0
+3686556,https://adresowo.pl/o/mieszkanie-lodz-polesie-ul-jeczmienna-1-pokoj-g0z2v2,ponad miesiąc temu,14.0,Łódź Polesie,ul. Jęczmienna,Mieszkanie,1,37,True,298 000,8 054zł / m²,298000.0,8054.0
+3686548,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-mlynarska-2-pokojowe-f6u0o3,ponad miesiąc temu,10.0,Łódź Bałuty,ul. Młynarska,Mieszkanie,2,52,True,355 000,6 801zł / m²,355000.0,6801.0
+3686546,https://adresowo.pl/o/mieszkanie-lodz-widzew-ul-przedzalniana-3-pokojowe-s8u1i8,ponad miesiąc temu,14.0,Łódź Widzew,ul. Przędzalniana,Mieszkanie,3,65,True,1 045 000,16 077zł / m²,1045000.0,16077.0
+3686246,https://adresowo.pl/o/mieszkanie-lodz-ksiezy-mlyn-ul-przedzalniana-1-pokoj-z4w9p1,ponad miesiąc temu,10.0,Łódź Księży Młyn,ul. Przędzalniana,Mieszkanie,1,27,True,185 000,6 822zł / m²,185000.0,6822.0
+3685558,https://adresowo.pl/o/mieszkanie-lodz-zarzew-ul-lowicka-2-pokojowe-q5y6m5,ponad miesiąc temu,19.0,Łódź Zarzew,ul. Łowicka,Mieszkanie,2,52,True,349 360,6 784zł / m²,349360.0,6784.0
+3684368,https://adresowo.pl/o/mieszkanie-lodz-teofilow-ul-wici-2-pokojowe-n8n7z4,ponad miesiąc temu,18.0,Łódź Teofilów,ul. Wici,Mieszkanie,2,45,True,307 000,6 822zł / m²,307000.0,6822.0
+3684048,https://adresowo.pl/o/mieszkanie-lodz-baluty-2-pokojowe-44-m2-j0p2j0,ponad miesiąc temu,8.0,Łódź Bałuty,,Mieszkanie,2,44,True,300 000,6 755zł / m²,300000.0,6755.0
+3684036,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-drewnowska-2-pokojowe-d8s6e5,ponad miesiąc temu,12.0,Łódź Bałuty,ul. Drewnowska,Mieszkanie,2,40,True,590 000,14 571zł / m²,590000.0,14571.0
+3681444,https://adresowo.pl/o/mieszkanie-lodz-gorna-ul-sanocka-2-pokojowe-f0q3o4,ponad miesiąc temu,15.0,Łódź Górna,ul. Sanocka,Mieszkanie,2,47,True,349 360,7 436zł / m²,349360.0,7436.0
+3678486,https://adresowo.pl/o/mieszkanie-lodz-widzew-ul-juliusza-jurczynskiego-3-pokojowe-u3c1j5,ponad miesiąc temu,13.0,Łódź Widzew,ul. Juliusza Jurczyńskiego,Mieszkanie,3,62,True,529 360,8 575zł / m²,529360.0,8575.0
+3678478,https://adresowo.pl/o/mieszkanie-lodz-polesie-ul-maratonska-3-pokojowe-c8q9p3,ponad miesiąc temu,21.0,Łódź Polesie,ul. Maratońska,Mieszkanie,3,57,True,520 360,9 176zł / m²,520360.0,9176.0
+3678464,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-wolczanska-1-pokoj-y1q4t1,ponad miesiąc temu,13.0,Łódź Śródmieście,ul. Wólczańska,Mieszkanie,1,28,True,423 360,14 970zł / m²,423360.0,14970.0
+3678460,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-piotrkowska-2-pokojowe-t3i5l0,ponad miesiąc temu,16.0,Łódź Śródmieście,ul. Piotrkowska,Mieszkanie,2,43,True,650 360,15 188zł / m²,650360.0,15188.0
+3678440,https://adresowo.pl/o/mieszkanie-lodz-widzew-ul-jozefa-elsnera-1-pokoj-e2o4u7,ponad miesiąc temu,13.0,Łódź Widzew,ul. Józefa Elsnera,Mieszkanie,1,35,True,339 360,9 603zł / m²,339360.0,9603.0
+3678436,https://adresowo.pl/o/mieszkanie-lodz-al-marsz-edwarda-smiglego-rydza-2-pokojowe-b8i9k8,ponad miesiąc temu,19.0,Łódź,al. marsz. Edwarda Śmigłego-Rydza,Mieszkanie,2,45,True,445 360,9 831zł / m²,445360.0,9831.0
+3678430,https://adresowo.pl/o/mieszkanie-lodz-zarzew-ul-gen-stefana-grota-roweckiego-2-pokojowe-s4b7m2,ponad miesiąc temu,14.0,Łódź Zarzew,ul. gen. Stefana Grota-Roweckiego,Mieszkanie,2,36,True,309 360,8 536zł / m²,309360.0,8536.0
+3678422,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-lisciasta-3-pokojowe-a3b5k9,ponad miesiąc temu,31.0,Łódź Bałuty,ul. Liściasta,Mieszkanie,3,70,True,559 360,7 945zł / m²,559360.0,7945.0
+3678414,https://adresowo.pl/o/mieszkanie-lodz-gorna-ul-henryka-wieniawskiego-2-pokojowe-o1f8u9,ponad miesiąc temu,21.0,Łódź Górna,ul. Henryka Wieniawskiego,Mieszkanie,2,42,True,460 360,10 979zł / m²,460360.0,10979.0
+3678406,https://adresowo.pl/o/mieszkanie-lodz-chojny-ul-kurczaki-2-pokojowe-e4w1o6,ponad miesiąc temu,28.0,Łódź Chojny,ul. Kurczaki,Mieszkanie,2,51,True,349 360,6 846zł / m²,349360.0,6846.0
+3678398,https://adresowo.pl/o/mieszkanie-lodz-julianow-ul-gen-jozefa-bema-3-pokojowe-g9j2i7,ponad miesiąc temu,14.0,Łódź Julianów,ul. gen. Józefa Bema,Mieszkanie,3,90,True,649 360,7 223zł / m²,649360.0,7223.0
+3678400,https://adresowo.pl/o/mieszkanie-lodz-romanow-ul-romanowska-3-pokojowe-t4e5j9,ponad miesiąc temu,18.0,Łódź Romanów,ul. Romanowska,Mieszkanie,3,48,True,389 360,8 180zł / m²,389360.0,8180.0
+3744444,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-nastrojowa-2-pokojowe-k2v8i8,wczoraj,8.0,Łódź Bałuty,ul. Nastrojowa,Mieszkanie,2,44,True,400 000,9 091zł / m²,400000.0,9091.0
+3744366,https://adresowo.pl/o/mieszkanie-lodz-polesie-ul-eugeniusza-lokajskiego-2-pokojowe-r3w6c5,wczoraj,5.0,Łódź Polesie,ul. Eugeniusza Lokajskiego,Mieszkanie,2,42,True,350 000,8 333zł / m²,350000.0,8333.0
+3678346,https://adresowo.pl/o/mieszkanie-lodz-gorna-ul-gabrieli-zapolskiej-2-pokojowe-q8j2i6,ponad miesiąc temu,22.0,Łódź Górna,ul. Gabrieli Zapolskiej,Mieszkanie,2,43,True,325 360,7 531zł / m²,325360.0,7531.0
+3676064,https://adresowo.pl/o/mieszkanie-lodz-teofilow-ul-lanowa-2-pokojowe-e4y6n7,ponad miesiąc temu,14.0,Łódź Teofilów,ul. Łanowa,Mieszkanie,2,45,True,360 000,8 054zł / m²,360000.0,8054.0
+3744228,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-powstancow-wielkopolskich-4-pokojowe-i6t5l2,wczoraj,5.0,Łódź Bałuty,ul. Powstańców Wielkopolskich,Mieszkanie,4,63,True,529 000,8 397zł / m²,529000.0,8397.0
+3744294,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-aleksandrowska-2-pokojowe-y6v4b9,wczoraj,12.0,Łódź Bałuty,ul. Aleksandrowska,Mieszkanie,2,48,True,380 000,7 912zł / m²,380000.0,7912.0
+3675728,https://adresowo.pl/o/mieszkanie-lodz-radogoszcz-ul-lozowa-3-pokojowe-q3z4s6,ponad miesiąc temu,18.0,Łódź Radogoszcz,ul. Łozowa,Mieszkanie,3,57,True,615 000,10 716zł / m²,615000.0,10716.0
+3673998,https://adresowo.pl/o/mieszkanie-lodz-zubardz-ul-lutomierska-2-pokojowe-g8e1n7,ponad miesiąc temu,13.0,Łódź Żubardź,ul. Lutomierska,Mieszkanie,2,46,True,299 000,6 486zł / m²,299000.0,6486.0
+3744230,https://adresowo.pl/o/mieszkanie-lodz-gorna-ul-leopolda-staffa-2-pokojowe-z6e0r6,wczoraj,11.0,Łódź Górna,ul. Leopolda Staffa,Mieszkanie,2,40,True,323 000,8 075zł / m²,323000.0,8075.0
+3743812,https://adresowo.pl/o/mieszkanie-lodz-retkinia-ul-bratyslawska-3-pokojowe-g1f1o2,3 dni temu,21.0,Łódź Retkinia,ul. Bratysławska,Mieszkanie,3,49,True,350 000,7 149zł / m²,350000.0,7149.0
+3673906,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-al-tadeusza-kosciuszki-1-pokoj-p8n1x5,ponad miesiąc temu,16.0,Łódź Śródmieście,al. Tadeusza Kościuszki,Mieszkanie,1,33,True,315 000,9 577zł / m²,315000.0,9577.0
+3673452,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-stefana-jaracza-3-pokojowe-x7m6s4,ponad miesiąc temu,9.0,Łódź Bałuty,ul. Stefana Jaracza,Mieszkanie,3,55,True,349 000,6 385zł / m²,349000.0,6385.0
+3743782,https://adresowo.pl/o/mieszkanie-lodz-gorna-ul-strycharska-2-pokojowe-e7p7q8,4 dni temu,12.0,Łódź Górna,ul. Strycharska,Mieszkanie,2,43,True,435 000,10 116zł / m²,435000.0,10116.0
+3743022,https://adresowo.pl/o/mieszkanie-lodz-karolew-ul-walerego-wroblewskiego-1-pokoj-j2w6f5,5 dni temu,10.0,Łódź Karolew,ul. Walerego Wróblewskiego,Mieszkanie,1,26,True,280 000,10 769zł / m²,280000.0,10769.0
+3671226,https://adresowo.pl/o/mieszkanie-lodz-chojny-ul-kongresowa-2-pokojowe-c4e5k9,ponad miesiąc temu,,Łódź Chojny,ul. Kongresowa,Mieszkanie,2,51,True,339 900,6 650zł / m²,339900.0,6650.0
+3668726,https://adresowo.pl/o/mieszkanie-lodz-gorna-ul-smocza-3-pokojowe-j5j9r4,ponad miesiąc temu,13.0,Łódź Górna,ul. Smocza,Mieszkanie,3,62,True,430 000,6 935zł / m²,430000.0,6935.0
+3742728,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-rybna-3-pokojowe-g1x5x5,5 dni temu,14.0,Łódź Bałuty,ul. Rybna,Mieszkanie,3,55,True,449 000,8 138zł / m²,449000.0,8138.0
+3742418,https://adresowo.pl/o/mieszkanie-lodz-ul-traktorowa-2-pokojowe-k4u2p7,5 dni temu,10.0,Łódź,ul. Traktorowa,Mieszkanie,2,37,True,329 000,8 892zł / m²,329000.0,8892.0
+3668048,https://adresowo.pl/o/mieszkanie-lodz-dabrowa-ul-deotymy-3-pokojowe-k0m9k3,ponad miesiąc temu,15.0,Łódź Dąbrowa,ul. Deotymy,Mieszkanie,3,53,True,379 000,7 198zł / m²,379000.0,7198.0
+3668046,https://adresowo.pl/o/mieszkanie-lodz-marysin-ul-przemyslowa-3-pokojowe-d9a6b9,ponad miesiąc temu,17.0,Łódź Marysin,ul. Przemysłowa,Mieszkanie,3,43,True,424 000,9 900zł / m²,424000.0,9900.0
+3742026,https://adresowo.pl/o/mieszkanie-lodz-dabrowa-ul-juliusza-kossaka-2-pokojowe-q0r0h9,5 dni temu,8.0,Łódź Dąbrowa,ul. Juliusza Kossaka,Mieszkanie,2,36,True,275 000,7 639zł / m²,275000.0,7639.0
+3742008,https://adresowo.pl/o/mieszkanie-lodz-widzew-ul-niciarniana-2-pokojowe-g8u1k8,5 dni temu,8.0,Łódź Widzew,ul. Niciarniana,Mieszkanie,2,46,True,325 000,7 065zł / m²,325000.0,7065.0
+3667068,https://adresowo.pl/o/mieszkanie-lodz-romanow-ul-romanowska-3-pokojowe-d8k2w6,ponad miesiąc temu,9.0,Łódź Romanów,ul. Romanowska,Mieszkanie,3,70,True,625 000,8 875zł / m²,625000.0,8875.0
+3663456,https://adresowo.pl/o/mieszkanie-lodz-stoki-ul-zbocze-3-pokojowe-z2e2v4,ponad miesiąc temu,10.0,Łódź Stoki,ul. Zbocze,Mieszkanie,3,61,True,340 000,5 569zł / m²,340000.0,5569.0
+3741800,https://adresowo.pl/o/mieszkanie-lodz-polesie-ul-legionow-3-pokojowe-u1s7z3,5 dni temu,8.0,Łódź Polesie,ul. Legionów,Mieszkanie,3,38,True,409 000,10 763zł / m²,409000.0,10763.0
+3741746,https://adresowo.pl/o/mieszkanie-lodz-radogoszcz-ul-pasieczna-2-pokojowe-d4u6c6,5 dni temu,8.0,Łódź Radogoszcz,ul. Pasieczna,Mieszkanie,2,42,True,300 000,7 072zł / m²,300000.0,7072.0
+3663384,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-lagiewnicka-1-pokoj-x5p6m7,ponad miesiąc temu,12.0,Łódź Bałuty,ul. Łagiewnicka,Mieszkanie,1,18,True,225 000,12 458zł / m²,225000.0,12458.0
+3659750,https://adresowo.pl/o/mieszkanie-lodz-ul-pilota-stanislawa-wigury-4-pokojowe-h0s8x9,ponad miesiąc temu,12.0,Łódź,ul. Pilota Stanisława Wigury,Mieszkanie,4,89,True,608 000,6 831zł / m²,608000.0,6831.0
+3741590,https://adresowo.pl/o/mieszkanie-lodz-retkinia-ul-jozefa-babickiego-1-pokoj-y1a7z8,6 dni temu,9.0,Łódź Retkinia,ul. Józefa Babickiego,Mieszkanie,1,31,True,250 000,8 065zł / m²,250000.0,8065.0
+3741530,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-al-marsz-jozefa-pilsudskiego-2-pokojowe-b6t5e4,6 dni temu,8.0,Łódź Śródmieście,al. marsz. Józefa Piłsudskiego,Mieszkanie,2,41,True,242 000,5 917zł / m²,242000.0,5917.0
+3655882,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-stefana-jaracza-4-pokojowe-j7m1l6,ponad miesiąc temu,10.0,Łódź Śródmieście,ul. Stefana Jaracza,Mieszkanie,4,119,True,649 999,5 462zł / m²,649999.0,5462.0
+3655870,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-piotrkowska-4-pokojowe-r7j2y6,ponad miesiąc temu,17.0,Łódź Śródmieście,ul. Piotrkowska,Mieszkanie,4,124,True,809 000,6 544zł / m²,809000.0,6544.0
+3741378,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-lakowa-2-pokojowe-a5p6q1,6 dni temu,8.0,Łódź Śródmieście,ul. Łąkowa,Mieszkanie,2,52,True,655 000,12 517zł / m²,655000.0,12517.0
+3741324,https://adresowo.pl/o/mieszkanie-lodz-gorna-3-pokojowe-74-m2-d9j8z7,6 dni temu,7.0,Łódź Górna,,Mieszkanie,3,74,True,665 000,8 986zł / m²,665000.0,8986.0
+3655868,https://adresowo.pl/o/mieszkanie-lodz-ul-wodna-2-pokojowe-d6q0v4,ponad miesiąc temu,8.0,Łódź,ul. Wodna,Mieszkanie,2,40,True,404 977,10 250zł / m²,404977.0,10250.0
+3655862,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-rewolucji-1905-r-3-pokojowe-j3h3f4,ponad miesiąc temu,11.0,Łódź Śródmieście,ul. Rewolucji 1905 r.,Mieszkanie,3,48,True,529 999,11 109zł / m²,529999.0,11109.0
+3741306,https://adresowo.pl/o/mieszkanie-lodz-dabrowa-ul-juliusza-kossaka-2-pokojowe-a3m6o3,6 dni temu,10.0,Łódź Dąbrowa,ul. Juliusza Kossaka,Mieszkanie,2,39,True,340 000,8 718zł / m²,340000.0,8718.0
+3741106,https://adresowo.pl/o/mieszkanie-lodz-baluty-al-wlokniarzy-2-pokojowe-u2g3d1,6 dni temu,8.0,Łódź Bałuty,al. Włókniarzy,Mieszkanie,2,43,True,345 000,8 023zł / m²,345000.0,8023.0
+3655864,https://adresowo.pl/o/mieszkanie-lodz-widzew-ul-wodna-4-pokojowe-i3w6z6,ponad miesiąc temu,13.0,Łódź Widzew,ul. Wodna,Mieszkanie,4,112,True,990 000,8 806zł / m²,990000.0,8806.0
+3655854,https://adresowo.pl/o/mieszkanie-lodz-gorna-ul-pabianicka-3-pokojowe-r2w4w4,ponad miesiąc temu,10.0,Łódź Górna,ul. Pabianicka,Mieszkanie,3,96,True,329 000,3 415zł / m²,329000.0,3415.0
+3741076,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-hipoteczna-2-pokojowe-i6u0q6,6 dni temu,18.0,Łódź Bałuty,ul. Hipoteczna,Mieszkanie,2,36,True,365 000,10 027zł / m²,365000.0,10027.0
+3740936,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-tylna-2-pokojowe-y4o1b6,6 dni temu,21.0,Łódź Śródmieście,ul. Tylna,Mieszkanie,2,40,True,600 000,14 848zł / m²,600000.0,14848.0
+3655850,https://adresowo.pl/o/mieszkanie-lodz-radogoszcz-ul-pasieczna-1-pokoj-t7v1f8,ponad miesiąc temu,12.0,Łódź Radogoszcz,ul. Pasieczna,Mieszkanie,1,31,True,259 000,8 371zł / m²,259000.0,8371.0
+3655698,https://adresowo.pl/o/mieszkanie-lodz-2-pokojowe-38-m2-x0r3b1,ponad miesiąc temu,13.0,Łódź,,Mieszkanie,2,38,True,263 000,6 867zł / m²,263000.0,6867.0
+3740928,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-plk-dr-stanislawa-wieckowskiego-2-pokojowe-t5j9w0,6 dni temu,1.0,Łódź Śródmieście,ul. płk. dr. Stanisława Więckowskiego,Mieszkanie,2,29,True,182 000,6 276zł / m²,182000.0,6276.0
+3740858,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-2-pokojowe-46-m2-t5h0f2,6 dni temu,8.0,Łódź Śródmieście,,Mieszkanie,2,46,True,475 000,10 326zł / m²,475000.0,10326.0
+3652198,https://adresowo.pl/o/mieszkanie-lodz-widzew-ul-10-lutego-2-pokojowe-q5f8o8,ponad miesiąc temu,4.0,Łódź Widzew,ul. 10 Lutego,Mieszkanie,2,59,True,550 000,9 292zł / m²,550000.0,9292.0
+3643482,https://adresowo.pl/o/mieszkanie-lodz-widzew-ul-jozefa-3-pokojowe-h9h8r5,ponad miesiąc temu,16.0,Łódź Widzew,ul. Józefa,Mieszkanie,3,54,True,490 000,9 096zł / m²,490000.0,9096.0
+3740852,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-pojezierska-2-pokojowe-p1w0f3,6 dni temu,8.0,Łódź Bałuty,ul. Pojezierska,Mieszkanie,2,41,True,337 000,8 220zł / m²,337000.0,8220.0
+3740742,https://adresowo.pl/o/mieszkanie-lodz-baluty-1-pokoj-38-m2-y4b4u8,6 dni temu,7.0,Łódź Bałuty,,Mieszkanie,1,38,True,289 000,7 605zł / m²,289000.0,7605.0
+3640034,https://adresowo.pl/o/mieszkanie-lodz-gorna-ul-plocka-1-pokoj-r5o1p6,ponad miesiąc temu,11.0,Łódź Górna,ul. Płocka,Mieszkanie,1,29,True,247 000,8 424zł / m²,247000.0,8424.0
+3637428,https://adresowo.pl/o/mieszkanie-lodz-widzew-ul-karla-dedeciusa-2-pokojowe-z6e1g4,ponad miesiąc temu,2.0,Łódź Widzew,ul. Karla Dedeciusa,Mieszkanie,2,37,True,310 000,8 438zł / m²,310000.0,8438.0
+3740712,https://adresowo.pl/o/mieszkanie-lodz-widzew-ul-gen-jaroslawa-dabrowskiego-2-pokojowe-f8v1g9,6 dni temu,7.0,Łódź Widzew,ul. gen. Jarosława Dąbrowskiego,Mieszkanie,2,36,True,275 000,7 639zł / m²,275000.0,7639.0
+3740684,https://adresowo.pl/o/mieszkanie-lodz-retkinia-ul-ks-jerzego-popieluszki-2-pokojowe-m8i1j7,6 dni temu,1.0,Łódź Retkinia,ul. ks. Jerzego Popiełuszki,Mieszkanie,2,42,True,330 000,7 857zł / m²,330000.0,7857.0
+3635662,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-prezydenta-gabriela-narutowicza-3-pokojowe-s0l2m5,ponad miesiąc temu,11.0,Łódź Śródmieście,ul. Prezydenta Gabriela Narutowicza,Mieszkanie,3,88,True,680 000,7 747zł / m²,680000.0,7747.0
+3633560,https://adresowo.pl/o/mieszkanie-lodz-dabrowa-ul-podgorna-1-pokoj-v8p6p0,ponad miesiąc temu,9.0,Łódź Dąbrowa,ul. Podgórna,Mieszkanie,1,24,True,199 000,8 292zł / m²,199000.0,8292.0
+3740606,https://adresowo.pl/o/mieszkanie-lodz-gorna-ul-adama-naruszewicza-3-pokojowe-w8u6n1,6 dni temu,9.0,Łódź Górna,ul. Adama Naruszewicza,Mieszkanie,3,56,True,560 000,10 000zł / m²,560000.0,10000.0
+3740508,https://adresowo.pl/o/mieszkanie-lodz-gorna-2-pokojowe-37-m2-u3o2w1,6 dni temu,8.0,Łódź Górna,,Mieszkanie,2,37,True,265 000,7 162zł / m²,265000.0,7162.0
+3633486,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-targowa-1-pokoj-b0h4l8,ponad miesiąc temu,9.0,Łódź Śródmieście,ul. Targowa,Mieszkanie,1,35,True,599 999,17 143zł / m²,599999.0,17143.0
+3630902,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-dowborczykow-2-pokojowe-s3t5o9,ponad miesiąc temu,8.0,Łódź Śródmieście,ul. Dowborczyków,Mieszkanie,2,55,True,293 000,5 331zł / m²,293000.0,5331.0
+3740412,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-strykowska-2-pokojowe-f1x0j5,6 dni temu,6.0,Łódź Bałuty,ul. Strykowska,Mieszkanie,2,46,True,462 132,10 046zł / m²,462132.0,10046.0
+3627830,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-sukiennicza-2-pokojowe-z0p3v1,ponad miesiąc temu,10.0,Łódź Bałuty,ul. Sukiennicza,Mieszkanie,2,38,True,275 000,7 180zł / m²,275000.0,7180.0
+3627832,https://adresowo.pl/o/mieszkanie-lodz-julianow-ul-gen-karola-kniaziewicza-2-pokojowe-r1i0k6,ponad miesiąc temu,7.0,Łódź Julianów,ul. gen. Karola Kniaziewicza,Mieszkanie,2,47,True,300 000,6 445zł / m²,300000.0,6445.0
+3620392,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-obornicka-2-pokojowe-n0d2l6,ponad miesiąc temu,12.0,Łódź Bałuty,ul. Obornicka,Mieszkanie,2,45,True,379 000,8 398zł / m²,379000.0,8398.0
+3620190,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-lagiewnicka-2-pokojowe-i5s0v5,ponad miesiąc temu,9.0,Łódź Bałuty,ul. Łagiewnicka,Mieszkanie,2,38,True,299 000,7 868zł / m²,299000.0,7868.0
+3619242,https://adresowo.pl/o/mieszkanie-lodz-olechow-ul-mariana-cynarskiego-2-pokojowe-x4m6o9,ponad miesiąc temu,9.0,Łódź Olechów,ul. Mariana Cynarskiego,Mieszkanie,2,42,True,409 000,9 806zł / m²,409000.0,9806.0
+3613256,https://adresowo.pl/o/mieszkanie-lodz-teofilow-ul-traktorowa-2-pokojowe-g7l5w8,ponad miesiąc temu,9.0,Łódź Teofilów,ul. Traktorowa,Mieszkanie,2,45,True,387 000,8 581zł / m²,387000.0,8581.0
+3607262,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-sprawiedliwa-2-pokojowe-x7l1w2,ponad miesiąc temu,8.0,Łódź Bałuty,ul. Sprawiedliwa,Mieszkanie,2,49,True,225 000,4 562zł / m²,225000.0,4562.0
+3606518,https://adresowo.pl/o/mieszkanie-lodz-ul-rojna-2-pokojowe-v2o3t2,ponad miesiąc temu,9.0,Łódź,ul. Rojna,Mieszkanie,2,45,True,350 000,7 778zł / m²,350000.0,7778.0
+3601844,https://adresowo.pl/o/mieszkanie-lodz-stare-polesie-ul-garnizonowa-3-pokojowe-w3l1s7,ponad miesiąc temu,12.0,Łódź Stare Polesie,ul. Garnizonowa,Mieszkanie,3,67,True,1 120 000,16 819zł / m²,1120000.0,16819.0
+3576904,https://adresowo.pl/o/mieszkanie-lodz-widzew-ul-wysoka-3-pokojowe-d4c9p4,ponad miesiąc temu,12.0,Łódź Widzew,ul. Wysoka,Mieszkanie,3,47,True,299 000,6 354zł / m²,299000.0,6354.0
+3739092,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-zbozowa-3-pokojowe-o2t9a2,ponad tydzień temu,19.0,Łódź Bałuty,ul. Zbożowa,Mieszkanie,3,52,True,500 000,9 615zł / m²,500000.0,9615.0
+3738840,https://adresowo.pl/o/mieszkanie-lodz-gorna-ul-stanislawa-przybyszewskiego-3-pokojowe-t1w4z5,ponad tydzień temu,8.0,Łódź Górna,ul. Stanisława Przybyszewskiego,Mieszkanie,3,60,True,449 000,7 483zł / m²,449000.0,7483.0
+3738826,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-targowa-3-pokojowe-k8v0z6,ponad tydzień temu,8.0,Łódź Śródmieście,ul. Targowa,Mieszkanie,3,63,True,439 000,6 947zł / m²,439000.0,6947.0
+3738612,https://adresowo.pl/o/mieszkanie-lodz-gorna-ul-podhalanska-2-pokojowe-d9f3a6,ponad tydzień temu,20.0,Łódź Górna,ul. Podhalańska,Mieszkanie,2,37,True,368 000,9 946zł / m²,368000.0,9946.0
+3738506,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-snycerska-2-pokojowe-n3s3a7,ponad tydzień temu,8.0,Łódź Bałuty,ul. Snycerska,Mieszkanie,2,50,True,399 000,7 980zł / m²,399000.0,7980.0
+3738382,https://adresowo.pl/o/mieszkanie-lodz-ul-marszalkowska-3-pokojowe-w0l3x0,ponad tydzień temu,10.0,Łódź,ul. Marszałkowska,Mieszkanie,3,70,True,935 000,13 357zł / m²,935000.0,13357.0
+3738206,https://adresowo.pl/o/mieszkanie-lodz-polesie-ul-wilenska-1-pokoj-k3j8n9,ponad tydzień temu,12.0,Łódź Polesie,ul. Wileńska,Mieszkanie,1,36,True,305 000,8 592zł / m²,305000.0,8592.0
+3738036,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-piotrkowska-3-pokojowe-f6l0o6,ponad tydzień temu,14.0,Łódź Śródmieście,ul. Piotrkowska,Mieszkanie,3,70,True,600 000,8 618zł / m²,600000.0,8618.0
+3737864,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-3-pokojowe-67-m2-r3k1j5,ponad tydzień temu,8.0,Łódź Śródmieście,,Mieszkanie,3,67,True,468 000,6 985zł / m²,468000.0,6985.0
+3737844,https://adresowo.pl/o/mieszkanie-lodz-retkinia-2-pokojowe-42-m2-k1a2o1,ponad tydzień temu,12.0,Łódź Retkinia,,Mieszkanie,2,43,True,340 000,7 925zł / m²,340000.0,7925.0
+3737828,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-urzednicza-4-pokojowe-e6p4l6,ponad tydzień temu,15.0,Łódź Bałuty,ul. Urzędnicza,Mieszkanie,4,78,True,520 000,6 667zł / m²,520000.0,6667.0
+3737712,https://adresowo.pl/o/mieszkanie-lodz-romanow-2-pokojowe-55-m2-f4p0z3,ponad tydzień temu,13.0,Łódź Romanów,,Mieszkanie,2,55,True,449 000,8 164zł / m²,449000.0,8164.0
+3737644,https://adresowo.pl/o/mieszkanie-lodz-gorna-ul-pabianicka-1-pokoj-j0t9v2,ponad tydzień temu,9.0,Łódź Górna,ul. Pabianicka,Mieszkanie,1,26,True,246 404,9 477zł / m²,246404.0,9477.0
+3737530,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-wschodnia-2-pokojowe-t3m5m9,ponad tydzień temu,7.0,Łódź Śródmieście,ul. Wschodnia,Mieszkanie,2,51,True,399 999,7 843zł / m²,399999.0,7843.0
+3737460,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-ks-bp-wincentego-tymienieckiego-4-pokojowe-r1m1u7,ponad tydzień temu,8.0,Łódź Bałuty,ul. ks. bp. Wincentego Tymienieckiego,Mieszkanie,4,180,True,1 199 999,6 667zł / m²,1199999.0,6667.0
+3737318,https://adresowo.pl/o/mieszkanie-lodz-polesie-2-pokojowe-38-m2-x6h1r6,ponad tydzień temu,8.0,Łódź Polesie,,Mieszkanie,2,38,True,390 000,10 263zł / m²,390000.0,10263.0
+3736948,https://adresowo.pl/o/mieszkanie-lodz-baluty-2-pokojowe-38-m2-q4d6b6,ponad tydzień temu,8.0,Łódź Bałuty,,Mieszkanie,2,38,True,259 000,6 816zł / m²,259000.0,6816.0
+3736870,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-andrzeja-struga-3-pokojowe-s5m3j8,ponad tydzień temu,20.0,Łódź Śródmieście,ul. Andrzeja Struga,Mieszkanie,3,85,True,520 000,6 118zł / m²,520000.0,6118.0
+3736694,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-lutomierska-3-pokojowe-u9s9r3,ponad tydzień temu,8.0,Łódź Bałuty,ul. Lutomierska,Mieszkanie,3,54,True,372 000,6 889zł / m²,372000.0,6889.0
+3736692,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-2-pokojowe-33-m2-g9q4z2,ponad tydzień temu,8.0,Łódź Śródmieście,,Mieszkanie,2,33,True,240 000,7 273zł / m²,240000.0,7273.0
+3736662,https://adresowo.pl/o/mieszkanie-lodz-gorna-ul-laczna-2-pokojowe-g5o0o0,ponad tydzień temu,8.0,Łódź Górna,ul. Łączna,Mieszkanie,2,53,True,440 000,8 302zł / m²,440000.0,8302.0
+3736332,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-andrzeja-struga-2-pokojowe-o6a2x5,ponad tydzień temu,11.0,Łódź Śródmieście,ul. Andrzeja Struga,Mieszkanie,2,53,True,584 000,10 936zł / m²,584000.0,10936.0
+3736298,https://adresowo.pl/o/mieszkanie-lodz-polesie-ul-pienista-4-pokojowe-s0g7r4,ponad tydzień temu,14.0,Łódź Polesie,ul. Pienista,Mieszkanie,4,77,True,854 900,11 149zł / m²,854900.0,11149.0
+3735720,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-boya-zelenskiego-2-pokojowe-c4z6l1,ponad tydzień temu,9.0,Łódź Bałuty,ul. Boya-Żeleńskiego,Mieszkanie,2,38,True,300 000,7 895zł / m²,300000.0,7895.0
+3735348,https://adresowo.pl/o/mieszkanie-lodz-gorna-ul-waleriana-lukasinskiego-3-pokojowe-v3h2k0,ponad tydzień temu,24.0,Łódź Górna,ul. Waleriana Łukasińskiego,Mieszkanie,3,87,True,1 100 000,12 644zł / m²,1100000.0,12644.0
+3735126,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-hm-aleksandra-kaminskiego-2-pokojowe-a0m7q4,ponad tydzień temu,8.0,Łódź Śródmieście,ul. hm. Aleksandra Kamińskiego,Mieszkanie,2,30,True,266 900,8 897zł / m²,266900.0,8897.0
+3735042,https://adresowo.pl/o/mieszkanie-lodz-gorna-ul-stanislawa-brzozowskiego-2-pokojowe-h0y6r7,ponad tydzień temu,13.0,Łódź Górna,ul. Stanisława Brzozowskiego,Mieszkanie,2,43,True,370 000,8 605zł / m²,370000.0,8605.0
+3734950,https://adresowo.pl/o/mieszkanie-lodz-retkinia-ul-przelajowa-4-pokojowe-f7q5p3,ponad tydzień temu,12.0,Łódź Retkinia,ul. Przełajowa,Mieszkanie,4,64,True,545 000,8 583zł / m²,545000.0,8583.0
+3734968,https://adresowo.pl/o/mieszkanie-lodz-polesie-ul-cmentarna-3-pokojowe-x9e9x4,ponad tydzień temu,20.0,Łódź Polesie,ul. Cmentarna,Mieszkanie,3,120,True,990 000,8 250zł / m²,990000.0,8250.0
+3734826,https://adresowo.pl/o/mieszkanie-lodz-gorna-2-pokojowe-50-m2-e8k9p4,ponad tydzień temu,8.0,Łódź Górna,,Mieszkanie,2,50,True,359 000,7 137zł / m²,359000.0,7137.0
+3734500,https://adresowo.pl/o/mieszkanie-lodz-baluty-2-pokojowe-45-m2-l5o9a2,ponad tydzień temu,1.0,Łódź Bałuty,,Mieszkanie,2,45,True,320 000,7 111zł / m²,320000.0,7111.0
+3734218,https://adresowo.pl/o/mieszkanie-lodz-teofilow-ul-traktorowa-3-pokojowe-s3p9i1,ponad tydzień temu,13.0,Łódź Teofilów,ul. Traktorowa,Mieszkanie,3,48,True,400 000,8 421zł / m²,400000.0,8421.0
+3733592,https://adresowo.pl/o/mieszkanie-lodz-radogoszcz-ul-nastrojowa-3-pokojowe-x6r2x9,ponad tydzień temu,8.0,Łódź Radogoszcz,ul. Nastrojowa,Mieszkanie,3,62,True,430 000,6 935zł / m²,430000.0,6935.0
+3732772,https://adresowo.pl/o/mieszkanie-lodz-janow-ul-jana-skrzetuskiego-2-pokojowe-m7o5m0,ponad tydzień temu,8.0,Łódź Janów,ul. Jana Skrzetuskiego,Mieszkanie,2,40,True,380 000,9 596zł / m²,380000.0,9596.0
+3733232,https://adresowo.pl/o/mieszkanie-lodz-gorna-ul-ignacego-paderewskiego-2-pokojowe-f0p9o5,ponad tydzień temu,6.0,Łódź Górna,ul. Ignacego Paderewskiego,Mieszkanie,2,37,True,315 000,8 514zł / m²,315000.0,8514.0
+3733084,https://adresowo.pl/o/mieszkanie-lodz-gorna-ul-piasta-3-pokojowe-i3p2j8,ponad tydzień temu,8.0,Łódź Górna,ul. Piasta,Mieszkanie,3,51,True,515 000,10 053zł / m²,515000.0,10053.0
+3732954,https://adresowo.pl/o/mieszkanie-lodz-dabrowa-ul-tatrzanska-2-pokojowe-y1e1u0,ponad tydzień temu,13.0,Łódź Dąbrowa,ul. Tatrzańska,Mieszkanie,2,39,True,250 000,6 477zł / m²,250000.0,6477.0
+3732736,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-lutomierska-1-pokoj-e3u0l9,ponad tydzień temu,11.0,Łódź Bałuty,ul. Lutomierska,Mieszkanie,1,25,True,199 000,7 928zł / m²,199000.0,7928.0
+3732510,https://adresowo.pl/o/mieszkanie-lodz-marysin-ul-obroncow-westerplatte-3-pokojowe-p3e3v6,ponad tydzień temu,9.0,Łódź Marysin,ul. Obrońców Westerplatte,Mieszkanie,3,38,True,342 000,9 000zł / m²,342000.0,9000.0
+3731152,https://adresowo.pl/o/mieszkanie-lodz-teofilow-ul-traktorowa-3-pokojowe-y3r1k0,ponad tydzień temu,6.0,Łódź Teofilów,ul. Traktorowa,Mieszkanie,3,49,True,420 000,8 571zł / m²,420000.0,8571.0
+3730984,https://adresowo.pl/o/mieszkanie-lodz-2-pokojowe-38-m2-w5w1h2,ponad tydzień temu,7.0,Łódź,,Mieszkanie,2,38,True,270 000,7 105zł / m²,270000.0,7105.0
+3730854,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-nowomiejska-3-pokojowe-j1a9n9,ponad tydzień temu,8.0,Łódź Śródmieście,ul. Nowomiejska,Mieszkanie,3,89,True,265 500,2 983zł / m²,265500.0,2983.0
+3730816,https://adresowo.pl/o/mieszkanie-lodz-gorna-ul-konspiracji-2-pokojowe-k9a6z6,ponad tydzień temu,14.0,Łódź Górna,ul. Konspiracji,Mieszkanie,2,35,True,370 000,10 571zł / m²,370000.0,10571.0
+3730666,https://adresowo.pl/o/mieszkanie-lodz-retkinia-ul-przelajowa-2-pokojowe-m6v5e0,ponad tydzień temu,8.0,Łódź Retkinia,ul. Przełajowa,Mieszkanie,2,42,True,340 000,8 015zł / m²,340000.0,8015.0
+3730490,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-nawrot-1-pokoj-a8r2p9,ponad tydzień temu,14.0,Łódź Śródmieście,ul. Nawrot,Mieszkanie,1,29,True,339 000,11 690zł / m²,339000.0,11690.0
+3730428,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-pomorska-4-pokojowe-y5o5v3,ponad tydzień temu,11.0,Łódź Śródmieście,ul. Pomorska,Mieszkanie,4,64,True,600 000,9 375zł / m²,600000.0,9375.0
+3730402,https://adresowo.pl/o/mieszkanie-lodz-stare-polesie-al-adama-mickiewicza-2-pokojowe-b9t5n4,ponad tydzień temu,12.0,Łódź Stare Polesie,al. Adama Mickiewicza,Mieszkanie,2,52,True,599 900,11 552zł / m²,599900.0,11552.0
+3729658,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-al-marsz-jozefa-pilsudskiego-2-pokojowe-i9c8o3,ponad tydzień temu,8.0,Łódź Śródmieście,al. marsz. Józefa Piłsudskiego,Mieszkanie,2,38,True,268 000,7 053zł / m²,268000.0,7053.0
+3729482,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-zachodnia-1-pokoj-a8g8b2,ponad tydzień temu,4.0,Łódź Śródmieście,ul. Zachodnia,Mieszkanie,1,30,True,260 000,8 814zł / m²,260000.0,8814.0
+3729448,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-romanowska-3-pokojowe-s6k1x7,ponad tydzień temu,8.0,Łódź Bałuty,ul. Romanowska,Mieszkanie,3,70,True,580 000,8 286zł / m²,580000.0,8286.0
+3729438,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-hipoteczna-2-pokojowe-j1n5b6,ponad tydzień temu,7.0,Łódź Bałuty,ul. Hipoteczna,Mieszkanie,2,37,True,270 000,7 297zł / m²,270000.0,7297.0
+3729222,https://adresowo.pl/o/mieszkanie-lodz-polesie-2-pokojowe-38-m2-l5g0z6,ponad tydzień temu,11.0,Łódź Polesie,,Mieszkanie,2,38,True,315 000,8 289zł / m²,315000.0,8289.0
+3729178,https://adresowo.pl/o/mieszkanie-lodz-retkinia-al-ks-kard-stefana-wyszynskiego-4-pokojowe-y4q7b4,ponad tydzień temu,8.0,Łódź Retkinia,al. ks. kard. Stefana Wyszyńskiego,Mieszkanie,4,64,True,669 000,10 453zł / m²,669000.0,10453.0
+3729038,https://adresowo.pl/o/mieszkanie-lodz-dabrowa-ul-tatrzanska-2-pokojowe-p1a3x0,ponad tydzień temu,8.0,Łódź Dąbrowa,ul. Tatrzańska,Mieszkanie,2,45,True,339 000,7 533zł / m²,339000.0,7533.0
+3728960,https://adresowo.pl/o/mieszkanie-lodz-polesie-ul-rabienska-3-pokojowe-v5m2r8,ponad tydzień temu,18.0,Łódź Polesie,ul. Rąbieńska,Mieszkanie,3,70,True,850 000,12 062zł / m²,850000.0,12062.0
+3728874,https://adresowo.pl/o/mieszkanie-lodz-gorna-ul-gospodarcza-2-pokojowe-z6l6q5,ponad tydzień temu,14.0,Łódź Górna,ul. Gospodarcza,Mieszkanie,2,51,True,480 000,9 499zł / m²,480000.0,9499.0
+3728660,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-pomorska-1-pokoj-b8o1e1,ponad tydzień temu,15.0,Łódź Śródmieście,ul. Pomorska,Mieszkanie,1,27,True,385 000,14 243zł / m²,385000.0,14243.0
+3728204,https://adresowo.pl/o/mieszkanie-lodz-gorna-ul-wolczanska-2-pokojowe-l3n1g5,ponad tydzień temu,2.0,Łódź Górna,ul. Wólczańska,Mieszkanie,2,45,True,350 000,7 778zł / m²,350000.0,7778.0
+3728358,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-marynarska-2-pokojowe-w3t6e1,ponad tydzień temu,13.0,Łódź Bałuty,ul. Marynarska,Mieszkanie,2,45,True,550 000,12 222zł / m²,550000.0,12222.0
+3728340,https://adresowo.pl/o/mieszkanie-lodz-widzew-ul-augustow-1-pokoj-s6f2e6,ponad tydzień temu,17.0,Łódź Widzew,ul. Augustów,Mieszkanie,1,33,True,396 000,12 000zł / m²,396000.0,12000.0
+3728198,https://adresowo.pl/o/mieszkanie-lodz-widzew-ul-przelecz-1-pokoj-i3b5d4,ponad tydzień temu,7.0,Łódź Widzew,ul. Przełęcz,Mieszkanie,1,38,True,300 000,8 000zł / m²,300000.0,8000.0
+3728090,https://adresowo.pl/o/mieszkanie-lodz-janow-ul-jana-skrzetuskiego-2-pokojowe-s0m5n6,ponad tydzień temu,9.0,Łódź Janów,ul. Jana Skrzetuskiego,Mieszkanie,2,51,True,449 000,8 804zł / m²,449000.0,8804.0
+3727284,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-wroclawska-3-pokojowe-b6u7n1,ponad tydzień temu,19.0,Łódź Bałuty,ul. Wrocławska,Mieszkanie,3,70,True,662 000,9 457zł / m²,662000.0,9457.0
+3727276,https://adresowo.pl/o/mieszkanie-lodz-nowe-sady-ul-nowe-sady-3-pokojowe-a1w5g2,ponad tydzień temu,17.0,Łódź Nowe Sady,ul. Nowe Sady,Mieszkanie,3,58,True,734 900,12 671zł / m²,734900.0,12671.0
+3726738,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-kaczencowa-5-pokojowe-e9v3j6,ponad tydzień temu,16.0,Łódź Bałuty,ul. Kaczeńcowa,Mieszkanie,5,116,True,1 295 000,11 164zł / m²,1295000.0,11164.0
+3725984,https://adresowo.pl/o/mieszkanie-lodz-widzew-3-pokojowe-62-m2-a9u8s2,ponad tydzień temu,8.0,Łódź Widzew,,Mieszkanie,3,62,True,525 000,8 468zł / m²,525000.0,8468.0
+3725878,https://adresowo.pl/o/mieszkanie-lodz-radogoszcz-2-pokojowe-42-m2-f6p2e8,ponad tydzień temu,8.0,Łódź Radogoszcz,,Mieszkanie,2,42,True,415 000,9 797zł / m²,415000.0,9797.0
+3725426,https://adresowo.pl/o/mieszkanie-lodz-radogoszcz-ul-biedronkowa-2-pokojowe-e6j9o6,ponad tydzień temu,15.0,Łódź Radogoszcz,ul. Biedronkowa,Mieszkanie,2,42,True,380 000,8 958zł / m²,380000.0,8958.0
+3725246,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-zawiszy-czarnego-2-pokojowe-u3a5v5,ponad tydzień temu,12.0,Łódź Bałuty,ul. Zawiszy Czarnego,Mieszkanie,2,37,True,379 000,10 199zł / m²,379000.0,10199.0
+3725256,https://adresowo.pl/o/mieszkanie-lodz-dabrowa-ul-gabrieli-zapolskiej-2-pokojowe-o5p3d3,ponad tydzień temu,9.0,Łódź Dąbrowa,ul. Gabrieli Zapolskiej,Mieszkanie,2,45,True,345 000,7 753zł / m²,345000.0,7753.0
+3724730,https://adresowo.pl/o/mieszkanie-lodz-koziny-ul-zygmunta-lorentza-2-pokojowe-k2c5v0,ponad tydzień temu,17.0,Łódź Koziny,ul. Zygmunta Lorentza,Mieszkanie,2,43,True,290 000,6 792zł / m²,290000.0,6792.0
+3724372,https://adresowo.pl/o/mieszkanie-lodz-teofilow-al-pasjonistow-2-pokojowe-u0p6s4,ponad tydzień temu,1.0,Łódź Teofilów,al. Pasjonistów,Mieszkanie,2,38,True,270 000,7 166zł / m²,270000.0,7166.0
+3724334,https://adresowo.pl/o/mieszkanie-lodz-gorna-ul-sw-franciszka-z-asyzu-2-pokojowe-a7r5f2,ponad tydzień temu,10.0,Łódź Górna,ul. św. Franciszka z Asyżu,Mieszkanie,2,35,True,270 000,7 714zł / m²,270000.0,7714.0
+3724336,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-marysinska-2-pokojowe-b4w2a0,ponad tydzień temu,13.0,Łódź Bałuty,ul. Marysińska,Mieszkanie,2,47,True,439 950,9 451zł / m²,439950.0,9451.0
+3724058,https://adresowo.pl/o/mieszkanie-lodz-polesie-ul-grodzienska-3-pokojowe-x1g2h9,ponad tydzień temu,9.0,Łódź Polesie,ul. Grodzieńska,Mieszkanie,3,55,True,450 000,8 233zł / m²,450000.0,8233.0
+3723890,https://adresowo.pl/o/mieszkanie-lodz-gorna-ul-emilii-sczanieckiej-3-pokojowe-d3v0z4,ponad tydzień temu,17.0,Łódź Górna,ul. Emilii Sczanieckiej,Mieszkanie,3,66,True,750 000,11 364zł / m²,750000.0,11364.0
+3723782,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-rawska-2-pokojowe-g7t0a4,ponad tydzień temu,7.0,Łódź Śródmieście,ul. Rawska,Mieszkanie,2,53,True,485 000,9 151zł / m²,485000.0,9151.0
+3723710,https://adresowo.pl/o/mieszkanie-lodz-gorna-ul-nowe-sady-1-pokoj-o7k2x5,ponad tydzień temu,8.0,Łódź Górna,ul. Nowe Sady,Mieszkanie,1,34,True,399 000,11 735zł / m²,399000.0,11735.0
+3723476,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-sw-teresy-od-dzieciatka-jezus-3-pokojowe-h1o2m2,ponad tydzień temu,16.0,Łódź Bałuty,ul. św. Teresy od Dzieciątka Jezus,Mieszkanie,3,92,True,1 349 000,14 663zł / m²,1349000.0,14663.0
+3722488,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-prezydenta-gabriela-narutowicza-3-pokojowe-r9z2n4,ponad tydzień temu,11.0,Łódź Śródmieście,ul. Prezydenta Gabriela Narutowicza,Mieszkanie,3,55,True,429 000,7 800zł / m²,429000.0,7800.0
+3722386,https://adresowo.pl/o/mieszkanie-lodz-gorna-ul-braterska-1-pokoj-s8q0u9,ponad tydzień temu,5.0,Łódź Górna,ul. Braterska,Mieszkanie,1,21,True,169 000,8 048zł / m²,169000.0,8048.0
+3721578,https://adresowo.pl/o/mieszkanie-lodz-olechow-ul-leszka-bialego-2-pokojowe-m7w9k9,ponad tydzień temu,19.0,Łódź Olechów,ul. Leszka Białego,Mieszkanie,2,51,True,420 000,8 281zł / m²,420000.0,8281.0
+3721530,https://adresowo.pl/o/mieszkanie-lodz-marysin-ul-lupkowa-3-pokojowe-n2u5x6,ponad tydzień temu,17.0,Łódź Marysin,ul. Łupkowa,Mieszkanie,3,65,True,780 000,12 000zł / m²,780000.0,12000.0
+3720800,https://adresowo.pl/o/mieszkanie-lodz-retkinia-ul-wladyslawa-krola-3-pokojowe-r4k0k3,ponad tydzień temu,8.0,Łódź Retkinia,ul. Władysława Króla,Mieszkanie,3,53,True,445 000,8 396zł / m²,445000.0,8396.0
+3720736,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-radwanska-2-pokojowe-a9i7w1,ponad tydzień temu,13.0,Łódź Śródmieście,ul. Radwańska,Mieszkanie,2,50,True,395 000,7 900zł / m²,395000.0,7900.0
+3720010,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-podrzeczna-3-pokojowe-q7q8j9,ponad tydzień temu,16.0,Łódź Bałuty,ul. Podrzeczna,Mieszkanie,3,64,True,495 000,7 734zł / m²,495000.0,7734.0
+3719548,https://adresowo.pl/o/mieszkanie-lodz-widzew-ul-juliusza-jurczynskiego-3-pokojowe-q0n2o3,ponad tydzień temu,8.0,Łódź Widzew,ul. Juliusza Jurczyńskiego,Mieszkanie,3,62,True,560 000,9 032zł / m²,560000.0,9032.0
+3719542,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-turoszowska-2-pokojowe-q2i8m8,ponad tydzień temu,12.0,Łódź Bałuty,ul. Turoszowska,Mieszkanie,2,42,True,359 000,8 548zł / m²,359000.0,8548.0
+3719422,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-franciszkanska-3-pokojowe-r9q1f0,ponad tydzień temu,14.0,Łódź Bałuty,ul. Franciszkańska,Mieszkanie,3,57,True,499 000,8 754zł / m²,499000.0,8754.0
+3719238,https://adresowo.pl/o/mieszkanie-lodz-retkinia-ul-janusza-kusocinskiego-1-pokoj-k0s3m2,ponad tydzień temu,11.0,Łódź Retkinia,ul. Janusza Kusocińskiego,Mieszkanie,1,32,True,290 000,9 063zł / m²,290000.0,9063.0
+3719240,https://adresowo.pl/o/mieszkanie-lodz-polesie-ul-srebrzynska-2-pokojowe-s0v0y4,ponad tydzień temu,15.0,Łódź Polesie,ul. Srebrzyńska,Mieszkanie,2,37,True,480 000,13 126zł / m²,480000.0,13126.0
+3719176,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-gdanska-2-pokojowe-l0c3h9,ponad tydzień temu,13.0,Łódź Śródmieście,ul. Gdańska,Mieszkanie,2,39,True,298 000,7 641zł / m²,298000.0,7641.0
+3718806,https://adresowo.pl/o/mieszkanie-lodz-gorna-ul-sasiedzka-2-pokojowe-t5z8s8,ponad tydzień temu,12.0,Łódź Górna,ul. Sąsiedzka,Mieszkanie,2,40,True,485 000,12 002zł / m²,485000.0,12002.0
+3718728,https://adresowo.pl/o/mieszkanie-lodz-teofilow-ul-aleksandrowska-4-pokojowe-x0w4n0,ponad tydzień temu,14.0,Łódź Teofilów,ul. Aleksandrowska,Mieszkanie,4,78,True,760 000,9 717zł / m²,760000.0,9717.0
+3718714,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-marysinska-3-pokojowe-e0w8y1,ponad tydzień temu,20.0,Łódź Bałuty,ul. Marysińska,Mieszkanie,3,78,True,770 000,9 914zł / m²,770000.0,9914.0
+3717844,https://adresowo.pl/o/mieszkanie-lodz-dabrowa-2-pokojowe-36-m2-i4f4u1,ponad tydzień temu,8.0,Łódź Dąbrowa,,Mieszkanie,2,36,True,299 000,8 306zł / m²,299000.0,8306.0
+3717794,https://adresowo.pl/o/mieszkanie-lodz-radiostacja-ul-pomorska-2-pokojowe-i6b9g2,ponad tydzień temu,7.0,Łódź Radiostacja,ul. Pomorska,Mieszkanie,2,37,True,444 000,12 000zł / m²,444000.0,12000.0
+3717444,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-heleny-radlinskiej-3-pokojowe-m3b0f5,ponad tydzień temu,10.0,Łódź Bałuty,ul. Heleny Radlińskiej,Mieszkanie,3,62,True,531 000,8 587zł / m²,531000.0,8587.0
+3717260,https://adresowo.pl/o/mieszkanie-lodz-ruda-pabianicka-ul-ksawerowska-4-pokojowe-h1v2x4,ponad tydzień temu,20.0,Łódź Ruda Pabianicka,ul. Ksawerowska,Mieszkanie,4,85,True,630 000,7 412zł / m²,630000.0,7412.0
+3716498,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-wroclawska-2-pokojowe-n9b1o9,ponad tydzień temu,8.0,Łódź Bałuty,ul. Wrocławska,Mieszkanie,2,53,True,475 000,8 984zł / m²,475000.0,8984.0
+3716094,https://adresowo.pl/o/mieszkanie-lodz-gorna-ul-sasiedzka-3-pokojowe-n8a2q6,ponad tydzień temu,17.0,Łódź Górna,ul. Sąsiedzka,Mieszkanie,3,60,True,695 000,11 507zł / m²,695000.0,11507.0
+3716056,https://adresowo.pl/o/mieszkanie-lodz-gorna-ul-obywatelska-2-pokojowe-s0h9r2,ponad tydzień temu,9.0,Łódź Górna,ul. Obywatelska,Mieszkanie,2,56,True,419 000,7 482zł / m²,419000.0,7482.0
+3715892,https://adresowo.pl/o/mieszkanie-lodz-widzew-ul-juliana-tuwima-2-pokojowe-r7x8a9,ponad tydzień temu,10.0,Łódź Widzew,ul. Juliana Tuwima,Mieszkanie,2,58,True,435 000,7 513zł / m²,435000.0,7513.0
+3715680,https://adresowo.pl/o/mieszkanie-lodz-teofilow-ul-traktorowa-3-pokojowe-n4k8v4,ponad tydzień temu,8.0,Łódź Teofilów,ul. Traktorowa,Mieszkanie,3,50,True,449 999,9 000zł / m²,449999.0,9000.0
+3715174,https://adresowo.pl/o/mieszkanie-lodz-teofilow-ul-traktorowa-2-pokojowe-i5l0r8,ponad tydzień temu,8.0,Łódź Teofilów,ul. Traktorowa,Mieszkanie,2,45,True,339 000,7 533zł / m²,339000.0,7533.0
+3714690,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-uniejowska-2-pokojowe-a3c5j8,ponad tydzień temu,9.0,Łódź Bałuty,ul. Uniejowska,Mieszkanie,2,45,True,310 000,6 889zł / m²,310000.0,6889.0
+3714620,https://adresowo.pl/o/mieszkanie-lodz-polesie-ul-gdanska-2-pokojowe-m3u7z9,ponad tydzień temu,8.0,Łódź Polesie,ul. Gdańska,Mieszkanie,2,63,True,415 000,6 587zł / m²,415000.0,6587.0
+3714504,https://adresowo.pl/o/mieszkanie-lodz-gorna-2-pokojowe-36-m2-u4e4m3,ponad tydzień temu,8.0,Łódź Górna,,Mieszkanie,2,36,True,259 000,7 194zł / m²,259000.0,7194.0
+3714244,https://adresowo.pl/o/mieszkanie-lodz-polesie-1-pokoj-38-m2-t8m6n5,ponad tydzień temu,8.0,Łódź Polesie,,Mieszkanie,1,38,True,350 000,9 211zł / m²,350000.0,9211.0
+3714164,https://adresowo.pl/o/mieszkanie-lodz-gorna-ul-rabindranatha-tagore-a-2-pokojowe-y7t4w0,ponad tydzień temu,18.0,Łódź Górna,ul. Rabindranatha Tagore'a,Mieszkanie,2,36,True,330 000,9 167zł / m²,330000.0,9167.0
+3713360,https://adresowo.pl/o/mieszkanie-lodz-gorna-ul-ignacego-paderewskiego-3-pokojowe-x2u8p2,ponad tydzień temu,18.0,Łódź Górna,ul. Ignacego Paderewskiego,Mieszkanie,3,48,True,480 000,10 000zł / m²,480000.0,10000.0
+3712938,https://adresowo.pl/o/mieszkanie-lodz-gorna-ul-lucjana-rydla-2-pokojowe-s8m8y3,ponad tydzień temu,8.0,Łódź Górna,ul. Lucjana Rydla,Mieszkanie,2,37,True,349 000,9 512zł / m²,349000.0,9512.0
+3712388,https://adresowo.pl/o/mieszkanie-lodz-dabrowa-ul-podhalanska-3-pokojowe-l2t8h1,ponad tydzień temu,1.0,Łódź Dąbrowa,ul. Podhalańska,Mieszkanie,3,55,True,379 000,6 891zł / m²,379000.0,6891.0
+3712234,https://adresowo.pl/o/mieszkanie-lodz-gorna-ul-lokatorska-3-pokojowe-q6e7w4,ponad tydzień temu,20.0,Łódź Górna,ul. Lokatorska,Mieszkanie,3,55,True,529 000,9 618zł / m²,529000.0,9618.0
+3711420,https://adresowo.pl/o/mieszkanie-lodz-stare-polesie-ul-6-sierpnia-3-pokojowe-s1d5b7,ponad tydzień temu,13.0,Łódź Stare Polesie,ul. 6 Sierpnia,Mieszkanie,3,71,True,568 000,8 000zł / m²,568000.0,8000.0
+3711304,https://adresowo.pl/o/mieszkanie-lodz-gorna-ul-konstantego-ciolkowskiego-3-pokojowe-i5h8f3,ponad tydzień temu,11.0,Łódź Górna,ul. Konstantego Ciołkowskiego,Mieszkanie,3,48,True,487 000,10 146zł / m²,487000.0,10146.0
+3711286,https://adresowo.pl/o/mieszkanie-lodz-stare-polesie-ul-marynarska-3-pokojowe-b3q1r2,ponad tydzień temu,12.0,Łódź Stare Polesie,ul. Marynarska,Mieszkanie,3,62,True,455 000,7 294zł / m²,455000.0,7294.0
+3711050,https://adresowo.pl/o/mieszkanie-lodz-radogoszcz-ul-lozowa-3-pokojowe-f6m5m9,ponad tydzień temu,19.0,Łódź Radogoszcz,ul. Łozowa,Mieszkanie,3,74,True,890 000,11 980zł / m²,890000.0,11980.0
+3710776,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-wroclawska-2-pokojowe-v4k9d0,ponad tydzień temu,8.0,Łódź Bałuty,ul. Wrocławska,Mieszkanie,2,54,True,470 000,8 704zł / m²,470000.0,8704.0
+3710742,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-grabowa-4-pokojowe-x5q8w7,ponad tydzień temu,8.0,Łódź Śródmieście,ul. Grabowa,Mieszkanie,4,62,True,520 000,8 387zł / m²,520000.0,8387.0
+3690344,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-gen-jozefa-bema-4-pokojowe-q9p8d2,ponad miesiąc temu,15.0,Łódź Bałuty,ul. gen. Józefa Bema,Mieszkanie,4,135,True,1 100 000,8 148zł / m²,1100000.0,8148.0
+3689802,https://adresowo.pl/o/mieszkanie-lodz-gorna-ul-laczna-3-pokojowe-e6m3v4,ponad miesiąc temu,16.0,Łódź Górna,ul. Łączna,Mieszkanie,3,48,True,474 000,9 875zł / m²,474000.0,9875.0
+3689500,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-lagiewnicka-2-pokojowe-y0d3v9,ponad miesiąc temu,8.0,Łódź Bałuty,ul. Łagiewnicka,Mieszkanie,2,43,True,405 000,9 419zł / m²,405000.0,9419.0
+3689476,https://adresowo.pl/o/mieszkanie-lodz-olechow-ul-ksiecia-wladyslawa-opolczyka-3-pokojowe-n7o3f1,ponad miesiąc temu,2.0,Łódź Olechów,ul. Księcia Władysława Opolczyka,Mieszkanie,3,70,True,770 000,11 000zł / m²,770000.0,11000.0
+3689206,https://adresowo.pl/o/mieszkanie-lodz-gorna-ul-poli-gojawiczynskiej-2-pokojowe-v1e8d3,ponad miesiąc temu,16.0,Łódź Górna,ul. Poli Gojawiczyńskiej,Mieszkanie,2,46,True,415 000,8 981zł / m²,415000.0,8981.0
+3688622,https://adresowo.pl/o/mieszkanie-lodz-gorna-ul-antoniego-wiwulskiego-3-pokojowe-l4q2r4,ponad miesiąc temu,15.0,Łódź Górna,ul. Antoniego Wiwulskiego,Mieszkanie,3,46,True,459 000,9 978zł / m²,459000.0,9978.0
+3687772,https://adresowo.pl/o/mieszkanie-lodz-gorna-ul-bednarska-3-pokojowe-j6q8x1,ponad miesiąc temu,9.0,Łódź Górna,ul. Bednarska,Mieszkanie,3,70,True,450 000,6 410zł / m²,450000.0,6410.0
+3687690,https://adresowo.pl/o/mieszkanie-lodz-retkinia-ul-pienista-2-pokojowe-i4c0d4,ponad miesiąc temu,9.0,Łódź Retkinia,ul. Pienista,Mieszkanie,2,48,True,530 000,10 975zł / m²,530000.0,10975.0
+3687506,https://adresowo.pl/o/mieszkanie-lodz-ksiezy-mlyn-ul-ks-bp-wincentego-tymienieckiego-2-pokojowe-w6c0f4,ponad miesiąc temu,8.0,Łódź Księży Młyn,ul. ks. bp. Wincentego Tymienieckiego,Mieszkanie,2,44,True,579 000,13 159zł / m²,579000.0,13159.0
+3687400,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-2-pokojowe-39-m2-d0x4u0,ponad miesiąc temu,2.0,Łódź Śródmieście,,Mieszkanie,2,39,True,440 000,11 282zł / m²,440000.0,11282.0
+3687250,https://adresowo.pl/o/mieszkanie-lodz-polesie-ul-srebrzynska-2-pokojowe-n5a3a5,ponad miesiąc temu,6.0,Łódź Polesie,ul. Srebrzyńska,Mieszkanie,2,45,True,539 000,11 867zł / m²,539000.0,11867.0
+3686516,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-zygmunta-sierakowskiego-2-pokojowe-s9d4k1,ponad miesiąc temu,12.0,Łódź Bałuty,ul. Zygmunta Sierakowskiego,Mieszkanie,2,37,True,375 000,10 005zł / m²,375000.0,10005.0
+3686356,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-3-pokojowe-68-m2-m7x5u9,ponad miesiąc temu,8.0,Łódź Śródmieście,,Mieszkanie,3,68,True,697 000,10 250zł / m²,697000.0,10250.0
+3685952,https://adresowo.pl/o/mieszkanie-lodz-gorna-ul-stefana-rogozinskiego-2-pokojowe-j8j6o2,ponad miesiąc temu,8.0,Łódź Górna,ul. Stefana Rogozińskiego,Mieszkanie,2,38,True,365 000,9 605zł / m²,365000.0,9605.0
+3685658,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-gdanska-4-pokojowe-j0x7v9,ponad miesiąc temu,8.0,Łódź Śródmieście,ul. Gdańska,Mieszkanie,4,60,True,890 000,14 833zł / m²,890000.0,14833.0
+3685358,https://adresowo.pl/o/mieszkanie-lodz-ul-przemyslowa-3-pokojowe-d2s8d5,ponad miesiąc temu,8.0,Łódź,ul. Przemysłowa,Mieszkanie,3,47,True,335 000,7 189zł / m²,335000.0,7189.0
+3685354,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-ogrodowa-1-pokoj-f6o8e1,ponad miesiąc temu,11.0,Łódź Śródmieście,ul. Ogrodowa,Mieszkanie,1,36,True,515 000,14 306zł / m²,515000.0,14306.0
+3685194,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-przemyslowa-2-pokojowe-g3q7s5,ponad miesiąc temu,9.0,Łódź Bałuty,ul. Przemysłowa,Mieszkanie,2,40,True,320 000,8 034zł / m²,320000.0,8034.0
+3684918,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-pilota-stanislawa-wigury-3-pokojowe-j7x0q8,ponad miesiąc temu,17.0,Łódź Śródmieście,ul. Pilota Stanisława Wigury,Mieszkanie,3,70,True,695 000,9 929zł / m²,695000.0,9929.0
+3684892,https://adresowo.pl/o/mieszkanie-lodz-gorna-ul-jacka-malczewskiego-3-pokojowe-s0g6s9,ponad miesiąc temu,7.0,Łódź Górna,ul. Jacka Malczewskiego,Mieszkanie,3,57,True,420 000,7 357zł / m²,420000.0,7357.0
+3677726,https://adresowo.pl/o/mieszkanie-lodz-ul-gnieznienska-1-pokoj-r1y3p4,ponad miesiąc temu,6.0,Łódź,ul. Gnieźnieńska,Mieszkanie,1,42,True,385 000,9 167zł / m²,385000.0,9167.0
+3684656,https://adresowo.pl/o/mieszkanie-lodz-gorna-ul-zaolzianska-2-pokojowe-b7a6g4,ponad miesiąc temu,6.0,Łódź Górna,ul. Zaolziańska,Mieszkanie,2,36,True,399 000,11 016zł / m²,399000.0,11016.0
+3683974,https://adresowo.pl/o/mieszkanie-lodz-widzew-ul-tatrzanska-4-pokojowe-o2c2l3,ponad miesiąc temu,14.0,Łódź Widzew,ul. Tatrzańska,Mieszkanie,4,66,True,530 000,8 030zł / m²,530000.0,8030.0
+3683908,https://adresowo.pl/o/mieszkanie-lodz-rokicie-ul-zamojska-5-pokojowe-i8i8u6,ponad miesiąc temu,20.0,Łódź Rokicie,ul. Zamojska,Mieszkanie,5,85,True,950 000,11 112zł / m²,950000.0,11112.0
+3683708,https://adresowo.pl/o/mieszkanie-lodz-gorna-ul-akademii-zamojskiej-4-pokojowe-g8r9z7,ponad miesiąc temu,12.0,Łódź Górna,ul. Akademii Zamojskiej,Mieszkanie,4,94,True,899 000,9 564zł / m²,899000.0,9564.0
+3683658,https://adresowo.pl/o/mieszkanie-lodz-widzew-ul-moryca-welta-4-pokojowe-e2g9r3,ponad miesiąc temu,9.0,Łódź Widzew,ul. Moryca Welta,Mieszkanie,4,98,True,839 000,8 598zł / m²,839000.0,8598.0
+3683594,https://adresowo.pl/o/mieszkanie-lodz-widzew-ul-leczycka-2-pokojowe-y9v4k0,ponad miesiąc temu,8.0,Łódź Widzew,ul. Łęczycka,Mieszkanie,2,43,True,419 000,9 744zł / m²,419000.0,9744.0
+3682610,https://adresowo.pl/o/mieszkanie-lodz-gorna-ul-mieszczanska-3-pokojowe-z3p8d4,ponad miesiąc temu,26.0,Łódź Górna,ul. Mieszczańska,Mieszkanie,3,62,True,484 000,7 806zł / m²,484000.0,7806.0
+3682176,https://adresowo.pl/o/mieszkanie-lodz-polesie-ul-gorna-3-pokojowe-y6x5u3,ponad miesiąc temu,10.0,Łódź Polesie,ul. Górna,Mieszkanie,3,53,True,368 000,6 943zł / m²,368000.0,6943.0
+3682060,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-nawrot-2-pokojowe-d7e7h4,ponad miesiąc temu,12.0,Łódź Śródmieście,ul. Nawrot,Mieszkanie,2,32,True,484 000,14 985zł / m²,484000.0,14985.0
+3681650,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-walerego-wroblewskiego-1-pokoj-n6w7j3,ponad miesiąc temu,8.0,Łódź Śródmieście,ul. Walerego Wróblewskiego,Mieszkanie,1,31,True,385 000,12 419zł / m²,385000.0,12419.0
+3681294,https://adresowo.pl/o/mieszkanie-lodz-teofilow-ul-wici-2-pokojowe-n0d8y8,ponad miesiąc temu,15.0,Łódź Teofilów,ul. Wici,Mieszkanie,2,38,True,345 000,9 079zł / m²,345000.0,9079.0
+3681124,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-lutomierska-3-pokojowe-e7e4g3,ponad miesiąc temu,8.0,Łódź Bałuty,ul. Lutomierska,Mieszkanie,3,50,True,419 000,8 380zł / m²,419000.0,8380.0
+3679422,https://adresowo.pl/o/mieszkanie-lodz-chojny-ul-rolnicza-4-pokojowe-j7f7e0,ponad miesiąc temu,11.0,Łódź Chojny,ul. Rolnicza,Mieszkanie,4,79,True,1 098 000,13 899zł / m²,1098000.0,13899.0
+3678942,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-wrzesnienska-2-pokojowe-t4j9b2,ponad miesiąc temu,8.0,Łódź Bałuty,ul. Wrześnieńska,Mieszkanie,2,37,True,300 000,8 108zł / m²,300000.0,8108.0
+3678650,https://adresowo.pl/o/mieszkanie-lodz-polesie-ul-krzysztofa-cedry-3-pokojowe-w7h0l3,ponad miesiąc temu,8.0,Łódź Polesie,ul. Krzysztofa Cedry,Mieszkanie,3,69,True,840 000,12 174zł / m²,840000.0,12174.0
+3678368,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-odolanowska-1-pokoj-w2l2t4,ponad miesiąc temu,7.0,Łódź Bałuty,ul. Odolanowska,Mieszkanie,1,27,True,279 000,10 333zł / m²,279000.0,10333.0
+3678290,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-nawrot-3-pokojowe-s4v5k5,ponad miesiąc temu,11.0,Łódź Śródmieście,ul. Nawrot,Mieszkanie,3,65,True,750 000,11 538zł / m²,750000.0,11538.0
+3678256,https://adresowo.pl/o/mieszkanie-lodz-gorna-ul-rzgowska-1-pokoj-d9g1m3,ponad miesiąc temu,1.0,Łódź Górna,ul. Rzgowska,Mieszkanie,1,19,True,199 000,10 474zł / m²,199000.0,10474.0
+3678010,https://adresowo.pl/o/mieszkanie-lodz-gorna-ul-stocka-1-pokoj-u6l1c5,ponad miesiąc temu,1.0,Łódź Górna,ul. Stocka,Mieszkanie,1,33,True,225 000,6 818zł / m²,225000.0,6818.0
+3677810,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-prezydenta-gabriela-narutowicza-4-pokojowe-w8p3i3,ponad miesiąc temu,7.0,Łódź Śródmieście,ul. Prezydenta Gabriela Narutowicza,Mieszkanie,4,98,True,850 000,8 673zł / m²,850000.0,8673.0
+3676914,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-edwarda-abramowskiego-4-pokojowe-o6v9g5,ponad miesiąc temu,14.0,Łódź Śródmieście,ul. Edwarda Abramowskiego,Mieszkanie,4,79,True,668 000,8 465zł / m²,668000.0,8465.0
+3675676,https://adresowo.pl/o/mieszkanie-lodz-widzew-ul-jozefa-elsnera-2-pokojowe-j6g2y0,ponad miesiąc temu,10.0,Łódź Widzew,ul. Józefa Elsnera,Mieszkanie,2,49,True,489 000,9 980zł / m²,489000.0,9980.0
+3674386,https://adresowo.pl/o/mieszkanie-lodz-romanow-ul-romanowska-2-pokojowe-n5h5h0,ponad miesiąc temu,8.0,Łódź Romanów,ul. Romanowska,Mieszkanie,2,43,True,364 000,8 465zł / m²,364000.0,8465.0
+3674252,https://adresowo.pl/o/mieszkanie-lodz-widzew-ul-stanislawa-przybyszewskiego-2-pokojowe-y3t5q8,ponad miesiąc temu,9.0,Łódź Widzew,ul. Stanisława Przybyszewskiego,Mieszkanie,2,54,True,389 900,7 261zł / m²,389900.0,7261.0
+3674142,https://adresowo.pl/o/mieszkanie-lodz-widzew-ul-waclawa-2-pokojowe-f4c4d4,ponad miesiąc temu,8.0,Łódź Widzew,ul. Wacława,Mieszkanie,2,58,True,667 000,11 500zł / m²,667000.0,11500.0
+3673724,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-tylna-2-pokojowe-b6o3b4,ponad miesiąc temu,7.0,Łódź Śródmieście,ul. Tylna,Mieszkanie,2,51,True,560 000,10 912zł / m²,560000.0,10912.0
+3673388,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-3-pokojowe-47-m2-r7q5w1,ponad miesiąc temu,1.0,Łódź Śródmieście,,Mieszkanie,3,47,True,420 000,8 936zł / m²,420000.0,8936.0
+3673014,https://adresowo.pl/o/mieszkanie-lodz-dabrowa-ul-alojzego-felinskiego-1-pokoj-k0e2n0,ponad miesiąc temu,12.0,Łódź Dąbrowa,ul. Alojzego Felińskiego,Mieszkanie,1,27,True,249 000,9 222zł / m²,249000.0,9222.0
+3672788,https://adresowo.pl/o/mieszkanie-lodz-teofilow-3-pokojowe-46-m2-e5z4o0,ponad miesiąc temu,25.0,Łódź Teofilów,,Mieszkanie,3,47,True,395 000,8 485zł / m²,395000.0,8485.0
+3672650,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-marysinska-3-pokojowe-e6u4i0,ponad miesiąc temu,20.0,Łódź Bałuty,ul. Marysińska,Mieszkanie,3,60,True,400 000,6 707zł / m²,400000.0,6707.0
+3672038,https://adresowo.pl/o/mieszkanie-lodz-chojny-ul-tuszynska-3-pokojowe-y6l2y5,ponad miesiąc temu,18.0,Łódź Chojny,ul. Tuszyńska,Mieszkanie,3,63,True,595 000,9 520zł / m²,595000.0,9520.0
+3672030,https://adresowo.pl/o/mieszkanie-lodz-widzew-ul-przedzalniana-1-pokoj-h8k2u0,ponad miesiąc temu,7.0,Łódź Widzew,ul. Przędzalniana,Mieszkanie,1,39,True,299 000,7 667zł / m²,299000.0,7667.0
+3671954,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-osiedlowa-2-pokojowe-h9b0b2,ponad miesiąc temu,9.0,Łódź Bałuty,ul. Osiedlowa,Mieszkanie,2,38,True,359 000,9 447zł / m²,359000.0,9447.0
+3671202,https://adresowo.pl/o/mieszkanie-lodz-dabrowa-ul-alojzego-felinskiego-1-pokoj-k7b4e9,ponad miesiąc temu,16.0,Łódź Dąbrowa,ul. Alojzego Felińskiego,Mieszkanie,1,27,True,215 000,7 963zł / m²,215000.0,7963.0
+3670836,https://adresowo.pl/o/mieszkanie-lodz-dabrowa-ul-juliusza-kossaka-2-pokojowe-s0z1a1,ponad miesiąc temu,15.0,Łódź Dąbrowa,ul. Juliusza Kossaka,Mieszkanie,2,37,True,268 000,7 243zł / m²,268000.0,7243.0
+3670622,https://adresowo.pl/o/mieszkanie-lodz-zubardz-3-pokojowe-56-m2-i0y3q8,ponad miesiąc temu,7.0,Łódź Żubardź,,Mieszkanie,3,56,True,440 000,7 857zł / m²,440000.0,7857.0
+3669778,https://adresowo.pl/o/mieszkanie-lodz-polesie-ul-maratonska-2-pokojowe-o1y2r2,ponad miesiąc temu,8.0,Łódź Polesie,ul. Maratońska,Mieszkanie,2,33,True,470 000,14 242zł / m²,470000.0,14242.0
+3669686,https://adresowo.pl/o/mieszkanie-lodz-polesie-ul-gen-stanislawa-maczka-2-pokojowe-q4h4s8,ponad miesiąc temu,11.0,Łódź Polesie,ul. gen. Stanisława Maczka,Mieszkanie,2,38,True,390 000,10 133zł / m²,390000.0,10133.0
+3669598,https://adresowo.pl/o/mieszkanie-lodz-polesie-2-pokojowe-48-m2-x8g8o3,ponad miesiąc temu,20.0,Łódź Polesie,,Mieszkanie,2,48,True,459 000,9 478zł / m²,459000.0,9478.0
+3668814,https://adresowo.pl/o/mieszkanie-lodz-gorna-ul-uroczysko-2-pokojowe-t1g0v8,ponad miesiąc temu,12.0,Łódź Górna,ul. Uroczysko,Mieszkanie,2,37,True,400 000,10 811zł / m²,400000.0,10811.0
+3668168,https://adresowo.pl/o/mieszkanie-lodz-zubardz-ul-bydgoska-2-pokojowe-l1l4v9,ponad miesiąc temu,20.0,Łódź Żubardź,ul. Bydgoska,Mieszkanie,2,45,True,359 900,8 033zł / m²,359900.0,8033.0
+3668166,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-gdanska-2-pokojowe-t6c6a8,ponad miesiąc temu,4.0,Łódź Śródmieście,ul. Gdańska,Mieszkanie,2,36,True,220 000,6 111zł / m²,220000.0,6111.0
+3668016,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-bydgoska-2-pokojowe-d6p3f1,ponad miesiąc temu,5.0,Łódź Bałuty,ul. Bydgoska,Mieszkanie,2,46,True,430 000,9 348zł / m²,430000.0,9348.0
+3667660,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-prezydenta-gabriela-narutowicza-3-pokojowe-z8q0d1,ponad miesiąc temu,8.0,Łódź Śródmieście,ul. Prezydenta Gabriela Narutowicza,Mieszkanie,3,52,True,439 000,8 481zł / m²,439000.0,8481.0
+3667274,https://adresowo.pl/o/mieszkanie-lodz-romanow-3-pokojowe-71-m2-r6a7x4,ponad miesiąc temu,7.0,Łódź Romanów,,Mieszkanie,3,71,True,629 000,8 859zł / m²,629000.0,8859.0
+3666518,https://adresowo.pl/o/mieszkanie-lodz-gorna-ul-ogniskowa-3-pokojowe-y0o3w2,ponad miesiąc temu,8.0,Łódź Górna,ul. Ogniskowa,Mieszkanie,3,61,True,511 000,8 350zł / m²,511000.0,8350.0
+3665880,https://adresowo.pl/o/mieszkanie-lodz-gorna-ul-gen-jaroslawa-dabrowskiego-3-pokojowe-c1j8w0,ponad miesiąc temu,20.0,Łódź Górna,ul. gen. Jarosława Dąbrowskiego,Mieszkanie,3,48,True,395 000,8 188zł / m²,395000.0,8188.0
+3665736,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-prezydenta-gabriela-narutowicza-5-pokojowe-n1r3a3,ponad miesiąc temu,19.0,Łódź Śródmieście,ul. Prezydenta Gabriela Narutowicza,Mieszkanie,5,177,True,1 500 000,8 475zł / m²,1500000.0,8475.0
+3665532,https://adresowo.pl/o/mieszkanie-lodz-widzew-ul-przedzalniana-2-pokojowe-a9k4v6,ponad miesiąc temu,8.0,Łódź Widzew,ul. Przędzalniana,Mieszkanie,2,35,True,270 000,7 714zł / m²,270000.0,7714.0
+3665476,https://adresowo.pl/o/mieszkanie-lodz-olechow-ul-piasta-kolodzieja-3-pokojowe-d4g8p5,ponad miesiąc temu,11.0,Łódź Olechów,ul. Piasta Kołodzieja,Mieszkanie,3,62,True,460 000,7 419zł / m²,460000.0,7419.0
+3665390,https://adresowo.pl/o/mieszkanie-lodz-gorna-3-pokojowe-45-m2-l1f4k6,ponad miesiąc temu,8.0,Łódź Górna,,Mieszkanie,3,45,True,400 000,8 889zł / m²,400000.0,8889.0
+3665294,https://adresowo.pl/o/mieszkanie-lodz-gorna-al-marsz-edwarda-smiglego-rydza-2-pokojowe-e5r8u2,ponad miesiąc temu,8.0,Łódź Górna,al. marsz. Edwarda Śmigłego-Rydza,Mieszkanie,2,36,True,330 000,9 167zł / m²,330000.0,9167.0
+3664874,https://adresowo.pl/o/mieszkanie-lodz-polesie-ul-cypriana-kamila-norwida-4-pokojowe-c1b6f3,ponad miesiąc temu,9.0,Łódź Polesie,ul. Cypriana Kamila Norwida,Mieszkanie,4,65,True,550 000,8 403zł / m²,550000.0,8403.0
+3664822,https://adresowo.pl/o/mieszkanie-lodz-gorna-ul-sokola-3-pokojowe-q5s1u8,ponad miesiąc temu,20.0,Łódź Górna,ul. Sokola,Mieszkanie,3,61,True,540 000,8 854zł / m²,540000.0,8854.0
+3664392,https://adresowo.pl/o/mieszkanie-lodz-dabrowa-ul-poli-gojawiczynskiej-2-pokojowe-c4o4z6,ponad miesiąc temu,21.0,Łódź Dąbrowa,ul. Poli Gojawiczyńskiej,Mieszkanie,2,45,True,409 000,9 035zł / m²,409000.0,9035.0
+3663980,https://adresowo.pl/o/mieszkanie-lodz-gorna-ul-piasta-3-pokojowe-x8f8o9,ponad miesiąc temu,18.0,Łódź Górna,ul. Piasta,Mieszkanie,3,61,True,525 000,8 538zł / m²,525000.0,8538.0
+3663270,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-romanowska-3-pokojowe-d8q7d3,ponad miesiąc temu,28.0,Łódź Bałuty,ul. Romanowska,Mieszkanie,3,67,True,764 000,11 447zł / m²,764000.0,11447.0
+3662946,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-gdanska-1-pokoj-e8m2z9,ponad miesiąc temu,9.0,Łódź Śródmieście,ul. Gdańska,Mieszkanie,1,36,True,350 000,9 804zł / m²,350000.0,9804.0
+3662254,https://adresowo.pl/o/mieszkanie-lodz-gorna-ul-rabindranatha-tagore-a-4-pokojowe-a6u2r1,ponad miesiąc temu,20.0,Łódź Górna,ul. Rabindranatha Tagore'a,Mieszkanie,4,72,True,599 000,8 319zł / m²,599000.0,8319.0
+3661668,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-andrzeja-struga-3-pokojowe-e4e0l9,ponad miesiąc temu,9.0,Łódź Śródmieście,ul. Andrzeja Struga,Mieszkanie,3,118,True,750 000,6 383zł / m²,750000.0,6383.0
+3661608,https://adresowo.pl/o/mieszkanie-lodz-retkinia-ul-armii-krajowej-3-pokojowe-f4y2p3,ponad miesiąc temu,8.0,Łódź Retkinia,ul. Armii Krajowej,Mieszkanie,3,53,True,385 000,7 264zł / m²,385000.0,7264.0
+3661588,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-boleslawa-limanowskiego-3-pokojowe-e1v4p4,ponad miesiąc temu,15.0,Łódź Bałuty,ul. Bolesława Limanowskiego,Mieszkanie,3,57,True,383 000,6 719zł / m²,383000.0,6719.0
+3661468,https://adresowo.pl/o/mieszkanie-lodz-polesie-ul-stefana-zeromskiego-1-pokoj-m6w4y2,ponad miesiąc temu,10.0,Łódź Polesie,ul. Stefana Żeromskiego,Mieszkanie,1,27,True,275 000,10 026zł / m²,275000.0,10026.0
+3661364,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-fabryczna-2-pokojowe-u4l5c2,ponad miesiąc temu,17.0,Łódź Śródmieście,ul. Fabryczna,Mieszkanie,2,29,True,359 000,12 379zł / m²,359000.0,12379.0
+3661024,https://adresowo.pl/o/mieszkanie-lodz-polesie-ul-srebrzynska-2-pokojowe-s1n5f6,ponad miesiąc temu,8.0,Łódź Polesie,ul. Srebrzyńska,Mieszkanie,2,34,True,450 000,13 235zł / m²,450000.0,13235.0
+3652686,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-zgierska-2-pokojowe-q3q0t2,ponad miesiąc temu,11.0,Łódź Bałuty,ul. Zgierska,Mieszkanie,2,48,True,298 000,6 176zł / m²,298000.0,6176.0
+3660132,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-gdanska-3-pokojowe-h6p7k6,ponad miesiąc temu,22.0,Łódź Śródmieście,ul. Gdańska,Mieszkanie,3,69,True,370 000,5 362zł / m²,370000.0,5362.0
+3660130,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-gdanska-2-pokojowe-f6b3f4,ponad miesiąc temu,22.0,Łódź Śródmieście,ul. Gdańska,Mieszkanie,2,69,True,390 000,5 652zł / m²,390000.0,5652.0
+3658174,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-olsztynska-3-pokojowe-g3v7c8,ponad miesiąc temu,11.0,Łódź Bałuty,ul. Olsztyńska,Mieszkanie,3,57,True,460 000,8 070zł / m²,460000.0,8070.0
+3658176,https://adresowo.pl/o/mieszkanie-lodz-chojny-ul-ogniskowa-3-pokojowe-l8a3y2,ponad miesiąc temu,20.0,Łódź Chojny,ul. Ogniskowa,Mieszkanie,3,61,True,520 000,8 525zł / m²,520000.0,8525.0
+3658110,https://adresowo.pl/o/mieszkanie-lodz-widzew-ul-beli-bartoka-2-pokojowe-c9r5a1,ponad miesiąc temu,11.0,Łódź Widzew,ul. Beli Bartoka,Mieszkanie,2,45,True,325 000,7 303zł / m²,325000.0,7303.0
+3658052,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-tkacka-2-pokojowe-e3p5x4,ponad miesiąc temu,7.0,Łódź Śródmieście,ul. Tkacka,Mieszkanie,2,62,True,500 000,8 065zł / m²,500000.0,8065.0
+3657756,https://adresowo.pl/o/mieszkanie-lodz-baluty-3-pokojowe-62-m2-x7f2h9,ponad miesiąc temu,18.0,Łódź Bałuty,,Mieszkanie,3,63,True,549 000,8 749zł / m²,549000.0,8749.0
+3657360,https://adresowo.pl/o/mieszkanie-lodz-widzew-ul-mieczyslawy-cwiklinskiej-2-pokojowe-c9y3d7,ponad miesiąc temu,10.0,Łódź Widzew,ul. Mieczysławy Ćwiklińskiej,Mieszkanie,2,53,True,399 000,7 528zł / m²,399000.0,7528.0
+3656900,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-piotrkowska-4-pokojowe-u7u2i6,ponad miesiąc temu,7.0,Łódź Śródmieście,ul. Piotrkowska,Mieszkanie,4,126,True,850 000,6 746zł / m²,850000.0,6746.0
+3656984,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-tamka-3-pokojowe-n1l6z7,ponad miesiąc temu,5.0,Łódź Śródmieście,ul. Tamka,Mieszkanie,3,50,True,385 000,7 700zł / m²,385000.0,7700.0
+3656966,https://adresowo.pl/o/mieszkanie-lodz-gorna-ul-prosnienska-3-pokojowe-k5k3j2,ponad miesiąc temu,5.0,Łódź Górna,ul. Prośnieńska,Mieszkanie,3,78,True,660 000,8 462zł / m²,660000.0,8462.0
+3656950,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-pomorska-3-pokojowe-i0p3x4,ponad miesiąc temu,8.0,Łódź Śródmieście,ul. Pomorska,Mieszkanie,3,74,True,380 000,5 135zł / m²,380000.0,5135.0
+3656922,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-urzednicza-3-pokojowe-p6q0i8,ponad miesiąc temu,8.0,Łódź Bałuty,ul. Urzędnicza,Mieszkanie,3,58,True,700 000,12 069zł / m²,700000.0,12069.0
+3656336,https://adresowo.pl/o/mieszkanie-lodz-polesie-ul-obywatelska-3-pokojowe-b5h0h8,ponad miesiąc temu,20.0,Łódź Polesie,ul. Obywatelska,Mieszkanie,3,66,True,660 000,10 000zł / m²,660000.0,10000.0
+3656166,https://adresowo.pl/o/mieszkanie-lodz-polesie-ul-krzemieniecka-2-pokojowe-x4w7u5,ponad miesiąc temu,15.0,Łódź Polesie,ul. Krzemieniecka,Mieszkanie,2,34,True,299 200,8 683zł / m²,299200.0,8683.0
+3654400,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-zgierska-3-pokojowe-t6b2o6,ponad miesiąc temu,18.0,Łódź Bałuty,ul. Zgierska,Mieszkanie,3,61,True,387 000,6 306zł / m²,387000.0,6306.0
+3653394,https://adresowo.pl/o/mieszkanie-lodz-olechow-ul-anny-jagiellonki-2-pokojowe-w2v5t9,ponad miesiąc temu,20.0,Łódź Olechów,ul. Anny Jagiellonki,Mieszkanie,2,50,True,470 000,9 400zł / m²,470000.0,9400.0
+3572328,https://adresowo.pl/o/mieszkanie-lodz-widzew-ul-abrama-koplowicza-2-pokojowe-n1o3f9,ponad miesiąc temu,21.0,Łódź Widzew,ul. Abrama Koplowicza,Mieszkanie,2,50,True,526 000,10 499zł / m²,526000.0,10499.0
+3652846,https://adresowo.pl/o/mieszkanie-lodz-widzew-ul-longinusa-podbipiety-3-pokojowe-q5y0v4,ponad miesiąc temu,9.0,Łódź Widzew,ul. Longinusa Podbipięty,Mieszkanie,3,66,True,799 000,12 106zł / m²,799000.0,12106.0
+3651966,https://adresowo.pl/o/mieszkanie-lodz-gorna-ul-piekna-3-pokojowe-c3p4l2,ponad miesiąc temu,13.0,Łódź Górna,ul. Piękna,Mieszkanie,3,71,True,615 000,8 723zł / m²,615000.0,8723.0
+3651926,https://adresowo.pl/o/mieszkanie-lodz-polesie-ul-marcina-kasprzaka-2-pokojowe-x5r9i8,ponad miesiąc temu,7.0,Łódź Polesie,ul. Marcina Kasprzaka,Mieszkanie,2,38,True,437 000,11 607zł / m²,437000.0,11607.0
+3651034,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-6-sierpnia-2-pokojowe-p9j0j3,ponad miesiąc temu,8.0,Łódź Śródmieście,ul. 6 Sierpnia,Mieszkanie,2,42,True,450 000,10 714zł / m²,450000.0,10714.0
+3650870,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-klonowa-3-pokojowe-d1l6m3,ponad miesiąc temu,8.0,Łódź Bałuty,ul. Klonowa,Mieszkanie,3,54,True,419 000,7 759zł / m²,419000.0,7759.0
+3650336,https://adresowo.pl/o/mieszkanie-lodz-gorna-ul-jozefa-chelmonskiego-2-pokojowe-s9z4l3,ponad miesiąc temu,11.0,Łódź Górna,ul. Józefa Chełmońskiego,Mieszkanie,2,43,True,380 000,8 837zł / m²,380000.0,8837.0
+3649290,https://adresowo.pl/o/mieszkanie-lodz-widzew-ul-urzednicza-2-pokojowe-l3m2v8,ponad miesiąc temu,8.0,Łódź Widzew,ul. Urzędnicza,Mieszkanie,2,44,True,420 000,9 545zł / m²,420000.0,9545.0
+3649194,https://adresowo.pl/o/mieszkanie-lodz-gorna-ul-juliana-ejsmonda-2-pokojowe-i4t1y8,ponad miesiąc temu,11.0,Łódź Górna,ul. Juliana Ejsmonda,Mieszkanie,2,34,True,250 000,7 263zł / m²,250000.0,7263.0
+3648330,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-ciesielska-2-pokojowe-a8k8b6,ponad miesiąc temu,8.0,Łódź Śródmieście,ul. Ciesielska,Mieszkanie,2,47,True,310 000,6 596zł / m²,310000.0,6596.0
+3648272,https://adresowo.pl/o/mieszkanie-lodz-baluty-2-pokojowe-52-m2-s1g9z4,ponad miesiąc temu,15.0,Łódź Bałuty,,Mieszkanie,2,52,True,533 460,10 200zł / m²,533460.0,10200.0
+3647200,https://adresowo.pl/o/mieszkanie-lodz-widzew-ul-czechoslowacka-3-pokojowe-o1d6i4,ponad miesiąc temu,20.0,Łódź Widzew,ul. Czechosłowacka,Mieszkanie,3,72,True,890 000,12 344zł / m²,890000.0,12344.0
+3645742,https://adresowo.pl/o/mieszkanie-lodz-retkinia-ul-ks-jerzego-popieluszki-3-pokojowe-j1f1e6,ponad miesiąc temu,18.0,Łódź Retkinia,ul. ks. Jerzego Popiełuszki,Mieszkanie,3,53,True,435 000,8 212zł / m²,435000.0,8212.0
+3645730,https://adresowo.pl/o/mieszkanie-lodz-chojny-ul-wdzieczna-3-pokojowe-w9i3y8,ponad miesiąc temu,15.0,Łódź Chojny,ul. Wdzięczna,Mieszkanie,3,62,True,399 000,6 435zł / m²,399000.0,6435.0
+3643382,https://adresowo.pl/o/mieszkanie-lodz-stare-polesie-ul-gen-lucjana-zeligowskiego-3-pokojowe-t7a8f7,ponad miesiąc temu,8.0,Łódź Stare Polesie,ul. gen. Lucjana Żeligowskiego,Mieszkanie,3,51,True,510 000,10 000zł / m²,510000.0,10000.0
+3643196,https://adresowo.pl/o/mieszkanie-lodz-gorna-ul-kolowa-2-pokojowe-t7i8k8,ponad miesiąc temu,7.0,Łódź Górna,ul. Kołowa,Mieszkanie,2,37,True,290 000,7 838zł / m²,290000.0,7838.0
+3637808,https://adresowo.pl/o/mieszkanie-lodz-widzew-ul-bedricha-smetany-3-pokojowe-o9q2l3,ponad miesiąc temu,11.0,Łódź Widzew,ul. Bedricha Smetany,Mieszkanie,3,61,True,525 000,8 607zł / m²,525000.0,8607.0
+3637668,https://adresowo.pl/o/mieszkanie-lodz-stoki-ul-hyrna-2-pokojowe-d3y4b2,ponad miesiąc temu,17.0,Łódź Stoki,ul. Hyrna,Mieszkanie,2,47,True,402 050,8 500zł / m²,402050.0,8500.0
+3637320,https://adresowo.pl/o/mieszkanie-lodz-stoki-ul-zbocze-2-pokojowe-h8l3m7,ponad miesiąc temu,13.0,Łódź Stoki,ul. Zbocze,Mieszkanie,2,62,True,460 000,7 469zł / m²,460000.0,7469.0
+3635930,https://adresowo.pl/o/mieszkanie-lodz-widzew-ul-andrzeja-sacharowa-2-pokojowe-f5p1m7,ponad miesiąc temu,19.0,Łódź Widzew,ul. Andrzeja Sacharowa,Mieszkanie,2,46,True,449 000,9 761zł / m²,449000.0,9761.0
+3634574,https://adresowo.pl/o/mieszkanie-lodz-zubardz-ul-inowroclawska-2-pokojowe-a1h7s4,ponad miesiąc temu,9.0,Łódź Żubardź,ul. Inowrocławska,Mieszkanie,2,38,True,330 000,8 758zł / m²,330000.0,8758.0
+3634026,https://adresowo.pl/o/mieszkanie-lodz-widzew-ul-niciarniana-2-pokojowe-e8q9m2,ponad miesiąc temu,8.0,Łódź Widzew,ul. Niciarniana,Mieszkanie,2,37,True,258 000,6 973zł / m²,258000.0,6973.0
+3633868,https://adresowo.pl/o/mieszkanie-lodz-radogoszcz-ul-gustawa-herlinga-grudzinskiego-3-pokojowe-e3e1p0,ponad miesiąc temu,2.0,Łódź Radogoszcz,ul. Gustawa Herlinga-Grudzińskiego,Mieszkanie,3,64,True,486 400,7 600zł / m²,486400.0,7600.0
+3633390,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-turoszowska-2-pokojowe-q9a0s0,ponad miesiąc temu,8.0,Łódź Bałuty,ul. Turoszowska,Mieszkanie,2,44,True,360 000,8 182zł / m²,360000.0,8182.0
+3632952,https://adresowo.pl/o/mieszkanie-lodz-dabrowa-ul-alojzego-felinskiego-2-pokojowe-s4v2o3,ponad miesiąc temu,18.0,Łódź Dąbrowa,ul. Alojzego Felińskiego,Mieszkanie,2,40,True,319 000,8 049zł / m²,319000.0,8049.0
+3632856,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-wierzbowa-3-pokojowe-f6p2h9,ponad miesiąc temu,2.0,Łódź Śródmieście,ul. Wierzbowa,Mieszkanie,3,60,True,505 000,8 452zł / m²,505000.0,8452.0
+3632806,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-henryka-sienkiewicza-5-pokojowe-f7w2h3,ponad miesiąc temu,3.0,Łódź Śródmieście,ul. Henryka Sienkiewicza,Mieszkanie,5,112,True,849 000,7 597zł / m²,849000.0,7597.0
+3632558,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-urzednicza-3-pokojowe-q3n0h0,ponad miesiąc temu,1.0,Łódź Bałuty,ul. Urzędnicza,Mieszkanie,3,57,True,399 000,7 000zł / m²,399000.0,7000.0
+3631964,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-mokra-3-pokojowe-t8k7r6,ponad miesiąc temu,15.0,Łódź Bałuty,ul. Mokra,Mieszkanie,3,68,True,705 500,10 357zł / m²,705500.0,10357.0
+3631768,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-piotrkowska-3-pokojowe-n0x0v7,ponad miesiąc temu,13.0,Łódź Śródmieście,ul. Piotrkowska,Mieszkanie,3,92,True,790 000,8 587zł / m²,790000.0,8587.0
+3631488,https://adresowo.pl/o/mieszkanie-lodz-widzew-ul-zbiorcza-2-pokojowe-c8o4l6,ponad miesiąc temu,8.0,Łódź Widzew,ul. Zbiorcza,Mieszkanie,2,38,True,335 000,8 816zł / m²,335000.0,8816.0
+3630872,https://adresowo.pl/o/mieszkanie-lodz-ul-biegunowa-4-pokojowe-y9n0e2,ponad miesiąc temu,14.0,Łódź,ul. Biegunowa,Mieszkanie,4,71,True,980 000,13 863zł / m²,980000.0,13863.0
+3629704,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-gornicza-2-pokojowe-b7k4o4,ponad miesiąc temu,7.0,Łódź Bałuty,ul. Górnicza,Mieszkanie,2,36,True,265 000,7 274zł / m²,265000.0,7274.0
+3628742,https://adresowo.pl/o/mieszkanie-lodz-gorna-ul-sebastiana-felsztynskiego-1-pokoj-x4m6e5,ponad miesiąc temu,13.0,Łódź Górna,ul. Sebastiana Felsztyńskiego,Mieszkanie,1,19,True,196 000,10 316zł / m²,196000.0,10316.0
+3628486,https://adresowo.pl/o/mieszkanie-lodz-widzew-ul-mieczyslawy-cwiklinskiej-2-pokojowe-k4l1a0,ponad miesiąc temu,18.0,Łódź Widzew,ul. Mieczysławy Ćwiklińskiej,Mieszkanie,2,39,True,405 000,10 385zł / m²,405000.0,10385.0
+3519018,https://adresowo.pl/o/mieszkanie-lodz-karolew-ul-wilenska-2-pokojowe-w4t8o6,ponad miesiąc temu,3.0,Łódź Karolew,ul. Wileńska,Mieszkanie,2,33,True,320 000,9 578zł / m²,320000.0,9578.0
+3626724,https://adresowo.pl/o/mieszkanie-lodz-widzew-ul-beli-bartoka-3-pokojowe-j0c2d2,ponad miesiąc temu,7.0,Łódź Widzew,ul. Beli Bartoka,Mieszkanie,3,78,True,950 000,12 179zł / m²,950000.0,12179.0
+3624902,https://adresowo.pl/o/mieszkanie-lodz-baluty-al-harcerzy-zatorowcow-2-pokojowe-v6o9b9,ponad miesiąc temu,6.0,Łódź Bałuty,al. Harcerzy-Zatorowców,Mieszkanie,2,38,True,285 000,7 564zł / m²,285000.0,7564.0
+3624854,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-traktorowa-3-pokojowe-x4u4j9,ponad miesiąc temu,8.0,Łódź Bałuty,ul. Traktorowa,Mieszkanie,3,57,True,430 000,7 544zł / m²,430000.0,7544.0
+3624688,https://adresowo.pl/o/mieszkanie-lodz-olechow-2-pokojowe-47-m2-c6x0s0,ponad miesiąc temu,8.0,Łódź Olechów,,Mieszkanie,2,47,True,446 000,9 489zł / m²,446000.0,9489.0
+3624476,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-10-lutego-2-pokojowe-y3i5v9,ponad miesiąc temu,6.0,Łódź Śródmieście,ul. 10 Lutego,Mieszkanie,2,47,True,380 000,8 148zł / m²,380000.0,8148.0
+3624008,https://adresowo.pl/o/mieszkanie-lodz-koziny-ul-jana-dlugosza-2-pokojowe-i6c3k0,ponad miesiąc temu,2.0,Łódź Koziny,ul. Jana Długosza,Mieszkanie,2,45,True,340 000,7 556zł / m²,340000.0,7556.0
+3621384,https://adresowo.pl/o/mieszkanie-lodz-gorna-ul-alojzego-felinskiego-2-pokojowe-y0y5l2,ponad miesiąc temu,20.0,Łódź Górna,ul. Alojzego Felińskiego,Mieszkanie,2,36,True,385 000,10 694zł / m²,385000.0,10694.0
+3620648,https://adresowo.pl/o/mieszkanie-lodz-gorna-ul-zaolzianska-3-pokojowe-b0b5n4,ponad miesiąc temu,13.0,Łódź Górna,ul. Zaolziańska,Mieszkanie,3,45,True,400 000,8 889zł / m²,400000.0,8889.0
+3620460,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-dr-stefana-kopcinskiego-3-pokojowe-y7b7k8,ponad miesiąc temu,18.0,Łódź Śródmieście,ul. dr. Stefana Kopcińskiego,Mieszkanie,3,67,True,515 000,7 687zł / m²,515000.0,7687.0
+3620420,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-pomorska-3-pokojowe-g5g8u9,ponad miesiąc temu,12.0,Łódź Śródmieście,ul. Pomorska,Mieszkanie,3,93,True,499 000,5 354zł / m²,499000.0,5354.0
+3619016,https://adresowo.pl/o/mieszkanie-lodz-widzew-ul-zbiorcza-2-pokojowe-l7u0z4,ponad miesiąc temu,14.0,Łódź Widzew,ul. Zbiorcza,Mieszkanie,2,45,True,435 000,9 682zł / m²,435000.0,9682.0
+3618890,https://adresowo.pl/o/mieszkanie-lodz-gorna-ul-krakusa-2-pokojowe-e7z3m5,ponad miesiąc temu,10.0,Łódź Górna,ul. Krakusa,Mieszkanie,2,51,True,494 000,9 686zł / m²,494000.0,9686.0
+3618614,https://adresowo.pl/o/mieszkanie-lodz-gorna-ul-zabrzezna-2-pokojowe-i5o2p8,ponad miesiąc temu,11.0,Łódź Górna,ul. Zabrzeźna,Mieszkanie,2,37,True,384 115,10 284zł / m²,384115.0,10284.0
+3618180,https://adresowo.pl/o/mieszkanie-lodz-polesie-ul-mikolaja-kopernika-3-pokojowe-t4l9d7,ponad miesiąc temu,1.0,Łódź Polesie,ul. Mikołaja Kopernika,Mieszkanie,3,62,True,510 778,8 200zł / m²,510778.0,8200.0
+3617188,https://adresowo.pl/o/mieszkanie-lodz-gorna-ul-witolda-doroszewskiego-2-pokojowe-z7o2t6,ponad miesiąc temu,14.0,Łódź Górna,ul. Witolda Doroszewskiego,Mieszkanie,2,34,True,344 000,10 118zł / m²,344000.0,10118.0
+3616648,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-kalinowa-3-pokojowe-v1i9m4,ponad miesiąc temu,8.0,Łódź Bałuty,ul. Kalinowa,Mieszkanie,3,74,True,570 000,7 703zł / m²,570000.0,7703.0
+3616034,https://adresowo.pl/o/mieszkanie-lodz-rokicie-ul-czahary-4-pokojowe-e4d9r2,ponad miesiąc temu,15.0,Łódź Rokicie,ul. Czahary,Mieszkanie,4,80,True,590 700,7 402zł / m²,590700.0,7402.0
+3615846,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-piotrkowska-2-pokojowe-k6o1v0,ponad miesiąc temu,8.0,Łódź Śródmieście,ul. Piotrkowska,Mieszkanie,2,51,True,449 000,8 804zł / m²,449000.0,8804.0
+3615322,https://adresowo.pl/o/mieszkanie-lodz-polesie-al-1-maja-3-pokojowe-l6q3y9,ponad miesiąc temu,14.0,Łódź Polesie,al. 1 Maja,Mieszkanie,3,81,True,519 000,6 389zł / m²,519000.0,6389.0
+3615134,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-pomorska-3-pokojowe-e4o8e2,ponad miesiąc temu,8.0,Łódź Śródmieście,ul. Pomorska,Mieszkanie,3,49,True,588 000,12 000zł / m²,588000.0,12000.0
+3614192,https://adresowo.pl/o/mieszkanie-lodz-janow-al-hetmanska-1-pokoj-b7i4m4,ponad miesiąc temu,17.0,Łódź Janów,al. Hetmańska,Mieszkanie,1,34,True,360 000,10 483zł / m²,360000.0,10483.0
+3614202,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-ks-stanislawa-brzoski-3-pokojowe-g9h2s4,ponad miesiąc temu,10.0,Łódź Bałuty,ul. ks. Stanisława Brzóski,Mieszkanie,3,63,True,575 000,9 127zł / m²,575000.0,9127.0
+3612952,https://adresowo.pl/o/mieszkanie-lodz-gorna-2-pokojowe-47-m2-n1p0w7,ponad miesiąc temu,8.0,Łódź Górna,,Mieszkanie,2,47,True,430 000,9 149zł / m²,430000.0,9149.0
+3612154,https://adresowo.pl/o/mieszkanie-lodz-lagiewniki-ul-jaskolcza-6-pokojowe-r4j8x3,ponad miesiąc temu,20.0,Łódź Łagiewniki,ul. Jaskółcza,Mieszkanie,6,138,True,1 170 000,8 497zł / m²,1170000.0,8497.0
+3612124,https://adresowo.pl/o/mieszkanie-lodz-polesie-al-1-maja-2-pokojowe-s4g1g2,ponad miesiąc temu,14.0,Łódź Polesie,al. 1 Maja,Mieszkanie,2,45,True,474 000,10 501zł / m²,474000.0,10501.0
+3611934,https://adresowo.pl/o/mieszkanie-lodz-gorna-ul-dzwonowa-1-pokoj-k3c4s5,ponad miesiąc temu,8.0,Łódź Górna,ul. Dzwonowa,Mieszkanie,1,35,True,459 000,13 114zł / m²,459000.0,13114.0
+3611930,https://adresowo.pl/o/mieszkanie-lodz-gorna-ul-dzwonowa-2-pokojowe-m4t9i5,ponad miesiąc temu,8.0,Łódź Górna,ul. Dzwonowa,Mieszkanie,2,56,True,627 000,11 196zł / m²,627000.0,11196.0
+3611340,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-marysinska-2-pokojowe-v8q7t2,ponad miesiąc temu,7.0,Łódź Bałuty,ul. Marysińska,Mieszkanie,2,47,True,395 000,8 404zł / m²,395000.0,8404.0
+3611322,https://adresowo.pl/o/mieszkanie-lodz-widzew-ul-macka-z-bogdanca-2-pokojowe-o3t4i3,ponad miesiąc temu,6.0,Łódź Widzew,ul. Maćka z Bogdańca,Mieszkanie,2,46,True,430 000,9 348zł / m²,430000.0,9348.0
+3609574,https://adresowo.pl/o/mieszkanie-lodz-gorna-ul-wygodna-2-pokojowe-r3q2p5,ponad miesiąc temu,8.0,Łódź Górna,ul. Wygodna,Mieszkanie,2,43,True,315 000,7 293zł / m²,315000.0,7293.0
+3539800,https://adresowo.pl/o/mieszkanie-lodz-polesie-ul-wioslarska-2-pokojowe-t4e4b7,ponad miesiąc temu,7.0,Łódź Polesie,ul. Wioślarska,Mieszkanie,2,37,True,280 000,7 568zł / m²,280000.0,7568.0
+3608018,https://adresowo.pl/o/mieszkanie-lodz-dabrowa-ul-tatrzanska-2-pokojowe-q2t1n7,ponad miesiąc temu,8.0,Łódź Dąbrowa,ul. Tatrzańska,Mieszkanie,2,37,True,310 000,8 378zł / m²,310000.0,8378.0
+3607652,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-prezydenta-gabriela-narutowicza-1-pokoj-p0f9k5,ponad miesiąc temu,9.0,Łódź Śródmieście,ul. Prezydenta Gabriela Narutowicza,Mieszkanie,1,33,True,340 000,10 297zł / m²,340000.0,10297.0
+3607314,https://adresowo.pl/o/mieszkanie-lodz-retkinia-ul-jozefa-babickiego-1-pokoj-u5u6s5,ponad miesiąc temu,8.0,Łódź Retkinia,ul. Józefa Babickiego,Mieszkanie,1,30,True,240 000,8 000zł / m²,240000.0,8000.0
+3607162,https://adresowo.pl/o/mieszkanie-lodz-ksiezy-mlyn-ul-przedzalniana-2-pokojowe-w4s8b0,ponad miesiąc temu,17.0,Łódź Księży Młyn,ul. Przędzalniana,Mieszkanie,2,54,True,599 000,11 144zł / m²,599000.0,11144.0
+3606196,https://adresowo.pl/o/mieszkanie-lodz-polesie-ul-retkinska-3-pokojowe-f5a6o7,ponad miesiąc temu,19.0,Łódź Polesie,ul. Retkińska,Mieszkanie,3,36,True,379 000,10 401zł / m²,379000.0,10401.0
+3605112,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-boleslawa-limanowskiego-3-pokojowe-k2m4d5,ponad miesiąc temu,14.0,Łódź Bałuty,ul. Bolesława Limanowskiego,Mieszkanie,3,57,True,420 000,7 368zł / m²,420000.0,7368.0
+3603188,https://adresowo.pl/o/mieszkanie-lodz-teofilow-ul-traktorowa-2-pokojowe-l0q4k0,ponad miesiąc temu,8.0,Łódź Teofilów,ul. Traktorowa,Mieszkanie,2,38,True,289 000,7 605zł / m²,289000.0,7605.0
+3602762,https://adresowo.pl/o/mieszkanie-lodz-retkinia-ul-rajdowa-1-pokoj-r0s9k5,ponad miesiąc temu,7.0,Łódź Retkinia,ul. Rajdowa,Mieszkanie,1,31,True,249 000,8 032zł / m²,249000.0,8032.0
+3602342,https://adresowo.pl/o/mieszkanie-lodz-widzew-ul-karola-adamieckiego-3-pokojowe-o8f1b1,ponad miesiąc temu,10.0,Łódź Widzew,ul. Karola Adamieckiego,Mieszkanie,3,68,True,609 000,8 956zł / m²,609000.0,8956.0
+3601526,https://adresowo.pl/o/mieszkanie-lodz-stoki-ul-powstancow-slaskich-1-pokoj-c1h0z1,ponad miesiąc temu,8.0,Łódź Stoki,ul. Powstańców Śląskich,Mieszkanie,1,18,True,165 000,9 167zł / m²,165000.0,9167.0
+3600116,https://adresowo.pl/o/mieszkanie-lodz-augustow-ul-augustow-3-pokojowe-s2o9r8,ponad miesiąc temu,5.0,Łódź Augustów,ul. Augustów,Mieszkanie,3,58,True,580 696,9 930zł / m²,580696.0,9930.0
+3600096,https://adresowo.pl/o/mieszkanie-lodz-chojny-ul-gospodarcza-2-pokojowe-b0p1c3,ponad miesiąc temu,15.0,Łódź Chojny,ul. Gospodarcza,Mieszkanie,2,51,True,495 000,9 706zł / m²,495000.0,9706.0
+3599640,https://adresowo.pl/o/mieszkanie-lodz-widzew-1-pokoj-17-m2-u2l7k6,ponad miesiąc temu,8.0,Łódź Widzew,,Mieszkanie,1,17,True,145 000,8 470zł / m²,145000.0,8470.0
+3599432,https://adresowo.pl/o/mieszkanie-lodz-gorna-ul-zamojska-2-pokojowe-f1y1t1,ponad miesiąc temu,20.0,Łódź Górna,ul. Zamojska,Mieszkanie,2,53,True,570 000,10 755zł / m²,570000.0,10755.0
+3599320,https://adresowo.pl/o/mieszkanie-lodz-widzew-ul-tatrzanska-3-pokojowe-l9h1x3,ponad miesiąc temu,13.0,Łódź Widzew,ul. Tatrzańska,Mieszkanie,3,47,True,499 000,10 568zł / m²,499000.0,10568.0
+3576474,https://adresowo.pl/o/mieszkanie-lodz-widzew-ul-ruska-2-pokojowe-c3g5c0,ponad miesiąc temu,12.0,Łódź Widzew,ul. Ruska,Mieszkanie,2,46,True,490 000,10 696zł / m²,490000.0,10696.0
+3597700,https://adresowo.pl/o/mieszkanie-lodz-polesie-3-pokojowe-57-m2-o3z6u2,ponad miesiąc temu,1.0,Łódź Polesie,,Mieszkanie,3,57,True,550 000,9 649zł / m²,550000.0,9649.0
+3597022,https://adresowo.pl/o/mieszkanie-lodz-olechow-ul-kazimierza-odnowiciela-3-pokojowe-a4s5c2,ponad miesiąc temu,15.0,Łódź Olechów,ul. Kazimierza Odnowiciela,Mieszkanie,3,77,True,720 000,9 351zł / m²,720000.0,9351.0
+3595598,https://adresowo.pl/o/mieszkanie-lodz-polesie-ul-piotra-bardowskiego-1-pokoj-p4p8w7,ponad miesiąc temu,8.0,Łódź Polesie,ul. Piotra Bardowskiego,Mieszkanie,1,37,True,259 000,6 946zł / m²,259000.0,6946.0
+3594948,https://adresowo.pl/o/mieszkanie-lodz-baluty-al-chryzantem-1-pokoj-f5z8l9,ponad miesiąc temu,14.0,Łódź Bałuty,al. Chryzantem,Mieszkanie,1,27,True,245 000,9 074zł / m²,245000.0,9074.0
+3590442,https://adresowo.pl/o/mieszkanie-lodz-gorna-1-pokoj-24-m2-v6y4j4,ponad miesiąc temu,8.0,Łódź Górna,,Mieszkanie,1,24,True,239 000,9 958zł / m²,239000.0,9958.0
+3590190,https://adresowo.pl/o/mieszkanie-lodz-dabrowa-ul-gabrieli-zapolskiej-3-pokojowe-o5w1g9,ponad miesiąc temu,7.0,Łódź Dąbrowa,ul. Gabrieli Zapolskiej,Mieszkanie,3,45,True,316 000,6 990zł / m²,316000.0,6990.0
+3589792,https://adresowo.pl/o/mieszkanie-lodz-polesie-ul-prof-bohdana-stefanowskiego-2-pokojowe-r8p3x6,ponad miesiąc temu,14.0,Łódź Polesie,ul. prof. Bohdana Stefanowskiego,Mieszkanie,2,35,True,493 500,14 000zł / m²,493500.0,14000.0
+3589412,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-stefana-zeromskiego-4-pokojowe-m6k7g1,ponad miesiąc temu,5.0,Łódź Śródmieście,ul. Stefana Żeromskiego,Mieszkanie,4,80,True,370 000,4 625zł / m²,370000.0,4625.0
+3588860,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-piotrkowska-2-pokojowe-u4p0s9,ponad miesiąc temu,8.0,Łódź Śródmieście,ul. Piotrkowska,Mieszkanie,2,45,True,349 000,7 756zł / m²,349000.0,7756.0
+3587686,https://adresowo.pl/o/mieszkanie-lodz-gorna-ul-poetycka-3-pokojowe-l9w4f4,ponad miesiąc temu,20.0,Łódź Górna,ul. Poetycka,Mieszkanie,3,66,True,680 000,10 320zł / m²,680000.0,10320.0
+3587410,https://adresowo.pl/o/mieszkanie-lodz-gorna-ul-tadeusza-czackiego-3-pokojowe-y3s5s1,ponad miesiąc temu,19.0,Łódź Górna,ul. Tadeusza Czackiego,Mieszkanie,3,70,True,680 000,9 714zł / m²,680000.0,9714.0
+3587402,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-piotrkowska-3-pokojowe-w0r6q0,ponad miesiąc temu,8.0,Łódź Śródmieście,ul. Piotrkowska,Mieszkanie,3,65,True,450 000,6 923zł / m²,450000.0,6923.0
+3587374,https://adresowo.pl/o/mieszkanie-lodz-doly-ul-strykowska-1-pokoj-v0k5y9,ponad miesiąc temu,17.0,Łódź Doły,ul. Strykowska,Mieszkanie,1,27,True,330 000,12 222zł / m²,330000.0,12222.0
+3587170,https://adresowo.pl/o/mieszkanie-lodz-gorna-3-pokojowe-48-m2-c8b1u4,ponad miesiąc temu,8.0,Łódź Górna,,Mieszkanie,3,48,True,459 000,9 563zł / m²,459000.0,9563.0
+3586742,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-rojna-2-pokojowe-c7y3g1,ponad miesiąc temu,9.0,Łódź Bałuty,ul. Rojna,Mieszkanie,2,37,True,350 000,9 414zł / m²,350000.0,9414.0
+3585642,https://adresowo.pl/o/mieszkanie-lodz-janow-ul-andrzeja-kmicica-3-pokojowe-w9e3g9,ponad miesiąc temu,9.0,Łódź Janów,ul. Andrzeja Kmicica,Mieszkanie,3,62,True,510 000,8 168zł / m²,510000.0,8168.0
+3584932,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-gen-karola-kniaziewicza-3-pokojowe-u6p8i7,ponad miesiąc temu,8.0,Łódź Bałuty,ul. gen. Karola Kniaziewicza,Mieszkanie,3,46,True,369 000,8 110zł / m²,369000.0,8110.0
+3583688,https://adresowo.pl/o/mieszkanie-lodz-gorna-ul-lokatorska-2-pokojowe-y8d5q7,ponad miesiąc temu,14.0,Łódź Górna,ul. Lokatorska,Mieszkanie,2,43,True,325 000,7 525zł / m²,325000.0,7525.0
+3582314,https://adresowo.pl/o/mieszkanie-lodz-janow-ul-andrzeja-kmicica-4-pokojowe-l6z7n6,ponad miesiąc temu,11.0,Łódź Janów,ul. Andrzeja Kmicica,Mieszkanie,4,74,True,799 999,10 811zł / m²,799999.0,10811.0
+3581382,https://adresowo.pl/o/mieszkanie-lodz-retkinia-ul-ks-jerzego-popieluszki-2-pokojowe-g3z7l5,ponad miesiąc temu,8.0,Łódź Retkinia,ul. ks. Jerzego Popiełuszki,Mieszkanie,2,42,True,397 000,9 452zł / m²,397000.0,9452.0
+3581168,https://adresowo.pl/o/mieszkanie-lodz-julianow-ul-julianowska-3-pokojowe-k6t9b8,ponad miesiąc temu,22.0,Łódź Julianów,ul. Julianowska,Mieszkanie,3,59,True,525 000,8 897zł / m²,525000.0,8897.0
+3580452,https://adresowo.pl/o/mieszkanie-lodz-polesie-ul-janusza-kusocinskiego-3-pokojowe-a1h9g7,ponad miesiąc temu,11.0,Łódź Polesie,ul. Janusza Kusocińskiego,Mieszkanie,3,62,True,589 000,9 474zł / m²,589000.0,9474.0
+3578678,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-radwanska-2-pokojowe-q4f6e0,ponad miesiąc temu,5.0,Łódź Śródmieście,ul. Radwańska,Mieszkanie,2,57,True,295 000,5 150zł / m²,295000.0,5150.0
+3577844,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-boleslawa-limanowskiego-3-pokojowe-j5v4l7,ponad miesiąc temu,8.0,Łódź Bałuty,ul. Bolesława Limanowskiego,Mieszkanie,3,55,True,479 000,8 763zł / m²,479000.0,8763.0
+3575746,https://adresowo.pl/o/mieszkanie-lodz-gorna-ul-graniczna-3-pokojowe-w4y9u7,ponad miesiąc temu,14.0,Łódź Górna,ul. Graniczna,Mieszkanie,3,120,True,1 150 000,9 583zł / m²,1150000.0,9583.0
+3573644,https://adresowo.pl/o/mieszkanie-lodz-karolew-ul-cypriana-kamila-norwida-3-pokojowe-i3c9q0,ponad miesiąc temu,10.0,Łódź Karolew,ul. Cypriana Kamila Norwida,Mieszkanie,3,55,True,430 000,7 867zł / m²,430000.0,7867.0
+3572980,https://adresowo.pl/o/mieszkanie-lodz-gorna-ul-wladyslawa-broniewskiego-2-pokojowe-a1y1c2,ponad miesiąc temu,20.0,Łódź Górna,ul. Władysława Broniewskiego,Mieszkanie,2,39,True,390 000,10 000zł / m²,390000.0,10000.0
+3572858,https://adresowo.pl/o/mieszkanie-lodz-baluty-2-pokojowe-47-m2-u7r3w9,ponad miesiąc temu,8.0,Łódź Bałuty,,Mieszkanie,2,47,True,440 000,9 362zł / m²,440000.0,9362.0
+3569916,https://adresowo.pl/o/mieszkanie-lodz-gorna-ul-wladyslawa-broniewskiego-2-pokojowe-f7e3z1,ponad miesiąc temu,21.0,Łódź Górna,ul. Władysława Broniewskiego,Mieszkanie,2,57,True,498 000,8 737zł / m²,498000.0,8737.0
+3569642,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-kpt-stefana-pogonowskiego-3-pokojowe-s5l6e4,ponad miesiąc temu,14.0,Łódź Śródmieście,ul. kpt. Stefana Pogonowskiego,Mieszkanie,3,81,True,690 000,8 519zł / m²,690000.0,8519.0
+3569440,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-lisciasta-2-pokojowe-r2f8w1,ponad miesiąc temu,8.0,Łódź Bałuty,ul. Liściasta,Mieszkanie,2,43,True,405 000,9 436zł / m²,405000.0,9436.0
+3568892,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-andrzeja-struga-3-pokojowe-v2b2g2,ponad miesiąc temu,23.0,Łódź Śródmieście,ul. Andrzeja Struga,Mieszkanie,3,108,True,645 000,5 961zł / m²,645000.0,5961.0
+3568474,https://adresowo.pl/o/mieszkanie-lodz-polesie-ul-zlotno-2-pokojowe-t9d3y6,ponad miesiąc temu,14.0,Łódź Polesie,ul. Złotno,Mieszkanie,2,54,True,719 000,13 315zł / m²,719000.0,13315.0
+3566894,https://adresowo.pl/o/mieszkanie-lodz-widzew-ul-widzewska-2-pokojowe-o6b6j4,ponad miesiąc temu,1.0,Łódź Widzew,ul. Widzewska,Mieszkanie,2,62,True,580 000,9 355zł / m²,580000.0,9355.0
+3566436,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-plk-dr-stanislawa-wieckowskiego-1-pokoj-b9y3q1,ponad miesiąc temu,8.0,Łódź Śródmieście,ul. płk. dr. Stanisława Więckowskiego,Mieszkanie,1,27,True,350 000,12 963zł / m²,350000.0,12963.0
+3565628,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-wierzbowa-2-pokojowe-l2a3g4,ponad miesiąc temu,19.0,Łódź Śródmieście,ul. Wierzbowa,Mieszkanie,2,58,True,580 000,9 916zł / m²,580000.0,9916.0
+3564874,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-dr-adama-prochnika-2-pokojowe-x7x4f8,ponad miesiąc temu,6.0,Łódź Śródmieście,ul. dr. Adama Próchnika,Mieszkanie,2,25,True,230 000,9 200zł / m²,230000.0,9200.0
+3551970,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-zmienna-2-pokojowe-i4c1n8,ponad miesiąc temu,10.0,Łódź Bałuty,ul. Zmienna,Mieszkanie,2,50,True,395 000,7 900zł / m²,395000.0,7900.0
+3563378,https://adresowo.pl/o/mieszkanie-lodz-radogoszcz-ul-okoniowa-2-pokojowe-c6m8o4,ponad miesiąc temu,7.0,Łódź Radogoszcz,ul. Okoniowa,Mieszkanie,2,65,True,483 000,7 454zł / m²,483000.0,7454.0
+3563226,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-piotrkowska-3-pokojowe-i9x3t7,ponad miesiąc temu,9.0,Łódź Śródmieście,ul. Piotrkowska,Mieszkanie,3,71,True,569 000,8 054zł / m²,569000.0,8054.0
+3563122,https://adresowo.pl/o/mieszkanie-lodz-retkinia-ul-janusza-kusocinskiego-2-pokojowe-d5d0y9,ponad miesiąc temu,13.0,Łódź Retkinia,ul. Janusza Kusocińskiego,Mieszkanie,2,42,True,380 000,8 958zł / m²,380000.0,8958.0
+3562392,https://adresowo.pl/o/mieszkanie-lodz-polesie-3-pokojowe-108-m2-i3s8f4,ponad miesiąc temu,8.0,Łódź Polesie,,Mieszkanie,3,108,True,870 000,8 056zł / m²,870000.0,8056.0
+3542648,https://adresowo.pl/o/mieszkanie-lodz-dabrowa-ul-tatrzanska-2-pokojowe-q8i1m8,ponad miesiąc temu,8.0,Łódź Dąbrowa,ul. Tatrzańska,Mieszkanie,2,38,True,279 000,7 342zł / m²,279000.0,7342.0
+3561116,https://adresowo.pl/o/mieszkanie-lodz-dabrowa-ul-wyzsza-2-pokojowe-q7t5l4,ponad miesiąc temu,14.0,Łódź Dąbrowa,ul. Wyższa,Mieszkanie,2,40,True,312 000,7 800zł / m²,312000.0,7800.0
+3560882,https://adresowo.pl/o/mieszkanie-lodz-widzew-ul-mieczyslawy-cwiklinskiej-2-pokojowe-u9n6k7,ponad miesiąc temu,26.0,Łódź Widzew,ul. Mieczysławy Ćwiklińskiej,Mieszkanie,2,52,True,479 000,9 229zł / m²,479000.0,9229.0
+3556680,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-wroclawska-3-pokojowe-e9d3z2,ponad miesiąc temu,8.0,Łódź Śródmieście,ul. Wrocławska,Mieszkanie,3,53,True,530 000,10 000zł / m²,530000.0,10000.0
+3556200,https://adresowo.pl/o/mieszkanie-lodz-widzew-3-pokojowe-48-m2-c2c9u8,ponad miesiąc temu,8.0,Łódź Widzew,,Mieszkanie,3,48,True,439 000,9 146zł / m²,439000.0,9146.0
+3551538,https://adresowo.pl/o/mieszkanie-lodz-gorna-ul-stefana-rogozinskiego-2-pokojowe-r6j4a1,ponad miesiąc temu,9.0,Łódź Górna,ul. Stefana Rogozińskiego,Mieszkanie,2,52,True,626 040,12 000zł / m²,626040.0,12000.0
+3551150,https://adresowo.pl/o/mieszkanie-lodz-dabrowa-ul-deotymy-2-pokojowe-y0d5x0,ponad miesiąc temu,20.0,Łódź Dąbrowa,ul. Deotymy,Mieszkanie,2,38,True,347 900,9 277zł / m²,347900.0,9277.0
+3549996,https://adresowo.pl/o/mieszkanie-lodz-baluty-2-pokojowe-52-m2-q3f2g0,ponad miesiąc temu,17.0,Łódź Bałuty,,Mieszkanie,2,52,True,389 000,7 452zł / m²,389000.0,7452.0
+3549718,https://adresowo.pl/o/mieszkanie-lodz-polesie-ul-walerego-wroblewskiego-1-pokoj-a9c2l8,ponad miesiąc temu,7.0,Łódź Polesie,ul. Walerego Wróblewskiego,Mieszkanie,1,12,True,143 000,11 779zł / m²,143000.0,11779.0
+3549662,https://adresowo.pl/o/mieszkanie-lodz-polesie-2-pokojowe-43-m2-y6i8t0,ponad miesiąc temu,2.0,Łódź Polesie,,Mieszkanie,2,43,True,359 000,8 349zł / m²,359000.0,8349.0
+3549490,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-boya-zelenskiego-1-pokoj-f2d2t9,ponad miesiąc temu,8.0,Łódź Śródmieście,ul. Boya-Żeleńskiego,Mieszkanie,1,23,True,229 000,9 957zł / m²,229000.0,9957.0
+3548758,https://adresowo.pl/o/mieszkanie-lodz-marysin-ul-mjr-henryka-sucharskiego-2-pokojowe-h7v8d4,ponad miesiąc temu,13.0,Łódź Marysin,ul. mjr. Henryka Sucharskiego,Mieszkanie,2,42,True,289 500,6 893zł / m²,289500.0,6893.0
+3546844,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-pomorska-2-pokojowe-m8a5d7,ponad miesiąc temu,8.0,Łódź Śródmieście,ul. Pomorska,Mieszkanie,2,49,True,499 000,10 217zł / m²,499000.0,10217.0
+3546646,https://adresowo.pl/o/mieszkanie-lodz-gorna-ul-grabowa-1-pokoj-b3m8k4,ponad miesiąc temu,15.0,Łódź Górna,ul. Grabowa,Mieszkanie,1,24,True,239 900,9 832zł / m²,239900.0,9832.0
+3546110,https://adresowo.pl/o/mieszkanie-lodz-widzew-ul-beli-bartoka-3-pokojowe-p2e1w5,ponad miesiąc temu,8.0,Łódź Widzew,ul. Beli Bartoka,Mieszkanie,3,63,True,470 000,7 460zł / m²,470000.0,7460.0
+3546102,https://adresowo.pl/o/mieszkanie-lodz-teofilow-2-pokojowe-37-m2-g6i8k7,ponad miesiąc temu,13.0,Łódź Teofilów,,Mieszkanie,2,38,True,315 000,8 360zł / m²,315000.0,8360.0
+3545092,https://adresowo.pl/o/mieszkanie-lodz-julianow-ul-gen-jozefa-bema-2-pokojowe-d4l6g3,ponad miesiąc temu,10.0,Łódź Julianów,ul. gen. Józefa Bema,Mieszkanie,2,59,True,509 000,8 598zł / m²,509000.0,8598.0
+3544956,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-lisciasta-2-pokojowe-m3v6r2,ponad miesiąc temu,8.0,Łódź Bałuty,ul. Liściasta,Mieszkanie,2,58,True,615 000,10 696zł / m²,615000.0,10696.0
+3544054,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-4-pokojowe-151-m2-d8s0q2,ponad miesiąc temu,8.0,Łódź Śródmieście,,Mieszkanie,4,151,True,299 000,1 980zł / m²,299000.0,1980.0
+3543100,https://adresowo.pl/o/mieszkanie-lodz-dabrowa-ul-zbaraska-3-pokojowe-e3c8o6,ponad miesiąc temu,7.0,Łódź Dąbrowa,ul. Zbaraska,Mieszkanie,3,48,True,329 000,6 854zł / m²,329000.0,6854.0
+3537836,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-dowborczykow-2-pokojowe-m5l1q7,ponad miesiąc temu,12.0,Łódź Śródmieście,ul. Dowborczyków,Mieszkanie,2,82,True,600 000,7 317zł / m²,600000.0,7317.0
+3537102,https://adresowo.pl/o/mieszkanie-lodz-polesie-ul-komandorska-2-pokojowe-a7y7a3,ponad miesiąc temu,15.0,Łódź Polesie,ul. Komandorska,Mieszkanie,2,43,True,430 000,9 956zł / m²,430000.0,9956.0
+3529154,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-wincentego-pola-2-pokojowe-k2f9u7,ponad miesiąc temu,18.0,Łódź Bałuty,ul. Wincentego Pola,Mieszkanie,2,44,True,299 000,6 733zł / m²,299000.0,6733.0
+3529044,https://adresowo.pl/o/mieszkanie-lodz-zubardz-ul-mokra-3-pokojowe-j4p4v7,ponad miesiąc temu,19.0,Łódź Żubardź,ul. Mokra,Mieszkanie,3,56,True,870 000,15 467zł / m²,870000.0,15467.0
+3528658,https://adresowo.pl/o/mieszkanie-lodz-teofilow-al-pasjonistow-2-pokojowe-y7x0a4,ponad miesiąc temu,8.0,Łódź Teofilów,al. Pasjonistów,Mieszkanie,2,38,True,255 000,6 711zł / m²,255000.0,6711.0
+3528456,https://adresowo.pl/o/mieszkanie-lodz-olechow-2-pokojowe-44-m2-n5a3h9,ponad miesiąc temu,8.0,Łódź Olechów,,Mieszkanie,2,44,True,470 000,10 586zł / m²,470000.0,10586.0
+3528446,https://adresowo.pl/o/mieszkanie-lodz-stare-polesie-4-pokojowe-101-m2-h1j5f1,ponad miesiąc temu,8.0,Łódź Stare Polesie,,Mieszkanie,4,101,True,590 000,5 842zł / m²,590000.0,5842.0
+3523670,https://adresowo.pl/o/mieszkanie-lodz-polesie-3-pokojowe-53-m2-a2j6c2,ponad miesiąc temu,7.0,Łódź Polesie,,Mieszkanie,3,53,True,390 000,7 358zł / m²,390000.0,7358.0
+3521666,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-boleslawa-limanowskiego-3-pokojowe-p1q0z9,ponad miesiąc temu,8.0,Łódź Bałuty,ul. Bolesława Limanowskiego,Mieszkanie,3,50,True,390 000,7 868zł / m²,390000.0,7868.0
+3520714,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-jana-kilinskiego-2-pokojowe-c8s4w4,ponad miesiąc temu,8.0,Łódź Śródmieście,ul. Jana Kilińskiego,Mieszkanie,2,34,True,369 000,10 853zł / m²,369000.0,10853.0
+3517318,https://adresowo.pl/o/mieszkanie-lodz-polesie-ul-srebrzynska-2-pokojowe-k4w4o9,ponad miesiąc temu,17.0,Łódź Polesie,ul. Srebrzyńska,Mieszkanie,2,39,True,399 000,10 171zł / m²,399000.0,10171.0
+3515736,https://adresowo.pl/o/mieszkanie-lodz-chojny-ul-grazyny-2-pokojowe-s3d0b6,ponad miesiąc temu,14.0,Łódź Chojny,ul. Grażyny,Mieszkanie,2,52,True,550 000,10 577zł / m²,550000.0,10577.0
+3511828,https://adresowo.pl/o/mieszkanie-lodz-2-pokojowe-51-m2-q0f1k8,ponad miesiąc temu,8.0,Łódź,,Mieszkanie,2,51,True,368 000,7 216zł / m²,368000.0,7216.0
+3510194,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-lniana-2-pokojowe-o1s6r5,ponad miesiąc temu,8.0,Łódź Bałuty,ul. Lniana,Mieszkanie,2,38,True,270 000,7 105zł / m²,270000.0,7105.0
+3509850,https://adresowo.pl/o/mieszkanie-lodz-polesie-al-wlokniarzy-2-pokojowe-x5s1z5,ponad miesiąc temu,14.0,Łódź Polesie,al. Włókniarzy,Mieszkanie,2,37,True,289 000,7 769zł / m²,289000.0,7769.0
+3503468,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-prof-bohdana-stefanowskiego-1-pokoj-y0n2e5,ponad miesiąc temu,19.0,Łódź Śródmieście,ul. prof. Bohdana Stefanowskiego,Mieszkanie,1,28,True,386 000,13 786zł / m²,386000.0,13786.0
+3499234,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-wolczanska-2-pokojowe-u1y5n8,ponad miesiąc temu,3.0,Łódź Śródmieście,ul. Wólczańska,Mieszkanie,2,49,True,449 000,9 163zł / m²,449000.0,9163.0
+3498304,https://adresowo.pl/o/mieszkanie-lodz-polesie-ul-sw-jerzego-4-pokojowe-f3p2m0,ponad miesiąc temu,20.0,Łódź Polesie,ul. św. Jerzego,Mieszkanie,4,105,True,610 000,5 810zł / m²,610000.0,5810.0
+3497212,https://adresowo.pl/o/mieszkanie-lodz-gorna-ul-pabianicka-2-pokojowe-u8v2s2,ponad miesiąc temu,13.0,Łódź Górna,ul. Pabianicka,Mieszkanie,2,50,True,450 000,8 970zł / m²,450000.0,8970.0
+3497096,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-kolektywna-2-pokojowe-f2k9y7,ponad miesiąc temu,13.0,Łódź Bałuty,ul. Kolektywna,Mieszkanie,2,51,True,359 000,7 109zł / m²,359000.0,7109.0
+3496660,https://adresowo.pl/o/mieszkanie-lodz-widzew-ul-juliana-tuwima-2-pokojowe-w7m0m0,ponad miesiąc temu,6.0,Łódź Widzew,ul. Juliana Tuwima,Mieszkanie,2,37,True,410 000,11 227zł / m²,410000.0,11227.0
+3493684,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-krawiecka-2-pokojowe-y0v7l7,ponad miesiąc temu,17.0,Łódź Bałuty,ul. Krawiecka,Mieszkanie,2,48,True,372 138,7 800zł / m²,372138.0,7800.0
+3493682,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-zacisze-4-pokojowe-v8k0j3,ponad miesiąc temu,7.0,Łódź Śródmieście,ul. Zacisze,Mieszkanie,4,65,True,509 000,7 831zł / m²,509000.0,7831.0
+3493562,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-lagiewnicka-2-pokojowe-l4w1v0,ponad miesiąc temu,13.0,Łódź Bałuty,ul. Łagiewnicka,Mieszkanie,2,46,True,575 000,12 441zł / m²,575000.0,12441.0
+3486458,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-czestochowska-2-pokojowe-g6v2f4,ponad miesiąc temu,8.0,Łódź Śródmieście,ul. Częstochowska,Mieszkanie,2,58,True,590 000,10 172zł / m²,590000.0,10172.0
+3486358,https://adresowo.pl/o/mieszkanie-lodz-gorna-2-pokojowe-57-m2-w1o1r3,ponad miesiąc temu,8.0,Łódź Górna,,Mieszkanie,2,57,True,380 000,6 667zł / m²,380000.0,6667.0
+3485908,https://adresowo.pl/o/mieszkanie-lodz-gorna-ul-jacka-malczewskiego-4-pokojowe-o1m6n0,ponad miesiąc temu,8.0,Łódź Górna,ul. Jacka Malczewskiego,Mieszkanie,4,64,True,499 000,7 858zł / m²,499000.0,7858.0
+3484762,https://adresowo.pl/o/mieszkanie-lodz-polesie-ul-radwanska-2-pokojowe-p3q5x2,ponad miesiąc temu,3.0,Łódź Polesie,ul. Radwańska,Mieszkanie,2,43,True,349 000,8 177zł / m²,349000.0,8177.0
+3483874,https://adresowo.pl/o/mieszkanie-lodz-polesie-ul-wapienna-1-pokoj-d5y1m0,ponad miesiąc temu,7.0,Łódź Polesie,ul. Wapienna,Mieszkanie,1,37,True,290 000,7 863zł / m²,290000.0,7863.0
+3483238,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-emilii-plater-2-pokojowe-x1f2d3,ponad miesiąc temu,5.0,Łódź Bałuty,ul. Emilii Plater,Mieszkanie,2,45,True,340 000,7 556zł / m²,340000.0,7556.0
+3481376,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-inowroclawska-2-pokojowe-b1l5x4,ponad miesiąc temu,19.0,Łódź Bałuty,ul. Inowrocławska,Mieszkanie,2,38,True,318 000,8 368zł / m²,318000.0,8368.0
+3480008,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-stefana-jaracza-3-pokojowe-t5v8x0,ponad miesiąc temu,16.0,Łódź Śródmieście,ul. Stefana Jaracza,Mieszkanie,3,48,True,420 000,8 750zł / m²,420000.0,8750.0
+3478412,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-powstancow-wielkopolskich-3-pokojowe-d8e0w3,ponad miesiąc temu,12.0,Łódź Bałuty,ul. Powstańców Wielkopolskich,Mieszkanie,3,63,True,564 000,8 952zł / m²,564000.0,8952.0
+3477480,https://adresowo.pl/o/mieszkanie-lodz-widzew-ul-golebia-2-pokojowe-p5l4g9,ponad miesiąc temu,9.0,Łódź Widzew,ul. Gołębia,Mieszkanie,2,37,True,340 000,9 189zł / m²,340000.0,9189.0
+3476736,https://adresowo.pl/o/mieszkanie-lodz-dabrowa-ul-alojzego-felinskiego-2-pokojowe-c7x7y6,ponad miesiąc temu,8.0,Łódź Dąbrowa,ul. Alojzego Felińskiego,Mieszkanie,2,42,True,290 000,6 905zł / m²,290000.0,6905.0
+3476724,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-fabryczna-1-pokoj-o0r9h6,ponad miesiąc temu,6.0,Łódź Śródmieście,ul. Fabryczna,Mieszkanie,1,23,True,195 000,8 478zł / m²,195000.0,8478.0
+3459616,https://adresowo.pl/o/mieszkanie-lodz-dabrowa-ul-wladyslawa-broniewskiego-2-pokojowe-o0h2x6,ponad miesiąc temu,7.0,Łódź Dąbrowa,ul. Władysława Broniewskiego,Mieszkanie,2,40,True,330 000,8 352zł / m²,330000.0,8352.0
+3473408,https://adresowo.pl/o/mieszkanie-lodz-polesie-ul-prezydenta-gabriela-narutowicza-2-pokojowe-s2u5d7,ponad miesiąc temu,8.0,Łódź Polesie,ul. Prezydenta Gabriela Narutowicza,Mieszkanie,2,43,True,387 000,9 000zł / m²,387000.0,9000.0
+3473132,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-prezydenta-gabriela-narutowicza-2-pokojowe-t7o3v1,ponad miesiąc temu,8.0,Łódź Śródmieście,ul. Prezydenta Gabriela Narutowicza,Mieszkanie,2,43,True,550 000,12 791zł / m²,550000.0,12791.0
+3472148,https://adresowo.pl/o/mieszkanie-lodz-olechow-ul-leszka-bialego-3-pokojowe-c7j8x1,ponad miesiąc temu,20.0,Łódź Olechów,ul. Leszka Białego,Mieszkanie,3,62,True,680 000,10 971zł / m²,680000.0,10971.0
+3471314,https://adresowo.pl/o/mieszkanie-lodz-retkinia-ul-maratonska-3-pokojowe-z7a7t6,ponad miesiąc temu,20.0,Łódź Retkinia,ul. Maratońska,Mieszkanie,3,57,True,769 000,13 477zł / m²,769000.0,13477.0
+3468602,https://adresowo.pl/o/mieszkanie-lodz-gorna-ul-krucza-2-pokojowe-t9c6r2,ponad miesiąc temu,5.0,Łódź Górna,ul. Krucza,Mieszkanie,2,28,True,262 000,9 527zł / m²,262000.0,9527.0
+3466000,https://adresowo.pl/o/mieszkanie-lodz-widzew-ul-andrzeja-sacharowa-2-pokojowe-q8t1d2,ponad miesiąc temu,8.0,Łódź Widzew,ul. Andrzeja Sacharowa,Mieszkanie,2,46,True,369 000,8 017zł / m²,369000.0,8017.0
+3463978,https://adresowo.pl/o/mieszkanie-lodz-gorna-ul-waleriana-lukasinskiego-3-pokojowe-r6l7o1,ponad miesiąc temu,20.0,Łódź Górna,ul. Waleriana Łukasińskiego,Mieszkanie,3,97,True,1 350 000,13 880zł / m²,1350000.0,13880.0
+3463588,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-tylna-3-pokojowe-l2h0j5,ponad miesiąc temu,8.0,Łódź Śródmieście,ul. Tylna,Mieszkanie,3,62,True,730 000,11 810zł / m²,730000.0,11810.0
+3463128,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-henryka-sienkiewicza-2-pokojowe-x9f3s4,ponad miesiąc temu,20.0,Łódź Śródmieście,ul. Henryka Sienkiewicza,Mieszkanie,2,46,True,299 000,6 527zł / m²,299000.0,6527.0
+3462820,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-czestochowska-2-pokojowe-g5h8m6,ponad miesiąc temu,8.0,Łódź Śródmieście,ul. Częstochowska,Mieszkanie,2,47,True,550 000,11 702zł / m²,550000.0,11702.0
+3460298,https://adresowo.pl/o/mieszkanie-lodz-baluty-2-pokojowe-53-m2-p7n4p8,ponad miesiąc temu,3.0,Łódź Bałuty,,Mieszkanie,2,53,True,300 000,5 660zł / m²,300000.0,5660.0
+3449668,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-lagiewnicka-2-pokojowe-y0u8h5,ponad miesiąc temu,18.0,Łódź Bałuty,ul. Łagiewnicka,Mieszkanie,2,53,True,430 000,8 189zł / m²,430000.0,8189.0
+3457256,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-plk-dr-stanislawa-wieckowskiego-1-pokoj-h8u4p4,ponad miesiąc temu,15.0,Łódź Śródmieście,ul. płk. dr. Stanisława Więckowskiego,Mieszkanie,1,43,True,257 500,5 988zł / m²,257500.0,5988.0
+3452244,https://adresowo.pl/o/mieszkanie-lodz-widzew-ul-sarnia-4-pokojowe-i0b5s9,ponad miesiąc temu,8.0,Łódź Widzew,ul. Sarnia,Mieszkanie,4,121,True,1 270 000,10 496zł / m²,1270000.0,10496.0
+3452092,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-piotrkowska-2-pokojowe-l8s8n9,ponad miesiąc temu,8.0,Łódź Śródmieście,ul. Piotrkowska,Mieszkanie,2,47,True,380 000,8 085zł / m²,380000.0,8085.0
+3451904,https://adresowo.pl/o/mieszkanie-lodz-gorna-ul-podmiejska-2-pokojowe-e4k9f6,ponad miesiąc temu,7.0,Łódź Górna,ul. Podmiejska,Mieszkanie,2,66,True,418 000,6 372zł / m²,418000.0,6372.0
+3451288,https://adresowo.pl/o/mieszkanie-lodz-widzew-ul-fabryczna-2-pokojowe-l1t3j9,ponad miesiąc temu,14.0,Łódź Widzew,ul. Fabryczna,Mieszkanie,2,63,True,550 000,8 730zł / m²,550000.0,8730.0
+3440946,https://adresowo.pl/o/mieszkanie-lodz-baluty-3-pokojowe-46-m2-x7w5w0,ponad miesiąc temu,11.0,Łódź Bałuty,,Mieszkanie,3,46,True,559 000,12 076zł / m²,559000.0,12076.0
+3431950,https://adresowo.pl/o/mieszkanie-lodz-widzew-ul-juliana-tuwima-1-pokoj-w5y8y8,ponad miesiąc temu,3.0,Łódź Widzew,ul. Juliana Tuwima,Mieszkanie,1,27,True,337 020,12 300zł / m²,337020.0,12300.0
+3431174,https://adresowo.pl/o/mieszkanie-lodz-gorna-ul-choralna-1-pokoj-r6f7c8,ponad miesiąc temu,6.0,Łódź Górna,ul. Chóralna,Mieszkanie,1,35,True,285 000,8 143zł / m²,285000.0,8143.0
+3429040,https://adresowo.pl/o/mieszkanie-lodz-radiostacja-ul-stanislawa-malachowskiego-2-pokojowe-f2v0f6,ponad miesiąc temu,8.0,Łódź Radiostacja,ul. Stanisława Małachowskiego,Mieszkanie,2,75,True,900 000,12 000zł / m²,900000.0,12000.0
+3428162,https://adresowo.pl/o/mieszkanie-lodz-chojny-ul-potulna-3-pokojowe-y7c7g8,ponad miesiąc temu,14.0,Łódź Chojny,ul. Potulna,Mieszkanie,3,62,True,415 000,6 694zł / m²,415000.0,6694.0
+3428044,https://adresowo.pl/o/mieszkanie-lodz-chojny-ul-emilii-sczanieckiej-4-pokojowe-x4z6p8,ponad miesiąc temu,11.0,Łódź Chojny,ul. Emilii Sczanieckiej,Mieszkanie,4,96,True,730 000,7 595zł / m²,730000.0,7595.0
+3427976,https://adresowo.pl/o/mieszkanie-lodz-romanow-2-pokojowe-56-m2-a6g5x6,ponad miesiąc temu,8.0,Łódź Romanów,,Mieszkanie,2,56,True,545 000,9 732zł / m²,545000.0,9732.0
+3420836,https://adresowo.pl/o/mieszkanie-lodz-polesie-ul-retkinska-4-pokojowe-q4f6j2,ponad miesiąc temu,9.0,Łódź Polesie,ul. Retkińska,Mieszkanie,4,64,True,460 000,7 235zł / m²,460000.0,7235.0
+3421284,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-juliana-tuwima-2-pokojowe-v2i7j6,ponad miesiąc temu,3.0,Łódź Śródmieście,ul. Juliana Tuwima,Mieszkanie,2,46,True,441 275,9 500zł / m²,441275.0,9500.0
+3419906,https://adresowo.pl/o/mieszkanie-lodz-andrzejow-ul-macieja-rataja-4-pokojowe-q9k2u1,ponad miesiąc temu,20.0,Łódź Andrzejów,ul. Macieja Rataja,Mieszkanie,4,82,True,999 000,12 183zł / m²,999000.0,12183.0
+3417864,https://adresowo.pl/o/mieszkanie-lodz-gorna-ul-kurczaki-3-pokojowe-t0h0o8,ponad miesiąc temu,4.0,Łódź Górna,ul. Kurczaki,Mieszkanie,3,81,True,850 000,10 494zł / m²,850000.0,10494.0
+3415150,https://adresowo.pl/o/mieszkanie-lodz-widzew-ul-juliana-tuwima-1-pokoj-e8m2x3,ponad miesiąc temu,8.0,Łódź Widzew,ul. Juliana Tuwima,Mieszkanie,1,37,True,350 000,9 465zł / m²,350000.0,9465.0
+3412500,https://adresowo.pl/o/mieszkanie-lodz-polesie-ul-legionow-1-pokoj-g9m1a5,ponad miesiąc temu,6.0,Łódź Polesie,ul. Legionów,Mieszkanie,1,16,True,160 000,10 323zł / m²,160000.0,10323.0
+3411336,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-pojezierska-3-pokojowe-j5i9k3,ponad miesiąc temu,9.0,Łódź Bałuty,ul. Pojezierska,Mieszkanie,3,58,True,390 000,6 724zł / m²,390000.0,6724.0
+3410034,https://adresowo.pl/o/mieszkanie-lodz-dabrowa-ul-wincentego-kadlubka-2-pokojowe-p0c8n0,ponad miesiąc temu,5.0,Łódź Dąbrowa,ul. Wincentego Kadłubka,Mieszkanie,2,41,True,329 000,8 024zł / m²,329000.0,8024.0
+3409634,https://adresowo.pl/o/mieszkanie-lodz-gorna-ul-debowa-2-pokojowe-b3z1r4,ponad miesiąc temu,19.0,Łódź Górna,ul. Dębowa,Mieszkanie,2,50,True,670 000,13 400zł / m²,670000.0,13400.0
+3409532,https://adresowo.pl/o/mieszkanie-lodz-polesie-2-pokojowe-52-m2-y3x6j3,ponad miesiąc temu,14.0,Łódź Polesie,,Mieszkanie,2,53,True,440 000,8 308zł / m²,440000.0,8308.0
+3409280,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-tomasza-judyma-2-pokojowe-e9z7u9,ponad miesiąc temu,7.0,Łódź Bałuty,ul. Tomasza Judyma,Mieszkanie,2,45,True,360 000,8 000zł / m²,360000.0,8000.0
+3405378,https://adresowo.pl/o/mieszkanie-lodz-zubardz-ul-lutomierska-2-pokojowe-y2f5x8,ponad miesiąc temu,9.0,Łódź Żubardź,ul. Lutomierska,Mieszkanie,2,42,True,360 000,8 571zł / m²,360000.0,8571.0
+3403556,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-zabia-2-pokojowe-e4p4j6,ponad miesiąc temu,8.0,Łódź Bałuty,ul. Żabia,Mieszkanie,2,40,True,389 000,9 725zł / m²,389000.0,9725.0
+3402698,https://adresowo.pl/o/mieszkanie-lodz-dabrowa-ul-juliusza-kossaka-3-pokojowe-c4o7r3,ponad miesiąc temu,1.0,Łódź Dąbrowa,ul. Juliusza Kossaka,Mieszkanie,3,47,True,330 000,7 021zł / m²,330000.0,7021.0
+3401744,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-lniana-1-pokoj-x3u1o5,ponad miesiąc temu,25.0,Łódź Bałuty,ul. Lniana,Mieszkanie,1,27,True,299 000,11 074zł / m²,299000.0,11074.0
+3399508,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-piotrkowska-2-pokojowe-k7q4s9,ponad miesiąc temu,9.0,Łódź Śródmieście,ul. Piotrkowska,Mieszkanie,2,41,True,350 000,8 503zł / m²,350000.0,8503.0
+3397778,https://adresowo.pl/o/mieszkanie-lodz-teofilow-ul-rojna-3-pokojowe-c0r8r8,ponad miesiąc temu,14.0,Łódź Teofilów,ul. Rojna,Mieszkanie,3,57,True,490 000,8 596zł / m²,490000.0,8596.0
+3394026,https://adresowo.pl/o/mieszkanie-lodz-polesie-ul-lipowa-4-pokojowe-s6y6o7,ponad miesiąc temu,10.0,Łódź Polesie,ul. Lipowa,Mieszkanie,4,65,True,520 000,8 000zł / m²,520000.0,8000.0
+3393542,https://adresowo.pl/o/mieszkanie-lodz-gorna-ul-poli-gojawiczynskiej-2-pokojowe-l6b4b6,ponad miesiąc temu,8.0,Łódź Górna,ul. Poli Gojawiczyńskiej,Mieszkanie,2,44,True,310 000,7 045zł / m²,310000.0,7045.0
+3339674,https://adresowo.pl/o/mieszkanie-lodz-baluty-al-chryzantem-2-pokojowe-s3m8t4,ponad miesiąc temu,8.0,Łódź Bałuty,al. Chryzantem,Mieszkanie,2,60,True,385 000,6 417zł / m²,385000.0,6417.0
+3391646,https://adresowo.pl/o/mieszkanie-lodz-ul-piotrkowska-4-pokojowe-m8o4o3,ponad miesiąc temu,6.0,Łódź,ul. Piotrkowska,Mieszkanie,4,80,True,700 000,8 750zł / m²,700000.0,8750.0
+3387162,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-marcina-kasprzaka-1-pokoj-r9p8u7,ponad miesiąc temu,8.0,Łódź Bałuty,ul. Marcina Kasprzaka,Mieszkanie,1,27,True,225 000,8 333zł / m²,225000.0,8333.0
+3385598,https://adresowo.pl/o/mieszkanie-lodz-widzew-ul-mikolaja-gogola-3-pokojowe-m2h7d0,ponad miesiąc temu,16.0,Łódź Widzew,ul. Mikołaja Gogola,Mieszkanie,3,55,True,450 000,8 233zł / m²,450000.0,8233.0
+3371898,https://adresowo.pl/o/mieszkanie-lodz-polesie-ul-zielona-3-pokojowe-u6s8a2,ponad miesiąc temu,8.0,Łódź Polesie,ul. Zielona,Mieszkanie,3,75,True,380 000,5 080zł / m²,380000.0,5080.0
+3369804,https://adresowo.pl/o/mieszkanie-lodz-gorna-3-pokojowe-84-m2-y0z4c0,ponad miesiąc temu,9.0,Łódź Górna,,Mieszkanie,3,85,True,595 000,7 028zł / m²,595000.0,7028.0
+3369510,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-pomorska-2-pokojowe-a5h0y1,ponad miesiąc temu,1.0,Łódź Śródmieście,ul. Pomorska,Mieszkanie,2,62,True,299 000,4 852zł / m²,299000.0,4852.0
+3369240,https://adresowo.pl/o/mieszkanie-lodz-widzew-ul-mjr-jana-piwnika-ponurego-7-pokojowe-o5t2f9,ponad miesiąc temu,21.0,Łódź Widzew,"ul. mjr. Jana Piwnika ""Ponurego""",Mieszkanie,7,180,True,1 295 000,7 194zł / m²,1295000.0,7194.0
+3366664,https://adresowo.pl/o/mieszkanie-lodz-baluty-3-pokojowe-100-m2-j2x2e4,ponad miesiąc temu,8.0,Łódź Bałuty,,Mieszkanie,3,100,True,890 000,8 900zł / m²,890000.0,8900.0
+3366402,https://adresowo.pl/o/mieszkanie-lodz-baluty-2-pokojowe-33-m2-d4r1t9,ponad miesiąc temu,10.0,Łódź Bałuty,,Mieszkanie,2,34,True,319 500,9 509zł / m²,319500.0,9509.0
+3361192,https://adresowo.pl/o/mieszkanie-lodz-polesie-ul-obywatelska-2-pokojowe-v9v0x0,ponad miesiąc temu,7.0,Łódź Polesie,ul. Obywatelska,Mieszkanie,2,41,True,384 804,9 450zł / m²,384804.0,9450.0
+3359118,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-urzednicza-2-pokojowe-l5c5a3,ponad miesiąc temu,3.0,Łódź Bałuty,ul. Urzędnicza,Mieszkanie,2,55,True,275 000,4 984zł / m²,275000.0,4984.0
+3347800,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-romanowska-2-pokojowe-b9q8j6,ponad miesiąc temu,16.0,Łódź Bałuty,ul. Romanowska,Mieszkanie,2,56,True,520 000,9 286zł / m²,520000.0,9286.0
+3345284,https://adresowo.pl/o/mieszkanie-lodz-widzew-ul-andrzeja-kerna-3-pokojowe-z0b6u4,ponad miesiąc temu,8.0,Łódź Widzew,ul. Andrzeja Kerna,Mieszkanie,3,63,True,670 000,10 635zł / m²,670000.0,10635.0
+3344138,https://adresowo.pl/o/mieszkanie-lodz-zarzew-ul-mjr-eugeniusza-nurta-kaszynskiego-2-pokojowe-o0l4e2,ponad miesiąc temu,11.0,Łódź Zarzew,ul. mjr. Eugeniusza Nurta-Kaszyńskiego,Mieszkanie,2,50,True,399 000,7 980zł / m²,399000.0,7980.0
+3335358,https://adresowo.pl/o/mieszkanie-lodz-gorna-ul-wladyslawa-broniewskiego-3-pokojowe-s8l8y8,ponad miesiąc temu,8.0,Łódź Górna,ul. Władysława Broniewskiego,Mieszkanie,3,52,True,420 000,8 077zł / m²,420000.0,8077.0
+3331438,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-warminska-3-pokojowe-g9l3o7,ponad miesiąc temu,6.0,Łódź Bałuty,ul. Warmińska,Mieszkanie,3,57,True,530 000,9 357zł / m²,530000.0,9357.0
+3322934,https://adresowo.pl/o/mieszkanie-lodz-dabrowa-ul-juliusza-kossaka-3-pokojowe-m0d1j5,ponad miesiąc temu,4.0,Łódź Dąbrowa,ul. Juliusza Kossaka,Mieszkanie,3,48,True,348 000,7 250zł / m²,348000.0,7250.0
+3316812,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-4-pokojowe-93-m2-w3f0r9,ponad miesiąc temu,7.0,Łódź Śródmieście,,Mieszkanie,4,93,True,550 000,5 914zł / m²,550000.0,5914.0
+3316708,https://adresowo.pl/o/mieszkanie-lodz-widzew-ul-olenki-billewiczowny-2-pokojowe-c7j7v8,ponad miesiąc temu,8.0,Łódź Widzew,ul. Oleńki Billewiczówny,Mieszkanie,2,54,True,560 000,10 370zł / m²,560000.0,10370.0
+3310016,https://adresowo.pl/o/mieszkanie-lodz-radogoszcz-ul-lososiowa-4-pokojowe-o3o3x1,ponad miesiąc temu,10.0,Łódź Radogoszcz,ul. Łososiowa,Mieszkanie,4,84,True,650 000,7 738zł / m²,650000.0,7738.0
+3308550,https://adresowo.pl/o/mieszkanie-lodz-dabrowa-2-pokojowe-36-m2-y0c1s0,ponad miesiąc temu,8.0,Łódź Dąbrowa,,Mieszkanie,2,36,True,275 000,7 639zł / m²,275000.0,7639.0
+3307448,https://adresowo.pl/o/mieszkanie-lodz-teofilow-ul-wici-2-pokojowe-e1j9k3,ponad miesiąc temu,11.0,Łódź Teofilów,ul. Wici,Mieszkanie,2,45,True,415 000,9 202zł / m²,415000.0,9202.0
+3303388,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-piotrkowska-2-pokojowe-w4z2j5,ponad miesiąc temu,20.0,Łódź Śródmieście,ul. Piotrkowska,Mieszkanie,2,70,True,770 000,11 000zł / m²,770000.0,11000.0
+3303292,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-rojna-2-pokojowe-p2s7u3,ponad miesiąc temu,12.0,Łódź Bałuty,ul. Rojna,Mieszkanie,2,37,True,299 000,8 048zł / m²,299000.0,8048.0
+3299810,https://adresowo.pl/o/mieszkanie-lodz-polesie-ul-6-sierpnia-1-pokoj-e7y1l0,ponad miesiąc temu,7.0,Łódź Polesie,ul. 6 Sierpnia,Mieszkanie,1,27,True,280 000,10 370zł / m²,280000.0,10370.0
+3194024,https://adresowo.pl/o/mieszkanie-lodz-koziny-ul-gorna-3-pokojowe-n8z0x0,ponad miesiąc temu,1.0,Łódź Koziny,ul. Górna,Mieszkanie,3,60,True,150 000,2 513zł / m²,150000.0,2513.0
+3293916,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-grabieniec-2-pokojowe-j9o8j3,ponad miesiąc temu,10.0,Łódź Bałuty,ul. Grabieniec,Mieszkanie,2,47,True,348 000,7 476zł / m²,348000.0,7476.0
+3293574,https://adresowo.pl/o/mieszkanie-lodz-radogoszcz-ul-zgierska-2-pokojowe-x7w1a7,ponad miesiąc temu,14.0,Łódź Radogoszcz,ul. Zgierska,Mieszkanie,2,49,True,390 000,7 927zł / m²,390000.0,7927.0
+3289384,https://adresowo.pl/o/mieszkanie-lodz-zubardz-ul-zubardzka-2-pokojowe-z5z3o0,ponad miesiąc temu,8.0,Łódź Żubardź,ul. Żubardzka,Mieszkanie,2,46,True,294 000,6 462zł / m²,294000.0,6462.0
+3282664,https://adresowo.pl/o/mieszkanie-lodz-polesie-ul-pomorska-3-pokojowe-b7f0h6,ponad miesiąc temu,10.0,Łódź Polesie,ul. Pomorska,Mieszkanie,3,74,True,379 999,5 135zł / m²,379999.0,5135.0
+3276468,https://adresowo.pl/o/mieszkanie-lodz-widzew-ul-andrzeja-kerna-3-pokojowe-a5i8z6,ponad miesiąc temu,13.0,Łódź Widzew,ul. Andrzeja Kerna,Mieszkanie,3,57,True,798 840,14 000zł / m²,798840.0,14000.0
+3275806,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-jana-kilinskiego-1-pokoj-d3w8c5,ponad miesiąc temu,9.0,Łódź Śródmieście,ul. Jana Kilińskiego,Mieszkanie,1,27,True,329 000,12 415zł / m²,329000.0,12415.0
+3274684,https://adresowo.pl/o/mieszkanie-lodz-teofilow-ul-rojna-2-pokojowe-w9m0u3,ponad miesiąc temu,8.0,Łódź Teofilów,ul. Rojna,Mieszkanie,2,45,True,300 000,6 667zł / m²,300000.0,6667.0
+3267164,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-nowomiejska-1-pokoj-r6c5e5,ponad miesiąc temu,1.0,Łódź Śródmieście,ul. Nowomiejska,Mieszkanie,1,40,True,260 000,6 423zł / m²,260000.0,6423.0
+3261096,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-lagiewnicka-3-pokojowe-o2j7v9,ponad miesiąc temu,10.0,Łódź Bałuty,ul. Łagiewnicka,Mieszkanie,3,65,True,530 000,8 154zł / m²,530000.0,8154.0
+3257640,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-prof-bohdana-stefanowskiego-1-pokoj-m4m7k9,ponad miesiąc temu,15.0,Łódź Śródmieście,ul. prof. Bohdana Stefanowskiego,Mieszkanie,1,40,True,386 000,9 650zł / m²,386000.0,9650.0
+3257614,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-prof-bohdana-stefanowskiego-1-pokoj-y6v4z2,ponad miesiąc temu,18.0,Łódź Śródmieście,ul. prof. Bohdana Stefanowskiego,Mieszkanie,1,28,True,386 000,13 786zł / m²,386000.0,13786.0
+3256096,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-plk-dr-stanislawa-wieckowskiego-2-pokojowe-v4j5m4,ponad miesiąc temu,8.0,Łódź Śródmieście,ul. płk. dr. Stanisława Więckowskiego,Mieszkanie,2,63,True,480 000,7 619zł / m²,480000.0,7619.0
+3255624,https://adresowo.pl/o/mieszkanie-lodz-polesie-ul-srebrzynska-4-pokojowe-p6t1p2,ponad miesiąc temu,4.0,Łódź Polesie,ul. Srebrzyńska,Mieszkanie,4,84,True,999 000,11 846zł / m²,999000.0,11846.0
+3251658,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-juliana-tuwima-2-pokojowe-w1s3b7,ponad miesiąc temu,5.0,Łódź Śródmieście,ul. Juliana Tuwima,Mieszkanie,2,62,True,299 000,4 862zł / m²,299000.0,4862.0
+3249644,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-switezianki-4-pokojowe-r3f5y7,ponad miesiąc temu,12.0,Łódź Bałuty,ul. Świtezianki,Mieszkanie,4,95,True,789 000,8 305zł / m²,789000.0,8305.0
+3247394,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-al-tadeusza-kosciuszki-2-pokojowe-k8i1q9,ponad miesiąc temu,11.0,Łódź Śródmieście,al. Tadeusza Kościuszki,Mieszkanie,2,54,True,478 000,8 852zł / m²,478000.0,8852.0
+3247142,https://adresowo.pl/o/mieszkanie-lodz-gorna-ul-ogniskowa-3-pokojowe-h8n9m6,ponad miesiąc temu,18.0,Łódź Górna,ul. Ogniskowa,Mieszkanie,3,64,True,510 000,7 969zł / m²,510000.0,7969.0
+3237814,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-edwarda-abramowskiego-1-pokoj-w0e4p3,ponad miesiąc temu,4.0,Łódź Śródmieście,ul. Edwarda Abramowskiego,Mieszkanie,1,16,True,165 000,10 313zł / m²,165000.0,10313.0
+3236712,https://adresowo.pl/o/mieszkanie-lodz-olechow-3-pokojowe-70-m2-g4x2q8,ponad miesiąc temu,8.0,Łódź Olechów,,Mieszkanie,3,70,True,869 000,12 414zł / m²,869000.0,12414.0
+3206118,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-andrzeja-struga-5-pokojowe-k0n4l5,ponad miesiąc temu,20.0,Łódź Śródmieście,ul. Andrzeja Struga,Mieszkanie,5,141,True,1 190 000,8 422zł / m²,1190000.0,8422.0
+3204138,https://adresowo.pl/o/mieszkanie-lodz-widzew-ul-andrzeja-kerna-3-pokojowe-w8h6y1,ponad miesiąc temu,7.0,Łódź Widzew,ul. Andrzeja Kerna,Mieszkanie,3,63,True,672 000,10 667zł / m²,672000.0,10667.0
+3199180,https://adresowo.pl/o/mieszkanie-lodz-widzew-ul-wodna-4-pokojowe-h4p2q0,ponad miesiąc temu,7.0,Łódź Widzew,ul. Wodna,Mieszkanie,4,64,True,625 000,9 735zł / m²,625000.0,9735.0
+3197302,https://adresowo.pl/o/mieszkanie-lodz-gorna-ul-slowianska-1-pokoj-x3r5r2,ponad miesiąc temu,27.0,Łódź Górna,ul. Słowiańska,Mieszkanie,1,37,True,300 000,8 108zł / m²,300000.0,8108.0
+3190740,https://adresowo.pl/o/mieszkanie-lodz-baluty-ul-org-wolnosc-i-niezawislosc-3-pokojowe-n3y3y6,ponad miesiąc temu,20.0,Łódź Bałuty,"ul. Org. ""Wolność i Niezawisłość""",Mieszkanie,3,80,True,869 000,10 806zł / m²,869000.0,10806.0
+3177772,https://adresowo.pl/o/mieszkanie-lodz-polesie-ul-walerego-wroblewskiego-1-pokoj-g6y3s8,ponad miesiąc temu,7.0,Łódź Polesie,ul. Walerego Wróblewskiego,Mieszkanie,1,35,True,315 000,8 967zł / m²,315000.0,8967.0
+3164784,https://adresowo.pl/o/mieszkanie-lodz-dabrowa-2-pokojowe-36-m2-s9o9h9,ponad miesiąc temu,9.0,Łódź Dąbrowa,,Mieszkanie,2,36,True,260 000,7 222zł / m²,260000.0,7222.0
+3152212,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-piotrkowska-3-pokojowe-i8j2w9,ponad miesiąc temu,19.0,Łódź Śródmieście,ul. Piotrkowska,Mieszkanie,3,75,True,996 000,13 282zł / m²,996000.0,13282.0
+3144632,https://adresowo.pl/o/mieszkanie-lodz-widzew-ul-kresowa-2-pokojowe-w3l2j7,ponad miesiąc temu,19.0,Łódź Widzew,ul. Kresowa,Mieszkanie,2,48,True,590 000,12 253zł / m²,590000.0,12253.0
+3143076,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-piotrkowska-2-pokojowe-u4h0x3,ponad miesiąc temu,14.0,Łódź Śródmieście,ul. Piotrkowska,Mieszkanie,2,32,True,279 000,8 857zł / m²,279000.0,8857.0
+3142706,https://adresowo.pl/o/mieszkanie-lodz-teofilow-2-pokojowe-45-m2-k5l1y5,ponad miesiąc temu,1.0,Łódź Teofilów,,Mieszkanie,2,45,True,435 000,9 667zł / m²,435000.0,9667.0
+3134054,https://adresowo.pl/o/mieszkanie-lodz-gorna-ul-krucza-1-pokoj-j0l1i6,ponad miesiąc temu,8.0,Łódź Górna,ul. Krucza,Mieszkanie,1,10,True,119 500,11 950zł / m²,119500.0,11950.0
+3121988,https://adresowo.pl/o/mieszkanie-lodz-widzew-ul-skalna-1-pokoj-a7b5q5,ponad miesiąc temu,17.0,Łódź Widzew,ul. Skalna,Mieszkanie,1,25,True,235 000,9 400zł / m²,235000.0,9400.0
+3111282,https://adresowo.pl/o/mieszkanie-lodz-gorna-ul-podgorna-3-pokojowe-n1q6x1,ponad miesiąc temu,20.0,Łódź Górna,ul. Podgórna,Mieszkanie,3,57,True,479 000,8 361zł / m²,479000.0,8361.0
+3094990,https://adresowo.pl/o/mieszkanie-lodz-stoki-3-pokojowe-83-m2-h3t6n3,ponad miesiąc temu,8.0,Łódź Stoki,,Mieszkanie,3,83,True,549 000,6 614zł / m²,549000.0,6614.0
+3085484,https://adresowo.pl/o/mieszkanie-lodz-julianow-2-pokojowe-37-m2-e8i5p2,ponad miesiąc temu,8.0,Łódź Julianów,,Mieszkanie,2,37,True,280 000,7 568zł / m²,280000.0,7568.0
+3072888,https://adresowo.pl/o/mieszkanie-lodz-ul-walowa-3-pokojowe-y3w0h0,ponad miesiąc temu,11.0,Łódź,ul. Wałowa,Mieszkanie,3,70,True,790 000,11 365zł / m²,790000.0,11365.0
+3062126,https://adresowo.pl/o/mieszkanie-lodz-karolew-ul-wioslarska-4-pokojowe-t5v7g9,ponad miesiąc temu,1.0,Łódź Karolew,ul. Wioślarska,Mieszkanie,4,81,True,499 000,6 160zł / m²,499000.0,6160.0
+3060064,https://adresowo.pl/o/mieszkanie-lodz-dabrowa-ul-juliusza-kossaka-2-pokojowe-l8z0v5,ponad miesiąc temu,12.0,Łódź Dąbrowa,ul. Juliusza Kossaka,Mieszkanie,2,37,True,377 000,10 189zł / m²,377000.0,10189.0
+3055332,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-6-sierpnia-3-pokojowe-q0j5w5,ponad miesiąc temu,1.0,Łódź Śródmieście,ul. 6 Sierpnia,Mieszkanie,3,39,True,220 000,5 714zł / m²,220000.0,5714.0
+3023448,https://adresowo.pl/o/mieszkanie-lodz-retkinia-4-pokojowe-128-m2-e5o3n1,ponad miesiąc temu,17.0,Łódź Retkinia,,Mieszkanie,4,128,True,999 000,7 786zł / m²,999000.0,7786.0
+3018866,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-plk-dr-stanislawa-wieckowskiego-2-pokojowe-x1o8x0,ponad miesiąc temu,8.0,Łódź Śródmieście,ul. płk. dr. Stanisława Więckowskiego,Mieszkanie,2,50,True,270 000,5 405zł / m²,270000.0,5405.0
+3017816,https://adresowo.pl/o/mieszkanie-lodz-marysin-ul-boya-zelenskiego-2-pokojowe-z4u9h4,ponad miesiąc temu,11.0,Łódź Marysin,ul. Boya-Żeleńskiego,Mieszkanie,2,54,True,388 000,7 185zł / m²,388000.0,7185.0
+2979258,https://adresowo.pl/o/mieszkanie-lodz-gorna-ul-witolda-doroszewskiego-2-pokojowe-a5j4k1,ponad miesiąc temu,15.0,Łódź Górna,ul. Witolda Doroszewskiego,Mieszkanie,2,44,True,350 000,7 922zł / m²,350000.0,7922.0
+2973728,https://adresowo.pl/o/mieszkanie-lodz-baluty-al-pasjonistow-2-pokojowe-y0u4m9,ponad miesiąc temu,9.0,Łódź Bałuty,al. Pasjonistów,Mieszkanie,2,38,True,270 000,7 105zł / m²,270000.0,7105.0
+2965474,https://adresowo.pl/o/mieszkanie-lodz-ksiezy-mlyn-ul-ks-bp-wincentego-tymienieckiego-3-pokojowe-h5r5a7,ponad miesiąc temu,16.0,Łódź Księży Młyn,ul. ks. bp. Wincentego Tymienieckiego,Mieszkanie,3,63,True,1 000 000,15 944zł / m²,1000000.0,15944.0
+2963638,https://adresowo.pl/o/mieszkanie-lodz-gorna-ul-walerego-wroblewskiego-2-pokojowe-c6z2r4,ponad miesiąc temu,7.0,Łódź Górna,ul. Walerego Wróblewskiego,Mieszkanie,2,36,True,480 000,13 333zł / m²,480000.0,13333.0
+2959952,https://adresowo.pl/o/mieszkanie-lodz-widzew-ul-waclawa-2-pokojowe-q7m3f7,ponad miesiąc temu,8.0,Łódź Widzew,ul. Wacława,Mieszkanie,2,59,True,640 000,10 767zł / m²,640000.0,10767.0
+2934960,https://adresowo.pl/o/mieszkanie-lodz-polesie-3-pokojowe-103-m2-g3c1m8,ponad miesiąc temu,1.0,Łódź Polesie,,Mieszkanie,3,104,True,777 000,7 493zł / m²,777000.0,7493.0
+2927614,https://adresowo.pl/o/mieszkanie-lodz-gorna-ul-gen-jaroslawa-dabrowskiego-3-pokojowe-u6z4i3,ponad miesiąc temu,8.0,Łódź Górna,ul. gen. Jarosława Dąbrowskiego,Mieszkanie,3,63,True,459 000,7 286zł / m²,459000.0,7286.0
+2886464,https://adresowo.pl/o/mieszkanie-lodz-teofilow-ul-traktorowa-3-pokojowe-n9b5g6,ponad miesiąc temu,17.0,Łódź Teofilów,ul. Traktorowa,Mieszkanie,3,49,True,360 000,7 347zł / m²,360000.0,7347.0
+2790474,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-piotrkowska-4-pokojowe-y8o9i7,ponad miesiąc temu,15.0,Łódź Śródmieście,ul. Piotrkowska,Mieszkanie,4,119,True,1 999 000,16 798zł / m²,1999000.0,16798.0
+2824838,https://adresowo.pl/o/mieszkanie-lodz-karolew-ul-walerego-wroblewskiego-2-pokojowe-w3t3h6,ponad miesiąc temu,8.0,Łódź Karolew,ul. Walerego Wróblewskiego,Mieszkanie,2,48,True,336 000,7 000zł / m²,336000.0,7000.0
+2541082,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-piotrkowska-2-pokojowe-r6c7e8,ponad miesiąc temu,20.0,Łódź Śródmieście,ul. Piotrkowska,Mieszkanie,2,99,True,1 200 000,12 121zł / m²,1200000.0,12121.0
+2430902,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-pomorska-3-pokojowe-b1v7w4,ponad miesiąc temu,8.0,Łódź Śródmieście,ul. Pomorska,Mieszkanie,3,99,True,690 000,6 970zł / m²,690000.0,6970.0
+2331172,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-nawrot-3-pokojowe-r2i4o9,ponad miesiąc temu,8.0,Łódź Śródmieście,ul. Nawrot,Mieszkanie,3,85,True,700 000,8 235zł / m²,700000.0,8235.0
+2283050,https://adresowo.pl/o/mieszkanie-lodz-retkinia-ul-maratonska-3-pokojowe-g1u2o6,ponad miesiąc temu,7.0,Łódź Retkinia,ul. Maratońska,Mieszkanie,3,53,True,425 000,8 019zł / m²,425000.0,8019.0
+2176876,https://adresowo.pl/o/mieszkanie-lodz-polesie-ul-marcina-kasprzaka-2-pokojowe-f2a2i4,ponad miesiąc temu,5.0,Łódź Polesie,ul. Marcina Kasprzaka,Mieszkanie,2,57,True,260 000,4 561zł / m²,260000.0,4561.0
+2053978,https://adresowo.pl/o/mieszkanie-lodz-polesie-al-1-maja-2-pokojowe-d3m7y4,ponad miesiąc temu,20.0,Łódź Polesie,al. 1 Maja,Mieszkanie,2,60,True,390 000,6 500zł / m²,390000.0,6500.0
+1904856,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-jana-kilinskiego-2-pokojowe-n5u0f7,ponad miesiąc temu,8.0,Łódź Śródmieście,ul. Jana Kilińskiego,Mieszkanie,2,27,True,270 000,10 000zł / m²,270000.0,10000.0
+1876220,https://adresowo.pl/o/mieszkanie-lodz-srodmiescie-ul-jana-kilinskiego-3-pokojowe-d4k1v3,ponad miesiąc temu,12.0,Łódź Śródmieście,ul. Jana Kilińskiego,Mieszkanie,3,87,True,499 000,5 736zł / m²,499000.0,5736.0
+1583641,https://adresowo.pl/o/mieszkanie-lodz-ul-piotrkowska-1-pokoj-t5z3v6,ponad miesiąc temu,8.0,Łódź,ul. Piotrkowska,Mieszkanie,1,46,True,370 000,8 096zł / m²,370000.0,8096.0
+1547349,https://adresowo.pl/o/mieszkanie-lodz-gorna-ul-debowa-2-pokojowe-f3c8u7,ponad miesiąc temu,13.0,Łódź Górna,ul. Dębowa,Mieszkanie,2,64,True,320 000,5 000zł / m²,320000.0,5000.0
+1480239,https://adresowo.pl/o/mieszkanie-lodz-polesie-ul-lipowa-2-pokojowe-v2t2c9,ponad miesiąc temu,8.0,Łódź Polesie,ul. Lipowa,Mieszkanie,2,47,True,360 000,7 660zł / m²,360000.0,7660.0
+1318647,https://adresowo.pl/o/mieszkanie-lodz-janow-ul-macka-z-bogdanca-3-pokojowe-b1t2a3,ponad miesiąc temu,8.0,Łódź Janów,ul. Maćka z Bogdańca,Mieszkanie,3,110,True,880 000,8 000zł / m²,880000.0,8000.0
+1228215,https://adresowo.pl/o/mieszkanie-lodz-polesie-ul-6-sierpnia-2-pokojowe-p7i9u2,ponad miesiąc temu,12.0,Łódź Polesie,ul. 6 Sierpnia,Mieszkanie,2,65,True,399 000,6 138zł / m²,399000.0,6138.0
+140420,https://adresowo.pl/o/mieszkanie-lodz-ul-dr-adama-prochnika-4-pokojowe-keihix,ponad miesiąc temu,10.0,Łódź,ul. dr. Adama Próchnika,Mieszkanie,4,91,True,730 000,8 003zł / m²,730000.0,8003.0
+51876,https://adresowo.pl/o/mieszkanie-lodz-gorna-ul-piaseczna-1-pokoj-5w4xdm,ponad miesiąc temu,6.0,Łódź Górna,ul. Piaseczna,Mieszkanie,1,25,True,165 000,6 600zł / m²,165000.0,6600.0
