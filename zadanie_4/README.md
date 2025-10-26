@@ -4,7 +4,7 @@ Wczytaj dane z pliku `adresowo_warszawa_wroclaw.csv` i wykonaj analizę klastery
 
 ### Cele:
 
-* Zrób standaryzacje danych. 
+* Zrób standaryzacje danych uwzględnij tylko 2 cechy: area_m2	price_total_zl_cleaned.
 * Wykonać klasteryzację danych z użyciem **KMeans** i **AgglomerativeClustering**.
 * Wyznaczyć optymalną liczbę klastrów metodą łokcia dla metody **KMeans**. 
 * Narysuj dendogram i wyznaczyć optymalną liczbę klastrów dla metody **AgglomerativeClustering**
