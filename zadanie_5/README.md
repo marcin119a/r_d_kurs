@@ -52,7 +52,7 @@ Materiał referencyjny: *Analiza danych pomiarowych (Pandas)*.
   * boxplot cen w dzielnicach,
   * scatter plot: `area_m2` vs `price_total_zl`,
   * ranking dzielnic wg ceny za m² (bar chart lub pie chart).
-* Użyj **Plotly** i zapisz wybrane wykresy do PDF przy użyciu `kaleido`.
+* Użyj **Plotly**. 
 
 Materiał referencyjny: *Tworzenie wykresów technicznych i raportów (Plotly)*.
 
@@ -67,7 +67,7 @@ Materiał referencyjny: *Tworzenie wykresów technicznych i raportów (Plotly)*.
   * podział na zbiór treningowy i testowy.
 * Wytrenuj model regresji (np. `LinearRegression` lub `RandomForestRegressor`) przewidujący cenę całkowitą.
 * Zapisz model do pliku `model_trojmiasto.pkl` przy użyciu `joblib`.
-* Oceń jego jakość (R², MAE, residual plot).
+* Oceń jego jakość (R², residual plot).
 
 Materiał referencyjny: *Wprowadzenie do symulacji*.
 
