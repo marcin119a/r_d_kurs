@@ -1,8 +1,9 @@
+requests
+beautifulsoup4
+schedule
 streamlit
 plotly
 pandas
 numpy
 scikit-learn
 matplotlib
-beautifulsoup4
-schedule

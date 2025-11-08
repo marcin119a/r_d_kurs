@@ -2,24 +2,24 @@ import requests
 import csv
 from bs4 import BeautifulSoup
 import time
+import argparse
 
 # Stałe
 BASE_URL = 'https://adresowo.pl'
-OUTPUT_FILE = 'ogloszenia_lodz.csv'
 
 # Nagłówki CSV (wszystkie dane jako stringi)
 CSV_HEADERS = [
-    'Lokalizacja',
-    'Ulica',
-    'Liczba Pokoi',
-    'Metraż (m²)',
-    'Cena Całkowita (zł)',
-    'Cena za m² (zł)',
-    'Typ Oferty',
-    'Data Dodania',
-    'Liczba Zdjęć',
-    'Link do Oferty',
-    'Link do Zdjęcia'
+    'locality',
+    'street',
+    'rooms',
+    'area',
+    'price_total_zl',
+    'price_sqm_zl',
+    'owner_type',
+    'date_posted',
+    'photo_count',
+    'url',
+    'image_url'
 ]
 
 # Nagłówki HTTP, aby udawać przeglądarkę
@@ -90,21 +90,26 @@ def parse_listing(item):
         print(f"Błąd podczas parsowania ogłoszenia: {e}")
         return None
 
-def main():
+def main(city, pages, output_file):
     """
     Główna funkcja skryptu.
+    
+    Args:
+        city (str): Nazwa miasta do scrapowania (np. 'lodz', 'warszawa', 'wroclaw')
+        pages (int): Liczba stron do przetworzenia
+        output_file (str): Ścieżka do pliku wyjściowego CSV
     """
-    print(f"Rozpoczynam scraping {BASE_URL}...")
+    print(f"Rozpoczynam scraping {BASE_URL} dla miasta: {city}...")
     all_data = []
 
     # Używamy sesji, aby utrzymać połączenie i nagłówki
     with requests.Session() as session:
         session.headers.update(HTTP_HEADERS)
 
-        # Pętla od 1 do 8 (range(1, 9) generuje liczby 1, 2, 3, 4, 5, 6, 7, 8)
-        for page_num in range(1, 9):
-            url = f'https://adresowo.pl/mieszkania/lodz/_l{page_num}'
-            print(f"Przetwarzanie strony {page_num}/8: {url}")
+        # Pętla przez określoną liczbę stron
+        for page_num in range(1, pages + 1):
+            url = f'https://adresowo.pl/mieszkania/{city}/_l{page_num}'
+            print(f"Przetwarzanie strony {page_num}/{pages}: {url}")
 
             try:
                 response = session.get(url, timeout=10)
@@ -137,18 +142,60 @@ def main():
 
     # --- Zapis do pliku CSV ---
     if all_data:
-        print(f"\nZakończono scraping. Zapisywanie {len(all_data)} ogłoszeń do pliku {OUTPUT_FILE}...")
+        print(f"\nZakończono scraping. Zapisywanie {len(all_data)} ogłoszeń do pliku {output_file}...")
         try:
-            with open(OUTPUT_FILE, 'w', newline='', encoding='utf-8') as f:
+            with open(output_file, 'w', newline='', encoding='utf-8') as f:
                 writer = csv.writer(f)
                 writer.writerow(CSV_HEADERS)  # Zapis nagłówka
                 writer.writerows(all_data)    # Zapis wszystkich danych
-            print(f"Pomyślnie zapisano dane w pliku: {OUTPUT_FILE}")
+            print(f"Pomyślnie zapisano dane w pliku: {output_file}")
         except IOError as e:
-            print(f"Błąd podczas zapisu do pliku {OUTPUT_FILE}: {e}")
+            print(f"Błąd podczas zapisu do pliku {output_file}: {e}")
     else:
         print("\nNie zebrano żadnych danych.")
 
 # Uruchomienie głównej funkcji
 if __name__ == "__main__":
-    main()
+    parser = argparse.ArgumentParser(
+        description='Scraper ogłoszeń nieruchomości z adresowo.pl',
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+        epilog='''
+Przykłady użycia:
+  # Scrapuj 8 stron dla Łodzi (domyślne)
+  python scrape.py
+  
+  # Scrapuj 5 stron dla Warszawy
+  python scrape.py --city warszawa --pages 5
+  
+  # Scrapuj 10 stron dla Wrocławia z własną nazwą pliku
+  python scrape.py --city wroclaw --pages 10 --output ogloszenia_wroclaw.csv
+        '''
+    )
+    
+    parser.add_argument(
+        '--city',
+        type=str,
+        default='lodz',
+        help='Nazwa miasta do scrapowania (np. lodz, warszawa, wroclaw). Domyślnie: lodz'
+    )
+    
+    parser.add_argument(
+        '--pages',
+        type=int,
+        default=8,
+        help='Liczba stron do przetworzenia. Domyślnie: 8'
+    )
+    
+    parser.add_argument(
+        '--output',
+        type=str,
+        default=None,
+        help='Ścieżka do pliku wyjściowego CSV. Domyślnie: ogloszenia_{city}.csv'
+    )
+    
+    args = parser.parse_args()
+    
+    # Jeśli nie podano nazwy pliku, generujemy ją na podstawie miasta
+    output_file = args.output if args.output else f'ogloszenia_{args.city}.csv'
+    
+    main(args.city, args.pages, output_file)

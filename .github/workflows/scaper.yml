@@ -1,13 +1,15 @@
-name: Daily Scraper
+name: Weekly Scraper
 
 on:
   schedule:
-    - cron: "0 6 * * *"  # codziennie o 6:00 UTC
+    - cron: "0 6 * * 1"  # co poniedziałek o 6:00 UTC
   workflow_dispatch:
 
 jobs:
   run-scraper:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
       - name: Checkout repo
@@ -19,13 +21,58 @@ jobs:
           python-version: "3.10"
 
       - name: Install dependencies
-        run: pip install -r zadanie_3/requirements.txt
+        run: pip install -r scraper/requirements.txt
 
-      - name: Run scraper
-        run: python zadanie_3/scrape.py
+      - name: Run scraper for Warszawa
+        run: python scraper/scrape.py --city warszawa --pages 11 --output scraper/ogloszenia_warszawa.csv
 
-      - name: Upload result file as artifact
+      - name: Run detailed scraper for Warszawa
+        run: python scraper/scrape_more.py --input scraper/ogloszenia_warszawa.csv --output scraper/ogloszenia_warszawa_detailed.csv --delay 0.5
+
+      - name: Run scraper for Wrocław
+        run: python scraper/scrape.py --city wroclaw --pages 9 --output scraper/ogloszenia_wroclaw.csv
+
+      - name: Run detailed scraper for Wrocław
+        run: python scraper/scrape_more.py --input scraper/ogloszenia_wroclaw.csv --output scraper/ogloszenia_wroclaw_detailed.csv --delay 0.5
+
+      - name: Run scraper for Łódź
+        run: python scraper/scrape.py --city lodz --pages 8 --output scraper/ogloszenia_lodz.csv
+
+      - name: Run detailed scraper for Łódź
+        run: python scraper/scrape_more.py --input scraper/ogloszenia_lodz.csv --output scraper/ogloszenia_lodz_detailed.csv --delay 0.5
+
+      - name: Upload Warszawa data
         uses: actions/upload-artifact@v4
         with:
-          name: scraped-data
-          path: zadanie_3/ogloszenia_lodz.csv
+          name: scraped-data-warszawa
+          path: |
+            scraper/ogloszenia_warszawa.csv
+            scraper/ogloszenia_warszawa_detailed.csv
+
+      - name: Upload Wrocław data
+        uses: actions/upload-artifact@v4
+        with:
+          name: scraped-data-wroclaw
+          path: |
+            scraper/ogloszenia_wroclaw.csv
+            scraper/ogloszenia_wroclaw_detailed.csv
+
+      - name: Upload Łódź data
+        uses: actions/upload-artifact@v4
+        with:
+          name: scraped-data-lodz
+          path: |
+            scraper/ogloszenia_lodz.csv
+            scraper/ogloszenia_lodz_detailed.csv
+
+      - name: Commit and push updated CSVs
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          git add scraper/ogloszenia_*.csv
+          git commit -m "Update scraped data [$(date +'%Y-%m-%d %H:%M:%S')]" || echo "No changes to commit"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      
