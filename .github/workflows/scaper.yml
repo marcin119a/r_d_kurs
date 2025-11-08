@@ -55,6 +55,7 @@ jobs:
           name: scraped-data-wroclaw
           path: |
             scraper/ogloszenia_wroclaw.csv
+            scraper/ogloszenia_wroclaw_detailed.csv
 
       - name: Upload Łódź data
         uses: actions/upload-artifact@v4
@@ -62,13 +63,14 @@ jobs:
           name: scraped-data-lodz
           path: |
             scraper/ogloszenia_lodz.csv
+            scraper/ogloszenia_lodz_detailed.csv
 
       - name: Commit and push updated CSVs
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           
-          git add scraper/ogloszenia_*.csv
+          git add -f scraper/ogloszenia_*.csv
           git commit -m "Update scraped data [$(date +'%Y-%m-%d %H:%M:%S')]" || echo "No changes to commit"
           git push
         env:
