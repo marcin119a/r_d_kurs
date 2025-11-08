@@ -62,7 +62,7 @@ Materiał referencyjny: *Tworzenie wykresów technicznych i raportów (Plotly)*.
 
 * Przygotuj dane do modelowania:
 
-  * one-hot encoding dla kolumn tekstowych (`locality`, `owner_direct`),
+  * one-hot encoding dla kolumn kategorycznych i przygotowanie kolumn numerycznych,
   * skalowanie (`StandardScaler`),
   * podział na zbiór treningowy i testowy.
 * Wytrenuj model regresji (np. `LinearRegression` lub `RandomForestRegressor`) przewidujący cenę całkowitą.
@@ -80,7 +80,6 @@ Wybierz jedną z dwóch opcji:
 ##### **A. FastAPI**
 
 * Utwórz API z endpointem `/predict_price/`, który przyjmuje dane mieszkania w formacie JSON i zwraca przewidywaną cenę.
-* Dodaj automatyczną dokumentację Swagger.
 * Endpoint powinien korzystać z zapisanego modelu `model_trojmiasto.pkl`.
 
 Materiał referencyjny: *UOUW – FastAPI*.
