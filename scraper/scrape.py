@@ -161,14 +161,14 @@ if __name__ == "__main__":
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog='''
 Przykłady użycia:
-  # Scrapuj 8 stron dla Łodzi (domyślne)
+  # Scrapuj 8 stron dla Łodzi (domyślne, zapisuje do scraper/data/)
   python scrape.py
   
   # Scrapuj 5 stron dla Warszawy
   python scrape.py --city warszawa --pages 5
   
   # Scrapuj 10 stron dla Wrocławia z własną nazwą pliku
-  python scrape.py --city wroclaw --pages 10 --output ogloszenia_wroclaw.csv
+  python scrape.py --city wroclaw --pages 10 --output scraper/data/ogloszenia_wroclaw.csv
         '''
     )
     
@@ -190,12 +190,17 @@ Przykłady użycia:
         '--output',
         type=str,
         default=None,
-        help='Ścieżka do pliku wyjściowego CSV. Domyślnie: ogloszenia_{city}.csv'
+        help='Ścieżka do pliku wyjściowego CSV. Domyślnie: scraper/data/ogloszenia_{city}.csv'
     )
     
     args = parser.parse_args()
     
-    # Jeśli nie podano nazwy pliku, generujemy ją na podstawie miasta
-    output_file = args.output if args.output else f'ogloszenia_{args.city}.csv'
+    # Jeśli nie podano nazwy pliku, generujemy ją na podstawie miasta i zapisujemy w data/
+    if args.output:
+        output_file = args.output
+    else:
+        import os
+        os.makedirs('scraper/data', exist_ok=True)
+        output_file = f'scraper/data/ogloszenia_{args.city}.csv'
     
     main(args.city, args.pages, output_file)

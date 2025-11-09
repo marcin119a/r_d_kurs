@@ -24,53 +24,65 @@ jobs:
         run: pip install -r scraper/requirements.txt
 
       - name: Run scraper for Warszawa
-        run: python scraper/scrape.py --city warszawa --pages 11 --output scraper/ogloszenia_warszawa.csv
+        run: python scraper/scrape.py --city warszawa --pages 11 --output scraper/data/ogloszenia_warszawa.csv
 
       - name: Run detailed scraper for Warszawa
-        run: python scraper/scrape_more.py --input scraper/ogloszenia_warszawa.csv --output scraper/ogloszenia_warszawa_detailed.csv --delay 0.01
+        run: python scraper/scrape_more.py --input scraper/data/ogloszenia_warszawa.csv --output scraper/data/ogloszenia_warszawa_detailed.csv --delay 0.01
+
+      - name: Clean Warszawa data
+        run: python scraper/clean_data.py scraper/data/ogloszenia_warszawa_detailed.csv --remove-price-ask
 
       - name: Run scraper for Wrocław
-        run: python scraper/scrape.py --city wroclaw --pages 9 --output scraper/ogloszenia_wroclaw.csv
+        run: python scraper/scrape.py --city wroclaw --pages 9 --output scraper/data/ogloszenia_wroclaw.csv
 
       - name: Run detailed scraper for Wrocław
-        run: python scraper/scrape_more.py --input scraper/ogloszenia_wroclaw.csv --output scraper/ogloszenia_wroclaw_detailed.csv --delay 0.01
+        run: python scraper/scrape_more.py --input scraper/data/ogloszenia_wroclaw.csv --output scraper/data/ogloszenia_wroclaw_detailed.csv --delay 0.01
+
+      - name: Clean Wrocław data
+        run: python scraper/clean_data.py scraper/data/ogloszenia_wroclaw_detailed.csv --remove-price-ask
 
       - name: Run scraper for Łódź
-        run: python scraper/scrape.py --city lodz --pages 8 --output scraper/ogloszenia_lodz.csv
+        run: python scraper/scrape.py --city lodz --pages 8 --output scraper/data/ogloszenia_lodz.csv
 
       - name: Run detailed scraper for Łódź
-        run: python scraper/scrape_more.py --input scraper/ogloszenia_lodz.csv --output scraper/ogloszenia_lodz_detailed.csv --delay 0.01
+        run: python scraper/scrape_more.py --input scraper/data/ogloszenia_lodz.csv --output scraper/data/ogloszenia_lodz_detailed.csv --delay 0.01
+
+      - name: Clean Łódź data
+        run: python scraper/clean_data.py scraper/data/ogloszenia_lodz_detailed.csv --remove-price-ask
 
       - name: Upload Warszawa data
         uses: actions/upload-artifact@v4
         with:
           name: scraped-data-warszawa
           path: |
-            scraper/ogloszenia_warszawa.csv
-            scraper/ogloszenia_warszawa_detailed.csv
+            scraper/data/ogloszenia_warszawa.csv
+            scraper/data/ogloszenia_warszawa_detailed.csv
+            scraper/data/ogloszenia_warszawa_cleaned.csv
 
       - name: Upload Wrocław data
         uses: actions/upload-artifact@v4
         with:
           name: scraped-data-wroclaw
           path: |
-            scraper/ogloszenia_wroclaw.csv
-            scraper/ogloszenia_wroclaw_detailed.csv
+            scraper/data/ogloszenia_wroclaw.csv
+            scraper/data/ogloszenia_wroclaw_detailed.csv
+            scraper/data/ogloszenia_wroclaw_cleaned.csv
 
       - name: Upload Łódź data
         uses: actions/upload-artifact@v4
         with:
           name: scraped-data-lodz
           path: |
-            scraper/ogloszenia_lodz.csv
-            scraper/ogloszenia_lodz_detailed.csv
+            scraper/data/ogloszenia_lodz.csv
+            scraper/data/ogloszenia_lodz_detailed.csv
+            scraper/data/ogloszenia_lodz_cleaned.csv
 
       - name: Commit and push updated CSVs
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           
-          git add -f scraper/ogloszenia_*.csv
+          git add -f scraper/data/*.csv
           git commit -m "Update scraped data [$(date +'%Y-%m-%d %H:%M:%S')]" || echo "No changes to commit"
           git push
         env:
