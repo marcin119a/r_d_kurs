@@ -288,9 +288,99 @@ def create_property_pdf(row, index, output_dir='documents/pdfs'):
     elements.append(table)
     elements.append(Spacer(1, 0.5*cm))
     
-    # Informacje dodatkowe
-    info_header = Paragraph("ℹ️ Informacje Dodatkowe", section_style)
+    # Informacje dodatkowe o nieruchomości
+    info_header = Paragraph("🏢 Informacje o Budynku", section_style)
     elements.append(info_header)
+    
+    # Buduj listę informacji o budynku
+    building_info_data = []
+    
+    # Piętro
+    if pd.notna(row.get('floor')):
+        building_info_data.append(['Piętro:', str(row['floor'])])
+    
+    # Rok budowy
+    if pd.notna(row.get('year_built')):
+        building_info_data.append(['Rok budowy:', str(int(row['year_built']))])
+    
+    # Typ budynku
+    if pd.notna(row.get('building_type')):
+        building_info_data.append(['Typ budynku:', str(row['building_type'])])
+    
+    # Forma własności
+    if pd.notna(row.get('ownership_type')):
+        building_info_data.append(['Forma własności:', str(row['ownership_type'])])
+    
+    # Jeśli są jakieś informacje, wyświetl tabelę
+    if building_info_data:
+        building_table = Table(building_info_data, colWidths=[6*cm, 10*cm])
+        building_table.setStyle(TableStyle([
+            ('BACKGROUND', (0, 0), (0, -1), colors.HexColor('#E0E7FF')),
+            ('TEXTCOLOR', (0, 0), (-1, -1), colors.HexColor('#1F2937')),
+            ('ALIGN', (0, 0), (0, -1), 'LEFT'),
+            ('ALIGN', (1, 0), (1, -1), 'LEFT'),
+            ('FONTNAME', (0, 0), (0, -1), FONT_BOLD),
+            ('FONTNAME', (1, 0), (1, -1), FONT_NORMAL),
+            ('FONTSIZE', (0, 0), (-1, -1), 10),
+            ('BOTTOMPADDING', (0, 0), (-1, -1), 10),
+            ('TOPPADDING', (0, 0), (-1, -1), 10),
+            ('GRID', (0, 0), (-1, -1), 1, colors.HexColor('#C7D2FE'))
+        ]))
+        elements.append(building_table)
+        elements.append(Spacer(1, 0.5*cm))
+    
+    # Udogodnienia
+    amenities_header = Paragraph("✨ Udogodnienia", section_style)
+    elements.append(amenities_header)
+    
+    amenities_data = []
+    
+    # Typ kuchni
+    if pd.notna(row.get('kitchen_type')):
+        amenities_data.append(['Kuchnia:', str(row['kitchen_type'])])
+    
+    # Typ okien
+    if pd.notna(row.get('window_type')):
+        amenities_data.append(['Okna:', str(row['window_type'])])
+    
+    # Piwnica
+    if pd.notna(row.get('has_basement')):
+        basement = 'Tak' if str(row['has_basement']).lower() == 'tak' else 'Nie'
+        amenities_data.append(['Piwnica:', basement])
+    
+    # Parking
+    if pd.notna(row.get('has_parking')):
+        parking = 'Tak' if str(row['has_parking']).lower() == 'tak' else 'Nie'
+        amenities_data.append(['Parking:', parking])
+    
+    # Wyposażenie
+    if pd.notna(row.get('equipment')) and row.get('equipment'):
+        equipment_text = str(row['equipment'])
+        # Ogranicz długość do maks 100 znaków
+        if len(equipment_text) > 100:
+            equipment_text = equipment_text[:97] + '...'
+        amenities_data.append(['Wyposażenie:', equipment_text])
+    
+    if amenities_data:
+        amenities_table = Table(amenities_data, colWidths=[6*cm, 10*cm])
+        amenities_table.setStyle(TableStyle([
+            ('BACKGROUND', (0, 0), (0, -1), colors.HexColor('#D1FAE5')),
+            ('TEXTCOLOR', (0, 0), (-1, -1), colors.HexColor('#1F2937')),
+            ('ALIGN', (0, 0), (0, -1), 'LEFT'),
+            ('ALIGN', (1, 0), (1, -1), 'LEFT'),
+            ('FONTNAME', (0, 0), (0, -1), FONT_BOLD),
+            ('FONTNAME', (1, 0), (1, -1), FONT_NORMAL),
+            ('FONTSIZE', (0, 0), (-1, -1), 10),
+            ('BOTTOMPADDING', (0, 0), (-1, -1), 10),
+            ('TOPPADDING', (0, 0), (-1, -1), 10),
+            ('GRID', (0, 0), (-1, -1), 1, colors.HexColor('#A7F3D0'))
+        ]))
+        elements.append(amenities_table)
+        elements.append(Spacer(1, 0.5*cm))
+    
+    # Informacje o ogłoszeniu
+    info_header2 = Paragraph("ℹ️ Informacje o Ogłoszeniu", section_style)
+    elements.append(info_header2)
     
     owner_type = row['owner_type'] if pd.notna(row['owner_type']) else "Brak informacji"
     date_posted = row['date_posted'] if pd.notna(row['date_posted']) else "Brak daty"
@@ -360,11 +450,11 @@ def main():
     print("Rejestrowanie czcionek z obsługą polskich znaków...\n")
     register_fonts()
     
-    # Wczytaj dane
-    csv_path = '/Users/mw/r_d_kurs/scraper/data/ogloszenia_lodz_cleaned.csv'
+    # Wczytaj dane z pliku detailed (zawiera więcej szczegółów)
+    csv_path = '/Users/mw/r_d_kurs/scraper/data/ogloszenia_lodz_detailed.csv'
     df = pd.read_csv(csv_path)
     
-    print(f"\nWczytano {len(df)} ofert z CSV")
+    print(f"\nWczytano {len(df)} ofert z CSV (plik detailed z dodatkowymi szczegółami)")
     print(f"\nGenerowanie 10 PDFów...\n")
     
     # Wybierz 10 różnorodnych ofert (różne dzielnice, różne liczby pokoi)
