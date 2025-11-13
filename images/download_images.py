@@ -10,20 +10,51 @@ import requests
 from pathlib import Path
 from urllib.parse import urlparse
 import time
+import argparse
 from tqdm import tqdm
 
+# Get the script directory
+SCRIPT_DIR = Path(__file__).parent.absolute()
+PROJECT_ROOT = SCRIPT_DIR.parent
+
 # Configuration
-CSV_FILE = "/home/mw404851/r_d/scraper/data/ogloszenia_lodz.csv"
-OUTPUT_DIR = "/home/mw404851/r_d/images/downloaded"
+DEFAULT_CSV_FILE = PROJECT_ROOT / "scraper" / "data" / "ogloszenia_lodz.csv"
+DEFAULT_OUTPUT_DIR = SCRIPT_DIR / "downloaded"
 TIMEOUT = 1  # seconds
 DELAY_BETWEEN_REQUESTS = 0.5  # seconds to be respectful to the server
-MAX_IMAGES = 10  # maximum number of images to download (None for all)
+DEFAULT_MAX_IMAGES = 10  # maximum number of images to download (None for all)
 
 
-def create_output_directory():
+def parse_arguments():
+    """Parse command line arguments."""
+    parser = argparse.ArgumentParser(
+        description="Download images from ogloszenia_lodz.csv file"
+    )
+    parser.add_argument(
+        "--csv",
+        type=str,
+        default=str(DEFAULT_CSV_FILE),
+        help=f"Path to CSV file (default: {DEFAULT_CSV_FILE})"
+    )
+    parser.add_argument(
+        "--output",
+        type=str,
+        default=str(DEFAULT_OUTPUT_DIR),
+        help=f"Output directory for images (default: {DEFAULT_OUTPUT_DIR})"
+    )
+    parser.add_argument(
+        "--max-images",
+        type=int,
+        default=DEFAULT_MAX_IMAGES,
+        help=f"Maximum number of images to download (default: {DEFAULT_MAX_IMAGES}, use 0 for all)"
+    )
+    return parser.parse_args()
+
+
+def create_output_directory(output_dir):
     """Create the output directory if it doesn't exist."""
-    Path(OUTPUT_DIR).mkdir(parents=True, exist_ok=True)
-    print(f"Output directory: {OUTPUT_DIR}")
+    Path(output_dir).mkdir(parents=True, exist_ok=True)
+    print(f"Output directory: {output_dir}")
 
 
 def get_image_filename(url, index):
@@ -86,15 +117,21 @@ def download_image(url, filepath):
 
 def main():
     """Main function to orchestrate the image downloading process."""
+    # Parse command line arguments
+    args = parse_arguments()
+    csv_file = args.csv
+    output_dir = args.output
+    max_images = args.max_images if args.max_images > 0 else None
+    
     print("Starting image download script...")
     print("=" * 60)
     
     # Create output directory
-    create_output_directory()
+    create_output_directory(output_dir)
     
     # Read CSV file and collect image URLs
     image_data = []
-    with open(CSV_FILE, 'r', encoding='utf-8') as f:
+    with open(csv_file, 'r', encoding='utf-8') as f:
         reader = csv.DictReader(f)
         for idx, row in enumerate(reader, start=1):
             image_url = row.get('image_url', '').strip()
@@ -106,9 +143,9 @@ def main():
                     'street': row.get('street', '')
                 })
     
-    # Limit the number of images if MAX_IMAGES is set
-    if MAX_IMAGES is not None:
-        image_data = image_data[:MAX_IMAGES]
+    # Limit the number of images if max_images is set
+    if max_images is not None:
+        image_data = image_data[:max_images]
     
     print(f"Found {len(image_data)} images to download")
     print("=" * 60)
@@ -124,7 +161,7 @@ def main():
             skipped += 1
             continue
         
-        filepath = os.path.join(OUTPUT_DIR, filename)
+        filepath = os.path.join(output_dir, filename)
         
         # Skip if file already exists
         if os.path.exists(filepath):
@@ -148,7 +185,7 @@ def main():
     print(f"  ⏭️  Skipped (already exists): {skipped}")
     print(f"  📦 Total: {len(image_data)}")
     print("=" * 60)
-    print(f"💾 Images saved to: {OUTPUT_DIR}")
+    print(f"💾 Images saved to: {output_dir}")
 
 
 if __name__ == "__main__":
