@@ -50,6 +50,15 @@ jobs:
       - name: Clean Łódź data
         run: python scraper/clean_data.py scraper/data/ogloszenia_lodz_detailed.csv --remove-price-ask
 
+      - name: Run scraper for Kraków
+        run: python scraper/scrape.py --city krakow --pages 10 --output scraper/data/ogloszenia_krakow.csv
+
+      - name: Run detailed scraper for Kraków
+        run: python scraper/scrape_more.py --input scraper/data/ogloszenia_krakow.csv --output scraper/data/ogloszenia_krakow_detailed.csv --delay 0.01
+
+      - name: Clean Kraków data
+        run: python scraper/clean_data.py scraper/data/ogloszenia_krakow_detailed.csv --remove-price-ask
+
       - name: Upload Warszawa data
         uses: actions/upload-artifact@v4
         with:
@@ -76,6 +85,15 @@ jobs:
             scraper/data/ogloszenia_lodz.csv
             scraper/data/ogloszenia_lodz_detailed.csv
             scraper/data/ogloszenia_lodz_cleaned.csv
+
+      - name: Upload Kraków data
+        uses: actions/upload-artifact@v4
+        with:
+          name: scraped-data-krakow
+          path: |
+            scraper/data/ogloszenia_krakow.csv
+            scraper/data/ogloszenia_krakow_detailed.csv
+            scraper/data/ogloszenia_krakow_cleaned.csv
 
       - name: Commit and push updated CSVs
         run: |
