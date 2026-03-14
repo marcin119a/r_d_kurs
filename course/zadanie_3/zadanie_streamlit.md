@@ -6,7 +6,7 @@
 
 Zbuduj aplikację webową w **Streamlit**, która:
 
-* wczytuje zapisany model `best_random_forest_model.pkl`,
+* wczytuje zapisany model `*.pkl`,
 * umożliwia użytkownikowi wprowadzenie danych mieszkania,
 * wyświetla prognozowaną cenę.
 
@@ -27,7 +27,14 @@ projekt_streamlit/
 
 W terminalu:
 
+
 ```bash
+python -m venv .venv
+# mac / linux
+source .venv/bin/activate 
+# Windows: 
+venv\Scripts\activate
+
 pip install streamlit joblib pandas scikit-learn
 ```
 
