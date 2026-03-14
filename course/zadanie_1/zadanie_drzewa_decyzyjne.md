@@ -81,7 +81,7 @@ Zweryfikuj, czy model nie ma systematycznych błędów:
 
 ---
 
-#### Zinterpretuj wpływ zmiennych
+#### Zinterpretuj wpływ zmiennych (Opcjonalnie)
 
 Użyj atrybutu `feature_importances_`, aby zobaczyć, które zmienne miały największy wpływ na przewidywaną cenę.
 Przedstaw wyniki na wykresie słupkowym.
