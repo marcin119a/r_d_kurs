@@ -70,8 +70,6 @@ Dopasuj pipeline do danych treningowych (`fit`).
 Dokonaj predykcji (`predict`) i oblicz miary dopasowania:
 
 * **R²** – współczynnik determinacji,
-* **MAE** – średni błąd bezwzględny,
-* **RMSE** – pierwiastek z błędu średniokwadratowego.
 
 ---
 
@@ -81,11 +79,6 @@ Zweryfikuj, czy model nie ma systematycznych błędów:
 
 ---
 
-#### Zinterpretuj wpływ zmiennych (Opcjonalnie)
-
-Użyj atrybutu `feature_importances_`, aby zobaczyć, które zmienne miały największy wpływ na przewidywaną cenę.
-Przedstaw wyniki na wykresie słupkowym.
-
 ---
 
 ### Zadanie do wykonania:
@@ -94,14 +87,5 @@ Przedstaw wyniki na wykresie słupkowym.
 2. Oblicz metryki: R².
 3. Narysuj wykres reszt.
 5. Dodaj zmienną `locality` (one-hot encoding) i sprawdź, **jak zmienia się R²** w porównaniu do modelu bez tej cechy.
-
----
-
-### Pytania pomocnicze do dyskusji:
-
-* Czy model drzewa decyzyjnego przewiduje lepiej niż regresja liniowa?
-* Jakie wady i zalety ma podejście oparte na drzewie?
-* Co się stanie, jeśli zwiększysz lub zmniejszysz `max_depth` modelu?
-* Czy model może przeuczyć się na danych? Jak temu zapobiec?
 
 ---
