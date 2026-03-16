@@ -29,46 +29,59 @@ HTTP_HEADERS = {
 
 def parse_listing(item):
     """
-    Pobiera dane z pojedynczego elementu ogłoszenia (tagu <section>).
+    Pobiera dane z pojedynczego elementu ogłoszenia (div[data-offer-card]).
     Zwraca listę stringów lub None w przypadku błędu.
     """
     try:
         # --- Lokalizacja i Ulica ---
-        header = item.select_one('.result-info__header')
-        location = header.strong.get_text(strip=True) if header and header.strong else ''
-        address = header.select_one('.result-info__address').get_text(strip=True) if header and header.select_one('.result-info__address') else ''
+        # Nowa struktura: h2 > a > span (pierwszy bold = lokalizacja, drugi = ulica)
+        link_tag = item.select_one('h2 a')
+        spans = link_tag.select('span.line-clamp-1') if link_tag else []
+        location = spans[0].get_text(strip=True) if len(spans) > 0 else ''
+        address = spans[1].get_text(strip=True) if len(spans) > 1 else ''
 
-        # --- Pokoje i Metraż ---
-        basics = item.select('.result-info__basic:not(.result-info__basic--owner)')
-        rooms = basics[0].b.get_text(strip=True) if len(basics) > 0 and basics[0].b else ''
-        area = basics[1].b.get_text(strip=True) if len(basics) > 1 and basics[1].b else ''
+        # --- Cena, Metraż, Pokoje ---
+        # Nowa struktura: p.flex-auto > span.font-bold (kolejno: cena, metraż, pokoje)
+        info_paragraphs = item.select('p.flex-auto.text-base')
+        price_total = ''
+        area = ''
+        rooms = ''
+        if len(info_paragraphs) > 0:
+            bold = info_paragraphs[0].select_one('span.font-bold')
+            price_total = bold.get_text(strip=True).replace('\xa0', '') if bold else ''
+        if len(info_paragraphs) > 1:
+            bold = info_paragraphs[1].select_one('span.font-bold')
+            area = bold.get_text(strip=True).replace('\xa0', '') if bold else ''
+        if len(info_paragraphs) > 2:
+            bold = info_paragraphs[2].select_one('span.font-bold')
+            rooms = bold.get_text(strip=True).replace('\xa0', '') if bold else ''
 
-        # --- Ceny ---
-        # Używamy .replace('\xa0', '') do usunięcia twardych spacji (nbsp)
-        price_total_tag = item.select_one('.result-info__price--total span')
-        price_total = price_total_tag.get_text(strip=True).replace('\xa0', '') if price_total_tag else ''
-
-        price_sqm_tag = item.select_one('.result-info__price--per-sqm span')
-        price_sqm = price_sqm_tag.get_text(strip=True).replace('\xa0', '') if price_sqm_tag else ''
+        # Cena za m² - obliczamy z ceny i metrażu
+        price_sqm = ''
+        try:
+            p = float(price_total.replace(' ', '').replace(',', '.'))
+            a = float(area.replace(' ', '').replace(',', '.'))
+            if a > 0:
+                price_sqm = str(round(p / a))
+        except (ValueError, ZeroDivisionError):
+            pass
 
         # --- Typ Oferty (Bezpośrednio lub Pośrednik) ---
-        owner_tag = item.select_one('.result-info__basic--owner')
-        # Zakładamy, że jeśli nie ma tagu "Bez pośredników", to jest to oferta od pośrednika
-        owner_type = owner_tag.get_text(strip=True) if owner_tag else 'Pośrednik'
+        owner_span = item.select_one('span.shrink-0.font-semibold')
+        owner_type = owner_span.get_text(strip=True) if owner_span else 'Pośrednik'
 
-        # --- Dane z sekcji zdjęcia ---
-        date_added_tag = item.select_one('.result-photo__date span')
-        date_added = date_added_tag.get_text(strip=True) if date_added_tag else ''
+        # --- Data dodania - brak w nowej strukturze karty ---
+        date_added = ''
 
-        photo_count_tag = item.select_one('.result-photo__photos')
-        # .get_text(strip=True) inteligentnie pominie ikonę SVG i weźmie samą liczbę
+        # --- Liczba zdjęć ---
+        photo_count_tag = item.select_one('.drop-shadow-\\[0_1\\.2px_1\\.2px_rgba\\(0\\,0\\,0\\,1\\)\\] span.font-bold')
         photo_count = photo_count_tag.get_text(strip=True) if photo_count_tag else ''
 
-        # --- Linki ---
-        link_tag = item.select_one('a')
+        # --- Link ---
         link = BASE_URL + link_tag['href'] if link_tag and link_tag.has_attr('href') else ''
 
-        image_tag = item.select_one('.result-photo__image')
+        # --- Zdjęcie ---
+        image_tag = item.select_one('img')
         image_url = image_tag['src'] if image_tag and image_tag.has_attr('src') else ''
 
         # Zwracamy listę stringów zgodną z nagłówkami CSV
@@ -119,7 +132,7 @@ def main(city, pages, output_file):
                 soup = BeautifulSoup(response.text, 'html.parser')
 
                 # Znajdujemy wszystkie kontenery ogłoszeń na stronie
-                listings = soup.select('section.search-results__item')
+                listings = soup.select('div[data-offer-card]')
 
                 if not listings:
                     print(f"  -> Nie znaleziono ogłoszeń na stronie {page_num}. Prawdopodobnie strona nie istnieje.")

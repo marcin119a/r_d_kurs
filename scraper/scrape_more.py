@@ -114,144 +114,117 @@ def parse_offer_details(soup):
     }
     
     try:
-        # --- offer-header-container ---
-        header_container = soup.select_one('.offer-header-container')
-        if header_container:
-            # Miasto i dzielnica
-            city_span = header_container.select_one('.offer-header__city')
-            if city_span:
-                details['city_district'] = clean_text(city_span.get_text())
-            
-            # Ulica
-            street_span = header_container.select_one('.offer-header__street')
-            if street_span:
-                details['full_address'] = clean_text(street_span.get_text())
-            
-            # Piętro, rok budowy, cena za m² - bardziej precyzyjne parsowanie
-            summary_items = header_container.select('.offer-summary__item')
-            for item in summary_items:
-                # Pobierz cały tekst z item
-                full_text = clean_text(item.get_text())
-                
-                # Szukamy w div role="row" które nie mają klasy offer-summary__second-row
-                rows = item.select('div[role="row"]')
-                
-                for row in rows:
-                    row_text = clean_text(row.get_text())
-                    
-                    # Cena za m²
-                    if 'Cena za m²' in row_text or 'Cena za m2' in row_text:
-                        value = row.select_one('.offer-summary__value')
-                        if value:
-                            details['price_per_sqm_detailed'] = clean_text(value.get_text())
-                    
-                    # Piętro
-                    elif 'Piętro' in row_text:
-                        value = row.select_one('.offer-summary__value')
-                        if value:
-                            details['floor'] = clean_text(value.get_text())
-                    
-                    # Rok budowy
-                    elif 'Rok budowy' in row_text:
-                        value = row.select_one('.offer-summary__value')
-                        if value:
-                            details['year_built'] = clean_text(value.get_text())
-        
-        # --- offer-description ---
-        description_div = soup.select_one('.offer-description')
-        if description_div:
-            # Opis tekstowy
-            desc_text = description_div.select_one('.offer-description__text')
-            if desc_text:
-                # Usuń linki i zostaw czysty tekst
-                for a in desc_text.find_all('a'):
-                    a.replace_with(a.get_text())
-                details['description_text'] = clean_text(desc_text.get_text())
-            
-            # Szczegóły z listy
-            summary_list = description_div.select('.offer-description__summary li')
-            
-            # Zbierz cały tekst ze wszystkich li
-            all_summary_text = ' '.join([li.get_text().lower() for li in summary_list])
-            
-            for li in summary_list:
-                text = li.get_text()
-                text_lower = text.lower()
-                
-                # Typ budynku - sprawdzamy najpierw w tym li
-                if 'kamienica' in text_lower and not details['building_type']:
+        # --- Adres z #map-location ---
+        map_location = soup.select_one('#map-location')
+        if map_location:
+            city_tag = map_location.select_one('[itemprop="addressLocality"]')
+            street_tag = map_location.select_one('[itemprop="streetAddress"]')
+
+            if city_tag:
+                # Miasto + dzielnica: pobieramy tekst z parent span (pomijając streetAddress i inne)
+                parent_span = city_tag.parent
+                if parent_span:
+                    # Zbieramy teksty z węzłów bezpośrednich (miasto + dzielnica)
+                    parts = []
+                    for child in parent_span.children:
+                        if hasattr(child, 'get') and child.get('itemprop') == 'streetAddress':
+                            continue
+                        if hasattr(child, 'get') and child.get('itemprop') == 'addressCountry':
+                            continue
+                        if hasattr(child, 'get') and child.get('id') == 'map-accuracy':
+                            continue
+                        text = child.get_text(strip=True) if hasattr(child, 'get_text') else str(child).strip()
+                        if text and text != '-':
+                            parts.append(text)
+                    details['city_district'] = clean_text(' '.join(parts)).rstrip(',')
+
+            if street_tag:
+                details['full_address'] = clean_text(street_tag.get_text())
+
+        # --- Opis tekstowy z #description ---
+        desc_tag = soup.select_one('#description')
+        if desc_tag:
+            for a in desc_tag.find_all('a'):
+                a.replace_with(a.get_text())
+            details['description_text'] = clean_text(desc_tag.get_text())
+
+        # --- Szczegóły z listy <ul> > <li> ---
+        # Struktura: li > div > span.block.lg:font-semibold (nagłówek) + span.block.text-sm (szczegóły)
+        detail_items = soup.select('ul.mt-6 > li')
+
+        for li in detail_items:
+            spans = li.select('div > span.block')
+            if len(spans) < 1:
+                continue
+
+            main_text = clean_text(spans[0].get_text()) if len(spans) > 0 else ''
+            sub_text = clean_text(spans[1].get_text()) if len(spans) > 1 else ''
+            main_lower = main_text.lower()
+            sub_lower = sub_text.lower()
+            combined_lower = main_lower + ' ' + sub_lower
+
+            # Piętro i typ budynku - "Parter w 1-piętrowej kamienicy"
+            if not details['floor']:
+                if 'parter' in main_lower:
+                    details['floor'] = 'parter'
+                else:
+                    floor_match = re.search(r'(\d+)\s*(?:piętro|piętrze|piętr)', main_lower)
+                    if floor_match:
+                        details['floor'] = floor_match.group(1)
+
+            # Typ budynku
+            if not details['building_type']:
+                if 'kamienica' in combined_lower or 'kamienicy' in combined_lower:
                     details['building_type'] = 'kamienica'
-                elif 'blok' in text_lower and not details['building_type']:
+                elif 'blok' in combined_lower or 'bloku' in combined_lower:
                     details['building_type'] = 'blok'
-                elif 'apartamentowiec' in text_lower and not details['building_type']:
+                elif 'apartamentow' in combined_lower:
                     details['building_type'] = 'apartamentowiec'
-                elif 'dom' in text_lower and 'budyn' in text_lower and not details['building_type']:
+                elif 'dom' in combined_lower and ('wolnostojąc' in combined_lower or 'jednorodzin' in combined_lower):
                     details['building_type'] = 'dom'
-                
-                # Piętro - wyciągamy z tekstu typu "2 piętro" lub "parter"
-                if not details['floor']:
-                    if 'piętro' in text_lower or 'piętrze' in text_lower:
-                        # Szukamy numeru przed słowem piętro
-                        floor_match = re.search(r'(\d+)\s*(?:piętro|piętrze)', text_lower)
-                        if floor_match:
-                            details['floor'] = floor_match.group(1)
-                        elif 'parter' in text_lower:
-                            details['floor'] = 'parter'
-                
-                # Rok budowy - wyciągamy z tekstu
-                if not details['year_built']:
-                    year_match = re.search(r'\b(19\d{2}|20\d{2})\s*rok', text_lower)
-                    if year_match:
-                        details['year_built'] = year_match.group(1)
-                
-                # Piwnica
-                if 'piwnica' in text_lower and not details['has_basement']:
-                    details['has_basement'] = 'tak'
-                
-                # Parking
-                if ('miejsce parkingowe' in text_lower or 
-                    'parking' in text_lower or 
-                    'garaż' in text_lower) and not details['has_parking']:
-                    details['has_parking'] = 'tak'
-                
-                # Typ kuchni
-                if not details['kitchen_type']:
-                    if 'osobna kuchnia' in text_lower or 'oddzielna kuchnia' in text_lower:
-                        details['kitchen_type'] = 'osobna'
-                    elif 'aneks kuchenny' in text_lower:
-                        details['kitchen_type'] = 'aneks'
-                    elif 'aneks' in text_lower and ('kuchni' in text_lower or 'salon' in text_lower):
-                        details['kitchen_type'] = 'aneks'
-                
-                # Okna
-                if not details['window_type']:
-                    if 'okna plastikowe' in text_lower or 'pvc' in text_lower or 'pcv' in text_lower:
-                        details['window_type'] = 'plastikowe'
-                    elif 'okna drewniane' in text_lower:
-                        details['window_type'] = 'drewniane'
-                
-                # Własność
-                if not details['ownership_type']:
-                    if 'odrębna własność' in text_lower or 'własność' in text_lower and 'księga' in text_lower:
-                        details['ownership_type'] = 'własność'
-                    elif 'spółdzielcze własnościowe' in text_lower:
-                        details['ownership_type'] = 'spółdzielcze własnościowe'
-                    elif 'spółdzielcze lokatorskie' in text_lower:
-                        details['ownership_type'] = 'spółdzielcze lokatorskie'
-                    elif 'własnościowe' in text_lower and 'mieszkanie' in text_lower:
-                        details['ownership_type'] = 'własność'
-                
-                # Wyposażenie - jeśli jest explicit w tekście
-                if 'wyposażenie:' in text_lower and not details['equipment']:
-                    equipment_start = text.lower().find('wyposażenie:')
-                    equipment_text = text[equipment_start:]
-                    details['equipment'] = clean_text(equipment_text)
-            
-            # Jeśli nie znaleziono explicit wyposażenia, spróbuj wyciągnąć z całego opisu
-            if not details['equipment'] and details['description_text']:
-                extracted_equipment = extract_equipment(details['description_text'])
-                if extracted_equipment:
-                    details['equipment'] = extracted_equipment
+
+            # Rok budowy - "rok budowy 1938" w sub_text
+            if not details['year_built']:
+                year_match = re.search(r'rok budowy\s*(\d{4})', sub_lower)
+                if not year_match:
+                    year_match = re.search(r'\b(19\d{2}|20\d{2})\b', sub_lower)
+                if year_match:
+                    details['year_built'] = year_match.group(1)
+
+            # Piwnica, garaż - "taras, piwnica, garaż, ogródek"
+            if 'piwnica' in combined_lower and not details['has_basement']:
+                details['has_basement'] = 'tak'
+            if ('parking' in combined_lower or 'garaż' in combined_lower or 'miejsce parkingowe' in combined_lower) and not details['has_parking']:
+                details['has_parking'] = 'tak'
+
+            # Okna - "okna plastikowe"
+            if not details['window_type']:
+                if 'okna plastikowe' in combined_lower or 'pvc' in combined_lower or 'pcv' in combined_lower:
+                    details['window_type'] = 'plastikowe'
+                elif 'okna drewniane' in combined_lower:
+                    details['window_type'] = 'drewniane'
+
+            # Własność - "Odrębna własność z księgą wieczystą"
+            if not details['ownership_type']:
+                if 'odrębna własność' in combined_lower or ('własność' in combined_lower and 'księg' in combined_lower):
+                    details['ownership_type'] = 'własność'
+                elif 'spółdzielcze własnościowe' in combined_lower:
+                    details['ownership_type'] = 'spółdzielcze własnościowe'
+                elif 'spółdzielcze lokatorskie' in combined_lower:
+                    details['ownership_type'] = 'spółdzielcze lokatorskie'
+
+            # Kuchnia
+            if not details['kitchen_type']:
+                if 'osobna kuchnia' in combined_lower or 'oddzielna kuchnia' in combined_lower:
+                    details['kitchen_type'] = 'osobna'
+                elif 'aneks kuchenny' in combined_lower or ('aneks' in combined_lower and 'kuchni' in combined_lower):
+                    details['kitchen_type'] = 'aneks'
+
+        # Wyposażenie z opisu
+        if not details['equipment'] and details['description_text']:
+            extracted_equipment = extract_equipment(details['description_text'])
+            if extracted_equipment:
+                details['equipment'] = extracted_equipment
         
         # --- Koordynaty z JSON-LD ---
         script_tags = soup.find_all('script', type='application/ld+json')
