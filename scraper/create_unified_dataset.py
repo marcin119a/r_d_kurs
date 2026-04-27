@@ -9,8 +9,10 @@ def create_unified_dataset():
     """
     print("=== Tworzenie zunifikowanego zbioru danych ===")
     
-    # Znajdź wszystkie wyczyszczone pliki
-    files = glob.glob("data/*_cleaned.csv")
+    # Znajdź wszystkie wyczyszczone pliki (nowa struktura podfolderów)
+    files = glob.glob("data/scraped-data-*/*_cleaned.csv")
+    if not files:
+        files = glob.glob("data/*_cleaned.csv")
     
     if not files:
         print("Nie znaleziono plików *_cleaned.csv w folderze data/.")
