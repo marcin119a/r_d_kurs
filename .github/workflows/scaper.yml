@@ -2,7 +2,7 @@ name: Weekly Scraper
 
 on:
   schedule:
-    - cron: "0 6 * * 1"  # co poniedziałek o 6:00 UTC
+    - cron: "0 6 * * 1"
   workflow_dispatch:
 
 jobs:
@@ -10,6 +10,31 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+
+    strategy:
+      matrix:
+        city: [warszawa, wroclaw, lodz, krakow, poznan, gdansk, szczecin, lublin, bialystok, katowice]
+        include:
+          - city: warszawa
+            pages: 11
+          - city: wroclaw
+            pages: 9
+          - city: lodz
+            pages: 8
+          - city: krakow
+            pages: 10
+          - city: poznan
+            pages: 8
+          - city: gdansk
+            pages: 8
+          - city: szczecin
+            pages: 6
+          - city: lublin
+            pages: 6
+          - city: bialystok
+            pages: 5
+          - city: katowice
+            pages: 7
 
     steps:
       - name: Checkout repo
@@ -23,86 +48,54 @@ jobs:
       - name: Install dependencies
         run: pip install -r scraper/requirements.txt
 
-      - name: Run scraper for Warszawa
-        run: python scraper/scrape.py --city warszawa --pages 11 --output scraper/data/ogloszenia_warszawa.csv
+      - name: Run scraper
+        run: |
+          python scraper/scrape.py \
+            --city ${{ matrix.city }} \
+            --pages ${{ matrix.pages }} \
+            --output scraper/data/ogloszenia_${{ matrix.city }}.csv
 
-      - name: Run detailed scraper for Warszawa
-        run: python scraper/scrape_more.py --input scraper/data/ogloszenia_warszawa.csv --output scraper/data/ogloszenia_warszawa_detailed.csv --delay 0.01
+      - name: Run detailed scraper
+        run: |
+          python scraper/scrape_more.py \
+            --input scraper/data/ogloszenia_${{ matrix.city }}.csv \
+            --output scraper/data/ogloszenia_${{ matrix.city }}_detailed.csv \
+            --delay 0.01
 
-      - name: Clean Warszawa data
-        run: python scraper/clean_data.py scraper/data/ogloszenia_warszawa_detailed.csv --remove-price-ask
+      - name: Clean data
+        run: |
+          python scraper/clean_data.py \
+            scraper/data/ogloszenia_${{ matrix.city }}_detailed.csv \
+            --remove-price-ask
 
-      - name: Run scraper for Wrocław
-        run: python scraper/scrape.py --city wroclaw --pages 9 --output scraper/data/ogloszenia_wroclaw.csv
-
-      - name: Run detailed scraper for Wrocław
-        run: python scraper/scrape_more.py --input scraper/data/ogloszenia_wroclaw.csv --output scraper/data/ogloszenia_wroclaw_detailed.csv --delay 0.01
-
-      - name: Clean Wrocław data
-        run: python scraper/clean_data.py scraper/data/ogloszenia_wroclaw_detailed.csv --remove-price-ask
-
-      - name: Run scraper for Łódź
-        run: python scraper/scrape.py --city lodz --pages 8 --output scraper/data/ogloszenia_lodz.csv
-
-      - name: Run detailed scraper for Łódź
-        run: python scraper/scrape_more.py --input scraper/data/ogloszenia_lodz.csv --output scraper/data/ogloszenia_lodz_detailed.csv --delay 0.01
-
-      - name: Clean Łódź data
-        run: python scraper/clean_data.py scraper/data/ogloszenia_lodz_detailed.csv --remove-price-ask
-
-      - name: Run scraper for Kraków
-        run: python scraper/scrape.py --city krakow --pages 10 --output scraper/data/ogloszenia_krakow.csv
-
-      - name: Run detailed scraper for Kraków
-        run: python scraper/scrape_more.py --input scraper/data/ogloszenia_krakow.csv --output scraper/data/ogloszenia_krakow_detailed.csv --delay 0.01
-
-      - name: Clean Kraków data
-        run: python scraper/clean_data.py scraper/data/ogloszenia_krakow_detailed.csv --remove-price-ask
-
-      - name: Upload Warszawa data
+      - name: Upload data
         uses: actions/upload-artifact@v4
         with:
-          name: scraped-data-warszawa
+          name: scraped-data-${{ matrix.city }}
           path: |
-            scraper/data/ogloszenia_warszawa.csv
-            scraper/data/ogloszenia_warszawa_detailed.csv
-            scraper/data/ogloszenia_warszawa_cleaned.csv
+            scraper/data/ogloszenia_${{ matrix.city }}.csv
+            scraper/data/ogloszenia_${{ matrix.city }}_detailed.csv
+            scraper/data/ogloszenia_${{ matrix.city }}_cleaned.csv
 
-      - name: Upload Wrocław data
-        uses: actions/upload-artifact@v4
-        with:
-          name: scraped-data-wroclaw
-          path: |
-            scraper/data/ogloszenia_wroclaw.csv
-            scraper/data/ogloszenia_wroclaw_detailed.csv
-            scraper/data/ogloszenia_wroclaw_cleaned.csv
+  commit-results:
+    needs: run-scraper
+    runs-on: ubuntu-latest
 
-      - name: Upload Łódź data
-        uses: actions/upload-artifact@v4
-        with:
-          name: scraped-data-lodz
-          path: |
-            scraper/data/ogloszenia_lodz.csv
-            scraper/data/ogloszenia_lodz_detailed.csv
-            scraper/data/ogloszenia_lodz_cleaned.csv
+    steps:
+      - uses: actions/checkout@v4
 
-      - name: Upload Kraków data
-        uses: actions/upload-artifact@v4
+      - name: Download all artifacts
+        uses: actions/download-artifact@v4
         with:
-          name: scraped-data-krakow
-          path: |
-            scraper/data/ogloszenia_krakow.csv
-            scraper/data/ogloszenia_krakow_detailed.csv
-            scraper/data/ogloszenia_krakow_cleaned.csv
+          path: scraper/data/
 
       - name: Commit and push updated CSVs
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           
-          git add -f scraper/data/*.csv
-          git commit -m "Update scraped data [$(date +'%Y-%m-%d %H:%M:%S')]" || echo "No changes to commit"
+          git add -f scraper/data/**/*.csv
+          git commit -m "Update scraped data [$(date +'%Y-%m-%d %H:%M:%S')]" || echo "No changes"
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      
