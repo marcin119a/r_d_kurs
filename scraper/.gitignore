@@ -15,10 +15,10 @@ venv/
 env/
 
 # Data files
-data/
-*.csv
-*.parquet
-*.jsonl
+#data/
+#*.csv
+#*.parquet
+#*.jsonl
 
 # Jupyter
 .ipynb_checkpoints/
