@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Data files
+data/
+*.csv
+*.parquet
+*.jsonl
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Secrets / credentials
+.env
+*.key
+token.json
+credentials.json
+
+# ML / model artifacts
+*.bin
+*.safetensors
+runs/
+checkpoints/
