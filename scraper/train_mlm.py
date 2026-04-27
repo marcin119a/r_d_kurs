@@ -1,109 +1,103 @@
-import os
 import torch
-import pandas as pd
-from datasets import Dataset
+from datasets import load_dataset
 from transformers import (
     AutoModelForMaskedLM,
     AutoTokenizer,
     DataCollatorForLanguageModeling,
     Trainer,
-    TrainingArguments
+    TrainingArguments,
 )
 
+REPO_ID = "marcin119a/nieruchomosci-polska-mlm"
+MODEL_NAME = "allegro/herbert-base-cased"
+OUTPUT_DIR = "./herbert-nieruchomosci-pl"
+MAX_LENGTH = 512
+
+
 def train_domain_adaptation():
-    """
-    Skrypt do Continued Pre-training (MLM) na danych nieruchomości.
-    Uczy model specyficznego żargonu i reprezentacji ofert.
-    """
-    print("=== Rozpoczynam przygotowanie do treningu MLM (Domain Adaptation) ===")
+    print("=== MLM Domain Adaptation — Herbert na danych nieruchomości ===")
 
-    # 1. Konfiguracja
-    model_name = "allegro/herbert-base-cased"
-    input_file = "data/ogloszenia_polska_unified.parquet"
-    output_dir = "./herbert-nieruchomosci-pl"
-    
-    if not os.path.exists(input_file):
-        print(f"Błąd: Nie znaleziono pliku {input_file}. Uruchom najpierw create_unified_dataset.py")
-        return
+    device = (
+        "cuda"
+        if torch.cuda.is_available()
+        else ("mps" if torch.backends.mps.is_available() else "cpu")
+    )
+    print(f"Urządzenie: {device}")
+    use_fp16 = device == "cuda"
 
-    # 2. Wczytanie danych
-    print(f"Wczytywanie danych z {input_file}...")
-    df = pd.read_parquet(input_file)
-    
-    # Przygotowanie tekstu: łączymy miasto, dzielnicę i opis dla pełnego kontekstu
-    # Usuwamy puste opisy
-    df = df.dropna(subset=['description_text'])
-    
-    def prepare_text(row):
-        return f"Miasto: {row['source_city']}. Lokalizacja: {row['locality']}. Opis: {row['description_text']}"
+    print(f"Ładowanie datasetu z HuggingFace: {REPO_ID}")
+    dataset = load_dataset(REPO_ID)
+    print(f"Train: {len(dataset['train'])}, Validation: {len(dataset['validation'])}")
 
-    df['text_for_mlm'] = df.apply(prepare_text, axis=1)
-    dataset = Dataset.from_pandas(df[['text_for_mlm']])
+    print(f"Inicjalizacja tokenizera i modelu: {MODEL_NAME}")
+    tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
+    model = AutoModelForMaskedLM.from_pretrained(MODEL_NAME)
 
-    # 3. Tokenizacja
-    print(f"Inicjalizacja modelu i tokenizera: {model_name}")
-    tokenizer = AutoTokenizer.from_pretrained(model_name)
-    model = AutoModelForMaskedLM.from_pretrained(model_name)
+    if device == "cuda":
+        model.gradient_checkpointing_enable()
 
-    def tokenize_function(examples):
+    def tokenize(examples):
         return tokenizer(
-            examples["text_for_mlm"],
+            examples["text"],
             truncation=True,
             padding="max_length",
-            max_length=512
+            max_length=MAX_LENGTH,
         )
 
-    print("Tokenizacja zbioru danych...")
-    tokenized_dataset = dataset.map(
-        tokenize_function,
+    print("Tokenizacja...")
+    tokenized = dataset.map(
+        tokenize,
         batched=True,
         num_proc=4,
-        remove_columns=["text_for_mlm"]
+        remove_columns=["text"],
     )
 
-    # 4. Data Collator dla MLM (maskowanie 15% tokenów)
     data_collator = DataCollatorForLanguageModeling(
-        tokenizer=tokenizer, 
-        mlm=True, 
-        mlm_probability=0.15
+        tokenizer=tokenizer,
+        mlm=True,
+        mlm_probability=0.15,
     )
-
-    # 5. Argumenty treningu
-    # Jeśli masz GPU (CUDA/MPS), skrypt automatycznie go użyje
-    device = "cuda" if torch.cuda.is_available() else ("mps" if torch.backends.mps.is_available() else "cpu")
-    print(f"Używane urządzenie: {device}")
 
     training_args = TrainingArguments(
-        output_dir=output_dir,
-        overwrite_output_dir=True,
-        num_train_epochs=3,              # Na początek 3 epoki wystarczą
-        per_device_train_batch_size=4,   # Mały batch, aby uniknąć błędów pamięci (OOM)
+        output_dir=OUTPUT_DIR,
+        num_train_epochs=3,
+        per_device_train_batch_size=8 if device == "cuda" else 4,
+        per_device_eval_batch_size=8 if device == "cuda" else 4,
+        gradient_accumulation_steps=2,
+        learning_rate=2e-5,
+        weight_decay=0.01,
+        warmup_ratio=0.05,
+        lr_scheduler_type="cosine",
+        fp16=use_fp16,
+        eval_strategy="steps",
+        eval_steps=500,
+        save_strategy="steps",
         save_steps=500,
         save_total_limit=2,
-        prediction_loss_only=True,
+        load_best_model_at_end=True,
+        metric_for_best_model="eval_loss",
+        greater_is_better=False,
         logging_steps=100,
-        learning_rate=5e-5,
-        weight_decay=0.01,
-        push_to_hub=False,               # Możesz zmienić na True, aby wysłać model na HF
+        report_to="none",
+        push_to_hub=False,
     )
 
-    # 6. Trainer
     trainer = Trainer(
         model=model,
         args=training_args,
         data_collator=data_collator,
-        train_dataset=tokenized_dataset,
+        train_dataset=tokenized["train"],
+        eval_dataset=tokenized["validation"],
     )
 
-    # 7. Trening
-    print("\nRozpoczynam trening. To może potrwać od kilku minut do kilku godzin zależnie od Twojego sprzętu...")
+    print("\nRozpoczynam trening...")
     trainer.train()
 
-    # 8. Zapisanie modelu
-    print(f"\nTrening zakończony. Zapisuję model w {output_dir}")
-    trainer.save_model(output_dir)
-    tokenizer.save_pretrained(output_dir)
+    print(f"\nTrening zakończony. Zapisuję model w {OUTPUT_DIR}")
+    trainer.save_model(OUTPUT_DIR)
+    tokenizer.save_pretrained(OUTPUT_DIR)
     print("Gotowe!")
+
 
 if __name__ == "__main__":
     train_domain_adaptation()

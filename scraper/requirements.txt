@@ -10,3 +10,7 @@ matplotlib
 huggingface_hub
 datasets
 pyarrow
+torch
+transformers
+accelerate
+sentencepiece
